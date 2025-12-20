@@ -173,11 +173,54 @@ main {
 .section-1 {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
+    padding: 0;
 }
 
 .section-1 h2,
 .section-1 p {
     color: white;
+}
+
+/* Section 1 Layout */
+.section-1-layout {
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+}
+
+.section-1-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.section-1-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1-right-top {
+    height: 70%;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.section-1-right-bottom {
+    height: 30%;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .section-2 {
@@ -320,6 +363,28 @@ main {
         padding: 40px 0;
     }
 
+    .section-1-layout {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .section-1-left,
+    .section-1-right {
+        width: 100%;
+    }
+
+    .section-1-left {
+        min-height: 200px;
+    }
+
+    .section-1-right-top {
+        min-height: 120px;
+    }
+
+    .section-1-right-bottom {
+        min-height: 280px;
+    }
+
     .section h2 {
         font-size: 32px;
     }
@@ -359,6 +424,19 @@ main {
     .section {
         min-height: 350px;
         padding: 30px 0;
+    }
+
+    .section-1-left {
+        padding: 30px 20px;
+        min-height: 180px;
+    }
+
+    .section-1-right-top {
+        min-height: 100px;
+    }
+
+    .section-1-right-bottom {
+        min-height: 230px;
     }
 
     .section h2 {
