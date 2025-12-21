@@ -22,7 +22,7 @@ ul {
 
 /* Container */
 .container {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 0 20px;
     width: 100%;
@@ -30,26 +30,25 @@ ul {
 
 /* Header */
 .header {
-    height: 100px;
-    background: #ffffff;
+    min-height: 100vh;
+    background: url('static/HOME/1-10.png') center center / cover no-repeat;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
     z-index: 1000;
     width: 100%;
+    display: flex;
+    align-items: flex-start;
 }
 
 .header .container {
-    height: 100%;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo h1 {
-    font-size: 28px;
-    color: #2563eb;
-    font-weight: 700;
+.logo img {
+    height: 200px;
+    width: auto;
 }
 
 .logo a {
