@@ -99,21 +99,41 @@ ul {
 .lang-btn {
     background: transparent;
     border: none;
-    color: #94a3b8;
-    font-size: 14px;
+    color: #fff;
+    font-size: 12px;
     font-weight: 400;
     padding: 2px 4px;
     cursor: pointer;
     transition: all 0.3s ease;
     text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.lang-btn::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    transition: all 0.3s ease;
 }
 
 .lang-btn:hover {
-    color: #2563eb;
+    color: orange;
+}
+
+.lang-btn:hover::before {
+    background-color: orange;
+}
+
+.lang-btn.active::before {
+    background-color: orange;
 }
 
 .lang-btn.active {
-    color: #2563eb;
+    color: orange;
     font-weight: 600;
 }
 
