@@ -43,7 +43,7 @@ ul {
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .logo img {
@@ -62,16 +62,24 @@ ul {
 
 .nav-list {
     display: flex;
-    gap: 40px;
+    gap: 10px;
+    line-height: normal;
+}
+
+.nav-list li {
+    padding-right: 10px;
+    border-right: 1px solid #fff;
+}
+
+.nav-list li:last-child {
+    border-right: none;
 }
 
 .nav-list li a {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
-    color: #333;
+    color: #fff;
     transition: color 0.3s ease;
-    padding: 8px 16px;
-    border-radius: 4px;
 }
 
 .nav-list li a:hover,
