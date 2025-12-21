@@ -221,7 +221,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 0;
+    /* padding: 60px 0; */
 }
 
 .section .container {
@@ -240,16 +240,6 @@ main {
 }
 
 /* Different backgrounds for sections */
-.section-1 {
-    color: white;
-    padding: 0;
-}
-
-.section-1 h2,
-.section-1 p {
-    color: white;
-}
-
 /* Section 1 Layout */
 .section-1-layout {
     display: flex;
@@ -258,7 +248,7 @@ main {
 }
 
 .section-1-left {
-    width: 40%;
+    width: 45%;
     padding: 40px;
     text-align: center;
 }
@@ -270,28 +260,49 @@ main {
 }
 
 .section-1-right {
-    width: 60%;
+    width: 55%;
+    padding: 40px;
     display: flex;
     flex-direction: column;
 }
 
 .section-1-right-top {
     height: 70%;
-    min-height: 420px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     background: rgba(255, 255, 255, 0.1);
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
+.section-1-right-top p {
+    font-size: 30px;
+    line-height: normal;
+    color: #000;
+}
+
 .section-1-right-bottom {
     height: 30%;
-    min-height: 180px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: space-evenly;
     background: rgba(255, 255, 255, 0.05);
+}
+
+.section-1-right-bottom-left {
+    width: 30%;
+    font-size: 60px;
+    line-height: normal;
+}
+
+.section-1-right-bottom-mid {
+    width: 40%;
+    text-align: center;
+}
+
+.section-1-right-bottom-right {
+    width: 30%;
+    text-align: right;
 }
 
 .section-2 {
