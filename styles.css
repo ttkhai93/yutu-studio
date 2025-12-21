@@ -65,7 +65,7 @@ ul {
 }
 
 .header-bottom-left>div:first-child {
-    font-size: 68px;
+    font-size: 100px;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -82,6 +82,7 @@ ul {
 .header-bottom-right-left {
     padding: 20px;
     flex: 0 0 auto;
+    font-size: 30px;
 }
 
 .header-bottom-right-right {
@@ -99,8 +100,7 @@ ul {
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
+    margin-left: 800px;
 }
 
 .nav-list {
@@ -127,8 +127,7 @@ ul {
 
 .nav-list li a:hover,
 .nav-list li a.active {
-    color: #2563eb;
-    background: rgba(37, 99, 235, 0.1);
+    color: orange;
 }
 
 /* Language Selector */
