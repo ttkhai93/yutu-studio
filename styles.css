@@ -837,7 +837,6 @@ main {
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: #94a3b8;
     font-size: 14px;
 }
