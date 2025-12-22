@@ -431,70 +431,40 @@ main {
 
 .section-4 {
     background: #ffffff;
-    border-bottom: 1px solid #e2e8f0;
-}
-
-.section-4-title {
-    font-size: 100px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #1e293b;
-}
-
-.section-4-description {
-    font-size: 32px;
-    margin-bottom: 60px;
-    text-align: center;
-    color: #64748b;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.section-4-images {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 0;
-    margin-top: 40px;
     padding-bottom: 60px;
-    width: 100%;
-    max-width: 100%;
+}
+
+.partners-title {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #333;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #ddd;
+}
+
+.partners-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.partner-block {
+    flex: 0 0 calc(25% - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
     overflow: hidden;
 }
 
-.section-4-images .image-wrapper {
-    overflow: hidden;
-    flex-shrink: 0;
-}
-
-.section-4-images .image-wrapper img {
-    display: block;
-    height: auto;
+.partner-block img {
     width: 100%;
-}
-
-.section-4-images .image-right-half {
-    width: 25%;
-}
-
-.section-4-images .image-right-half img {
-    width: 200%;
-    margin-left: -100%;
-}
-
-.section-4-images .image-full {
-    width: 50%;
-    margin-bottom: 0;
-    padding: 20px;
-}
-
-.section-4-images .image-left-half {
-    width: 25%;
-}
-
-.section-4-images .image-left-half img {
-    width: 200%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .middle-block {
