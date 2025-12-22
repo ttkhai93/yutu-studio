@@ -994,7 +994,7 @@ main {
 
 .footer-top {
     text-align: center;
-    padding: 60px 0;
+    /* padding: 60px 0; */
     max-width: 800px;
     margin: 0 auto;
 }
@@ -1002,15 +1002,14 @@ main {
 .footer-title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     letter-spacing: 2px;
 }
 
 .footer-description {
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 16px;
     color: #e2e8f0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .footer-button {
@@ -1021,8 +1020,8 @@ main {
 .footer-content {
     display: flex;
     justify-content: space-between;
-    gap: 60px;
-    margin-bottom: 40px;
+    /* gap: 60px; */
+    /* margin-bottom: 40px; */
     padding: 40px 0;
     max-width: 1200px;
     margin-left: auto;
@@ -1032,31 +1031,32 @@ main {
 }
 
 .footer-left {
-    flex: 0 0 40%;
+    /* flex: 0 0 40%; */
+    padding-left: 30px;
 }
 
 .footer-logo {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
 .footer-right {
-    flex: 0 0 60%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    /* flex: 0 0 60%; */
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* gap: 40px; */
 }
 
 .footer-column h4 {
-    font-size: 18px;
-    margin-bottom: 20px;
+    /* font-size: 18px; */
+    margin-bottom: 10px;
     font-weight: 600;
+    color: gray;
 }
 
 .footer-column ul {
     display: flex;
     flex-direction: column;
-    gap: 12px;
 }
 
 .footer-column ul li a {
