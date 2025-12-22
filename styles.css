@@ -73,8 +73,8 @@ ul {
     line-height: normal;
 }
 
-.header-bottom-left>div:first-child {
-    font-size: 100px;
+.header-bottom-left>div {
+    font-size: 80px;
     font-weight: 400;
     margin-bottom: 20px;
 }
