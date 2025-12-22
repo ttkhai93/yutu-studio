@@ -141,6 +141,31 @@ ul {
     background-color: #000;
 }
 
+/* Join page specific text colors */
+.join-page .header-bottom-left {
+    color: #000;
+}
+
+.join-page .header-bottom-right {
+    color: #000;
+}
+
+.join-page .nav-list li {
+    border-right-color: #000;
+}
+
+.join-page .nav-list li a {
+    color: #000;
+}
+
+.join-page .lang-btn {
+    color: #000;
+}
+
+.join-page .lang-btn::before {
+    background-color: #000;
+}
+
 /* We page specific text colors */
 .we-page .header-bottom-left {
     color: #000;
