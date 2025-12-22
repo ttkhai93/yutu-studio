@@ -301,6 +301,7 @@ main {
     font-size: 42px;
     margin-bottom: 20px;
     color: #1e293b;
+    padding: 10px 0;
 }
 
 .section p {
@@ -374,12 +375,6 @@ main {
     text-align: right;
 }
 
-.section-2 {
-    border-top: 1px solid #e2e8f0;
-    border-bottom: 1px solid #e2e8f0;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 60px;
-}
 
 .section-3 {
     background: #ffffff;
@@ -1238,6 +1233,7 @@ main {
     margin-bottom: 60px;
     color: #333;
     letter-spacing: 2px;
+    border-bottom: 1px solid #ddd;
 }
 
 .localization-content {
@@ -1287,5 +1283,149 @@ main {
 
     .localization-right p {
         font-size: 16px;
+    }
+}
+
+/* Localization Process Section Styles */
+.section-3 {
+    padding-bottom: 60px;
+}
+
+.localization-process-title {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #333;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #ddd;
+}
+
+.process-blocks-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.process-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #f8f9fa;
+    padding: 60px 80px;
+    clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 50px, 100% 100%, 0 100%);
+    position: relative;
+}
+
+.process-block-with-bg {
+    background-image: url('static/BUSINESS/1-28.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.process-block-with-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.process-block-with-bg .process-number,
+.process-block-with-bg .process-header,
+.process-block-with-bg .process-download-btn {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.process-number {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333;
+    min-width: 100px;
+}
+
+.process-header {
+    flex: 1;
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.process-download-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.process-download-btn:hover {
+    transform: scale(1.1);
+}
+
+.process-download-btn img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.process-block-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.process-sub-block {
+    background-color: #e9ecef;
+    padding: 40px 80px;
+}
+
+.process-sub-block p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    margin: 0;
+}
+
+/* Responsive for Process Blocks */
+@media (max-width: 768px) {
+    .localization-process-title {
+        font-size: 36px;
+    }
+
+    .process-blocks-wrapper {
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .process-block {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+    }
+
+    .process-number {
+        font-size: 28px;
+    }
+
+    .process-header {
+        font-size: 22px;
+    }
+
+    .process-download-btn {
+        align-self: flex-end;
+    }
+
+    .process-sub-block {
+        padding: 20px 30px;
     }
 }
