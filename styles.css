@@ -1359,6 +1359,99 @@ main {
     }
 }
 
+/* Vision Section Styles */
+.vision-title {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #333;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.vision-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 80px;
+}
+
+.vision-left,
+.vision-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 100px
+}
+
+.vision-text-container {
+    text-align: left;
+}
+
+.vision-image {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.vision-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.vision-label {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF6B35;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.vision-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.vision-description {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+    max-width: 90%;
+}
+
+/* Responsive for Vision Section */
+@media (max-width: 768px) {
+    .vision-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .vision-title {
+        font-size: 36px;
+    }
+
+    .vision-label {
+        font-size: 20px;
+    }
+
+    .vision-subtitle {
+        font-size: 28px;
+    }
+
+    .vision-description {
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
+
 /* Localization Process Section Styles */
 .section-3 {
     padding-bottom: 60px;
