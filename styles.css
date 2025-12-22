@@ -380,6 +380,67 @@ main {
 /* Section 1 Layout */
 .section-1 {
     padding: 200px;
+    transform: translateX(-200px);
+}
+
+.section-2 {
+    padding: 200px;
+    transform: translateX(200px);
+}
+
+.section-1 .container,
+.section-2 .container {
+    width: fit-content;
+    max-width: none;
+}
+
+.project-background-text {
+    font-size: 150px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.05);
+    position: absolute;
+    z-index: 0;
+    white-space: nowrap;
+}
+
+.project-image {
+    position: relative;
+    z-index: 1;
+    width: fit-content;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: left;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.project-footer-left {
+    flex: 1;
+}
+
+.project-footer-right {
+    flex: 0.5;
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 16px;
+    color: #666;
 }
 
 .section-1-layout {
