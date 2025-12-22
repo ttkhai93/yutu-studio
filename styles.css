@@ -375,9 +375,10 @@ main {
 }
 
 .section-2 {
-    background: #f8fafc;
     border-top: 1px solid #e2e8f0;
     border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 60px;
 }
 
 .section-3 {
@@ -1226,4 +1227,65 @@ main {
     color: #666;
     max-width: 600px;
     margin: 0 auto;
+}
+
+/* Localization Section Styles */
+
+.localization-title {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.localization-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.localization-left {
+    flex: 1;
+}
+
+.localization-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.localization-right {
+    flex: 1;
+    text-align: left;
+}
+
+.localization-right p {
+    width: 70%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.localization-right p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive for Localization */
+@media (max-width: 768px) {
+    .localization-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .localization-title {
+        font-size: 36px;
+    }
+
+    .localization-right p {
+        font-size: 16px;
+    }
 }
