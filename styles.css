@@ -1298,6 +1298,67 @@ main {
     }
 }
 
+/* Passion Section Styles */
+.passion-title {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #333;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #ddd;
+}
+
+.passion-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.passion-left {
+    flex: 1;
+}
+
+.passion-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.passion-right {
+    flex: 1;
+    text-align: left;
+}
+
+.passion-right p {
+    width: 70%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.passion-right p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive for Passion */
+@media (max-width: 768px) {
+    .passion-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .passion-title {
+        font-size: 36px;
+    }
+
+    .passion-right p {
+        font-size: 16px;
+    }
+}
+
 /* Localization Process Section Styles */
 .section-3 {
     padding-bottom: 60px;
