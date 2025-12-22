@@ -378,6 +378,10 @@ main {
 
 /* Different backgrounds for sections */
 /* Section 1 Layout */
+.section-1 {
+    padding: 200px;
+}
+
 .section-1-layout {
     display: flex;
     width: 100%;
@@ -442,6 +446,59 @@ main {
     text-align: right;
 }
 
+/* Hiring Section Styles */
+.hiring-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.hiring-description {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.hiring-description p {
+    margin-bottom: 10px;
+}
+
+.hiring-sections {
+    width: 600px;
+    text-align: left;
+}
+
+.hiring-section {
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    display: flex;
+    gap: 30px;
+}
+
+.hiring-number {
+    flex-shrink: 0;
+    color: orange;
+}
+
+.hiring-content {
+    flex: 1;
+}
+
+.hiring-section-title {
+    margin-bottom: 15px;
+    color: orange;
+}
+
+.hiring-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.hiring-list li {
+    margin-bottom: 8px;
+}
+
+.hiring-section-text {
+    line-height: 1.6;
+}
 
 .section-3 {
     background: #ffffff;
