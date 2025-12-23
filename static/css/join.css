@@ -1,0 +1,14 @@
+.join-page.section h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.join-page .hiring-number,
+.join-page .hiring-section-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.join-page .hiring-section-title {
+    margin-bottom: 10px;
+}
