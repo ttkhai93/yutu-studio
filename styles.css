@@ -871,6 +871,12 @@ main {
     border-bottom: none;
 }
 
+.production-step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .production-image-left,
 .production-image-right {
     object-fit: cover;
@@ -879,7 +885,7 @@ main {
 }
 
 .production-row h1 {
-    width: 250px;
+    width: 200px;
     flex-shrink: 0;
     font-size: 32px;
     font-weight: 600;
