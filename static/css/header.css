@@ -186,15 +186,23 @@
 /* We page specific text colors */
 .we-page .header-bottom-left {
     color: #000;
+    flex-shrink: 0;
+    padding: 40px;
 }
 
 .we-page .header-bottom-left p {
-    font-size: 28px;
-    margin-bottom: 10px;
+    font-size: 34px;
+    margin-bottom: 20px;
+    line-height: 1.4;
 }
 
-.we-page .header-bottom-left div {
-    font-size: 80px;
+.we-page .header-bottom-left span {
+    font-size: 84px;
+    font-weight: 700;
+}
+
+.we-page .header-bottom-left span:last-child {
+    color: orange;
 }
 
 .we-page .header-bottom-right {
@@ -205,8 +213,9 @@
 
 .we-page .header-bottom-text {
     font-size: 60px;
-    line-height: normal;
+    line-height: 1.4;
     color: orange;
+    padding: 40px 0;
 }
 
 .we-page .nav-list li {
