@@ -78,7 +78,6 @@ main {
 
 .section-1 .container,
 .section-2 .container {
-    width: fit-content;
     max-width: none;
     position: relative;
 }
