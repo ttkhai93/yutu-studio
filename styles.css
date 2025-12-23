@@ -1056,25 +1056,25 @@ main {
 
 .vision-left,
 .vision-right {
-    flex: 1;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 100px
+    align-items: flex-start;
+    text-align: left;
+    padding: 0 20px;
 }
 
 .vision-text-container {
     text-align: left;
+    width: 100%;
 }
 
 .vision-image {
     width: 100%;
-    margin-bottom: 30px;
 }
 
 .vision-image img {
-    width: 50%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
@@ -1084,7 +1084,6 @@ main {
     font-size: 24px;
     font-weight: 600;
     color: #FF6B35;
-    margin-bottom: 10px;
     letter-spacing: 1px;
 }
 
@@ -1092,7 +1091,7 @@ main {
     font-size: 36px;
     font-weight: 700;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     letter-spacing: 2px;
 }
 
@@ -1100,7 +1099,7 @@ main {
     font-size: 16px;
     line-height: 1.8;
     color: #666;
-    max-width: 90%;
+    width: 100%;
 }
 
 /* Responsive for Vision Section */
