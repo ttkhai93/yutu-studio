@@ -58,6 +58,17 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    position: relative;
+}
+
+/* Group for navbar and controls */
+.nav-controls-group {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
 }
 
 .header-bottom {
@@ -235,7 +246,7 @@ ul {
 }
 
 .navbar {
-    margin-left: 800px;
+    margin-left: 0;
 }
 
 .nav-list {
@@ -1005,6 +1016,11 @@ main {
 
     .mobile-menu-toggle {
         display: flex;
+    }
+
+    .nav-controls-group {
+        position: static;
+        flex-direction: column;
     }
 
     .language-selector {
