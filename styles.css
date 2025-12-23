@@ -69,13 +69,11 @@ main {
 
 /* Different backgrounds for sections */
 /* Section 1 Layout */
-.section-1 {
-    padding: 200px;
+.projects-page.section-1 {
     transform: translateX(-200px);
 }
 
-.section-2 {
-    padding: 200px;
+.projects-page.section-2 {
     transform: translateX(200px);
 }
 
