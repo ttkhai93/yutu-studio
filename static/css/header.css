@@ -84,7 +84,7 @@
 .header-bottom-row {
     display: flex;
     min-height: 200px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .header-bottom-text {
@@ -114,12 +114,30 @@
 }
 
 /* Join page specific text colors */
-.join-page .header-bottom-left {
-    color: #000;
+.join-page .header-bottom-row {
+    font-size: 60px;
 }
 
-.join-page .header-bottom-right {
+.join-page .header-bottom-left {
+    padding: 40px;
+    flex-shrink: 0;
+}
+
+.join-page .header-bottom-left span {
+    font-weight: 400;
+    color: orange;
+}
+
+.join-page .header-bottom-text {
+    padding: 40px;
+    font-size: 60px;
+    font-weight: 700;
     color: #000;
+    line-height: 1.2;
+}
+
+.join-page .header-bottom-right span:nth-child(2) {
+    color: orange;
 }
 
 .join-page .nav-list li {
