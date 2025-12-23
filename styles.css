@@ -46,7 +46,7 @@ ul {
 }
 
 .header-with-bg {
-    background: url('static/HOME/1-10.png') center center / cover no-repeat;
+    background: url('static/images/HOME/1-10.png') center center / cover no-repeat;
 }
 
 .header-top {
@@ -210,7 +210,7 @@ ul {
 
 .header-bottom-image {
     width: 100%;
-    background: url('static/HOME/1-29.png') center center / cover no-repeat;
+    background: url('static/images/HOME/1-29.png') center center / cover no-repeat;
     position: relative;
 }
 
@@ -721,7 +721,7 @@ main {
 
 /* Section 5 */
 .section-5 {
-    background: url('static/HOME/1-29.png') center center / cover no-repeat;
+    background: url('static/images/HOME/1-29.png') center center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1639,7 +1639,7 @@ main {
 }
 
 .process-block-with-bg {
-    background-image: url('static/BUSINESS/1-28.png');
+    background-image: url('static/images/BUSINESS/1-28.png');
     background-size: cover;
     background-position: center;
     position: relative;
