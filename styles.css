@@ -51,6 +51,10 @@ main {
     padding: 60px 0;
 }
 
+.index-page .section {
+    padding: 0;
+}
+
 .section .container {
     text-align: center;
 }
