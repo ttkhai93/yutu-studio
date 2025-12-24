@@ -183,17 +183,16 @@ main {
 
 .section-1-right-top {
     height: 70%;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.1);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-.section-1-right-top p {
-    font-size: 30px;
-    line-height: normal;
+.section-1-right-top span {
+    font-size: 36px;
+    font-weight: 600;
     color: #000;
+}
+
+.section-1-right-top span:first-child {
+    color: orange;
 }
 
 .section-1-right-bottom {
@@ -201,17 +200,20 @@ main {
     display: flex;
     align-items: start;
     justify-content: space-evenly;
-    background: rgba(255, 255, 255, 0.05);
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
 }
 
 .section-1-right-bottom-left {
     width: 30%;
     font-size: 60px;
+    font-weight: 700;
     line-height: normal;
 }
 
 .section-1-right-bottom-mid {
     width: 40%;
+    font-size: 30px;
     text-align: center;
 }
 
