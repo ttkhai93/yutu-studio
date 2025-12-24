@@ -50,7 +50,7 @@
 }
 
 .header-bottom-left>div {
-    font-size: 80px;
+    font-size: 100px;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -90,6 +90,42 @@
 .header-bottom-text {
     font-size: 40px;
     padding: 40px;
+}
+
+/* Index page specific */
+.index-page .header-bottom-left>div p {
+    font-size: 30px;
+}
+
+.index-page .header-bottom-left {
+    padding: 60px 40px;
+}
+
+.index-page .header-bottom-right {
+    width: 55%;
+    height: fit-content;
+    align-self: end;
+}
+
+.index-page .header-bottom-right {
+    position: relative;
+    background: linear-gradient(to right,
+            transparent 0%,
+            transparent 20%,
+            rgba(0, 0, 0, 0.2) 40%,
+            rgba(0, 0, 0, 0.4) 60%,
+            rgba(0, 0, 0, 0.6) 80%,
+            rgba(0, 0, 0, 0.8) 100%);
+}
+
+.index-page .header-bottom-right-left,
+.index-page .header-bottom-right-right {
+    position: relative;
+    z-index: 2;
+}
+
+.index-page .header-bottom-right-left {
+    font-weight: 600;
 }
 
 /* Business page specific text colors */
