@@ -182,7 +182,7 @@ main {
 }
 
 .section-1-right-top {
-    height: 70%;
+    height: 60%;
 }
 
 .section-1-right-top span {
@@ -196,7 +196,6 @@ main {
 }
 
 .section-1-right-bottom {
-    height: 30%;
     display: flex;
     align-items: start;
     justify-content: space-evenly;
