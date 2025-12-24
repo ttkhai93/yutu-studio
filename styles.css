@@ -284,11 +284,19 @@ main {
 }
 
 .section-3-title {
-    font-size: 100px;
+    font-size: 120px;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
     color: #1e293b;
+}
+
+.index-page .section-3 span:nth-child(2) {
+    font-size: 120px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: orange;
 }
 
 .section-3-description {
