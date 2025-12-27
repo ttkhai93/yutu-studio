@@ -34,6 +34,31 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+// Download portfolio file
+document.addEventListener('DOMContentLoaded', function () {
+    const downloadBtn = document.getElementById('download-portfolio');
+    if (downloadBtn) {
+        downloadBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            // File content embedded for static HTML (no server needed)
+            const fileContent = 'Hello, where is the document?';
+
+            // Create blob with plain text type and force download
+            const blob = new Blob([fileContent], { type: 'application/octet-stream' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'hello.txt';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+        });
+    }
+});
+
 // Smooth scroll for anchor links (if needed in future)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
