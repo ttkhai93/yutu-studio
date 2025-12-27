@@ -12,7 +12,7 @@ html {
 body {
     font-family: Montserrat;
     line-height: 1.6;
-    color: #333;
+    color: #000;
     overflow-x: hidden;
     width: 100%;
 }
@@ -24,6 +24,10 @@ a {
 
 ul {
     list-style: none;
+}
+
+.highlight-text {
+    color: #F05A22;
 }
 
 /* Container */
@@ -192,11 +196,6 @@ main {
 .section-1-right-top span {
     font-size: 36px;
     font-weight: 600;
-    color: #000;
-}
-
-.section-1-right-top span:first-child {
-    color: orange;
 }
 
 .section-1-right-bottom {
@@ -254,7 +253,6 @@ main {
 
 .hiring-number {
     flex-shrink: 0;
-    color: orange;
 }
 
 .hiring-content {
@@ -263,7 +261,6 @@ main {
 
 .hiring-section-title {
     margin-bottom: 15px;
-    color: orange;
 }
 
 .hiring-list {
@@ -296,7 +293,6 @@ main {
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
-    color: orange;
 }
 
 .section-3-description {
@@ -314,7 +310,7 @@ main {
 
 .section-3-block {
     flex: 1;
-    background: #ff8c00;
+    background: #F05A22;
     padding: 100px;
     border-radius: 8px;
     transition: transform 0.3s ease;
@@ -1223,7 +1219,6 @@ main {
 .vision-label {
     font-size: 24px;
     font-weight: 600;
-    color: #FF6B35;
     letter-spacing: 1px;
 }
 
