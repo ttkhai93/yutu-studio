@@ -34,6 +34,7 @@
     display: flex;
     align-items: flex-start;
     gap: 60px;
+    font-weight: bold;
 }
 
 .header-bottom {
@@ -315,7 +316,6 @@
 
 .nav-list li a {
     font-size: 36px;
-    font-weight: 500;
     color: #fff;
     transition: color 0.3s ease;
 }
@@ -338,7 +338,7 @@
     border: none;
     color: #fff;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: bold;
     padding: 2px 4px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -370,7 +370,6 @@
 
 .lang-btn.active {
     color: orange;
-    font-weight: 600;
 }
 
 .mobile-menu-toggle {
