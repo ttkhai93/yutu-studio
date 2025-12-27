@@ -469,10 +469,9 @@ main {
     height: 46px;
     display: inline-flex;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 30px;
     background: #000000;
-    color: #000000;
-    padding: 13px 25px;
     cursor: pointer;
     font-size: 14px;
     transition: all 0.3s ease;
@@ -503,9 +502,9 @@ main {
 }
 
 .btn-with-icon img {
-    width: 16px !important;
-    height: 16px !important;
-    object-fit: contain;
+    width: 12px !important;
+    height: 12px !important;
+    /* object-fit: contain; */
     filter: brightness(0);
 }
 
