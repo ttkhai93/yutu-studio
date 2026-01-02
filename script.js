@@ -41,19 +41,13 @@ document.addEventListener('DOMContentLoaded', function () {
         downloadBtn.addEventListener('click', function (e) {
             e.preventDefault();
 
-            // File content embedded for static HTML (no server needed)
-            const fileContent = 'Hello, where is the document?';
-
-            // Create blob with plain text type and force download
-            const blob = new Blob([fileContent], { type: 'application/octet-stream' });
-            const url = window.URL.createObjectURL(blob);
+            // Create download link for the PDF file
             const a = document.createElement('a');
             a.style.display = 'none';
-            a.href = url;
-            a.download = 'hello.txt';
+            a.href = 'static/documents/Yutu.Stu_Portfolio_E_2025.pdf';
+            a.download = 'Yutu.Stu_Portfolio_E_2025.pdf';
             document.body.appendChild(a);
             a.click();
-            window.URL.revokeObjectURL(url);
             document.body.removeChild(a);
         });
     }
