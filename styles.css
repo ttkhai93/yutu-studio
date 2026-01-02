@@ -69,9 +69,9 @@ main {
     padding: 10px 0;
 }
 
-.section p {
+/* .section p {
     font-size: 18px;
-}
+} */
 
 /* Different backgrounds for sections */
 /* Section 1 Layout */
@@ -463,11 +463,11 @@ main {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     /* outer border color */
     background: #000000;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 22px;
     transition: all 0.3s ease;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%);
     position: relative;
