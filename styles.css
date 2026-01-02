@@ -10,8 +10,8 @@ html {
 }
 
 body {
-    font-family: Montserrat;
-    line-height: 1.6;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 22px;
     color: #000;
     overflow-x: hidden;
     width: 100%;
