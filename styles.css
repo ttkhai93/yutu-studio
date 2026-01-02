@@ -69,10 +69,6 @@ main {
     padding: 10px 0;
 }
 
-/* .section p {
-    font-size: 18px;
-} */
-
 /* Different backgrounds for sections */
 /* Section 1 Layout */
 
@@ -151,15 +147,11 @@ main {
 }
 
 .project-title {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 700;
     margin-bottom: 10px !important;
     padding: 0 !important;
     line-height: normal;
-}
-
-.project-description {
-    font-size: 16px;
 }
 
 .section-1-layout {
