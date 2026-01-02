@@ -50,9 +50,9 @@
     line-height: normal;
 }
 
-.header-bottom-left>div {
-    font-size: 90px;
-    font-weight: 400;
+.header-bottom-left>div:nth-child(1) {
+    font-size: 80px;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -91,11 +91,6 @@
 .header-bottom-text {
     font-size: 40px;
     padding: 40px;
-}
-
-/* Index page specific */
-.index-page .header-bottom-left>div p {
-    font-size: 30px;
 }
 
 .index-page .header-bottom-left {
