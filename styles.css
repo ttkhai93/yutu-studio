@@ -17,6 +17,10 @@ body {
     width: 100%;
 }
 
+main {
+    padding: 0 80px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
