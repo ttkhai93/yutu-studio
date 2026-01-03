@@ -270,7 +270,7 @@ main {
 }
 
 .section-3-title {
-    font-size: 120px;
+    font-size: 121px;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
@@ -298,7 +298,7 @@ main {
 .section-3-block {
     flex: 1;
     background: #F05A22;
-    padding: 100px;
+    padding: 100px 80px;
     border-radius: 8px;
     transition: transform 0.3s ease;
     line-height: normal;
@@ -312,7 +312,7 @@ main {
     height: 50%;
     font-size: 60px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     color: white;
 }
 
