@@ -66,8 +66,6 @@
 }
 
 .header-bottom-left>div:nth-child(1) {
-    /* font-size: 80px; */
-    /* font-weight: 700; */
     margin-bottom: 20px;
 }
 
@@ -105,10 +103,6 @@
 
 .header-bottom-text {
     padding: 40px;
-}
-
-.index-page .header-bottom-left {
-    padding: 60px 40px;
 }
 
 .index-page .header-bottom-right {
