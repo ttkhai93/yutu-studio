@@ -416,6 +416,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (subBlock) {
                 // Toggle active state on the process block
                 this.classList.toggle('active');
+                this.classList.toggle('process-block-with-bg');
 
                 // Toggle show state on the sub block
                 subBlock.classList.toggle('show');

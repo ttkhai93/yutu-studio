@@ -1420,6 +1420,7 @@ main {
     font-size: 48px;
     font-weight: 700;
     min-width: 100px;
+    color: #bbb;
 }
 
 .process-header {
@@ -1455,7 +1456,7 @@ main {
 
 .process-sub-block {
     background-color: #e9ecef;
-    padding: 40px 80px;
+    padding: 0px 80px;
     max-height: 0;
     overflow: hidden;
     opacity: 0;
