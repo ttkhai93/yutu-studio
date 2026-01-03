@@ -403,3 +403,33 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+// Process Block Toggle Functionality
+document.addEventListener('DOMContentLoaded', function () {
+    const processToggles = document.querySelectorAll('.process-toggle');
+
+    processToggles.forEach(toggle => {
+        toggle.addEventListener('click', function () {
+            const blockGroup = this.parentElement;
+            const subBlock = blockGroup.querySelector('.process-sub-block');
+
+            if (subBlock) {
+                // Toggle active state on the process block
+                this.classList.toggle('active');
+
+                // Toggle show state on the sub block
+                subBlock.classList.toggle('show');
+
+                // If showing, scroll into view smoothly
+                if (subBlock.classList.contains('show')) {
+                    setTimeout(() => {
+                        subBlock.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'nearest'
+                        });
+                    }, 200);
+                }
+            }
+        });
+    });
+});

@@ -1455,12 +1455,35 @@ main {
 .process-sub-block {
     background-color: #e9ecef;
     padding: 40px 80px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease-out, opacity 0.3s ease-out, padding 0.4s ease-out;
+}
+
+.process-sub-block.show {
+    max-height: 200px;
+    opacity: 1;
+    padding: 40px 80px;
 }
 
 .process-sub-block p {
     font-size: 18px;
     line-height: 1.8;
     margin: 0;
+}
+
+.process-toggle {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.process-toggle:hover {
+    background-color: #f0f1f2;
+}
+
+.process-toggle.active {
+    background-color: #e9ecef;
 }
 
 /* Responsive for Process Blocks */
@@ -1493,6 +1516,12 @@ main {
     }
 
     .process-sub-block {
+        padding: 0 30px;
+    }
+
+    .process-sub-block.show {
         padding: 20px 30px;
+        max-height: 300px;
+        /* Allow more height on mobile for longer text */
     }
 }
