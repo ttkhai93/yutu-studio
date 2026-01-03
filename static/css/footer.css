@@ -121,6 +121,14 @@
     font-size: 14px;
 }
 
+.address-link {
+    white-space: nowrap;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    display: block;
+    width: 250px;
+}
+
 
 /* Tablet Styles */
 @media (max-width: 768px) {
