@@ -1060,7 +1060,7 @@ main {
 
     .production-row h1 {
         width: 100%;
-        font-size: 28px;
+        font-size: 40px;
     }
 
     .production-image-left,
@@ -1124,7 +1124,8 @@ main {
 .production-step {
     display: flex;
     align-items: center;
-    gap: 20px;
+    text-align: left;
+    gap: 40px;
 }
 
 .production-image-left,
@@ -1135,15 +1136,15 @@ main {
 }
 
 .production-row h1 {
-    width: 200px;
+    width: 450px;
     flex-shrink: 0;
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 52px;
+    font-weight: 700;
     margin: 0;
 }
 
 .production-content {
-    width: 400px;
+    width: 500px;
     flex-shrink: 0;
     text-align: left;
 }
@@ -1155,8 +1156,6 @@ main {
 }
 
 .production-content p {
-    font-size: 16px;
-    line-height: 1.8;
     margin: 0;
 }
 
