@@ -1424,9 +1424,10 @@ main {
 
 .process-header {
     flex: 1;
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 52px;
+    font-weight: 700;
     margin: 0;
+    text-align: left;
 }
 
 .process-download-btn {
@@ -1508,7 +1509,7 @@ main {
     }
 
     .process-header {
-        font-size: 22px;
+        font-size: 40px;
     }
 
     .process-download-btn {
