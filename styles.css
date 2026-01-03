@@ -38,7 +38,6 @@ ul {
 .container {
     /* max-width: 1200px; */
     margin: 0 auto;
-    padding: 0 20px;
     width: 100%;
 }
 
@@ -327,10 +326,6 @@ main {
     line-height: 1.6;
 }
 
-.section-3 {
-    background: #ffffff;
-}
-
 .section-3-title {
     font-size: 121px;
     font-weight: 700;
@@ -353,14 +348,14 @@ main {
 
 .section-3-blocks {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: space-between;
 }
 
 .section-3-block {
     flex: 1;
     background: #F05A22;
-    padding: 100px 80px;
+    padding: 60px;
     border-radius: 8px;
     transition: transform 0.3s ease;
     line-height: normal;
@@ -959,10 +954,6 @@ main {
 
 /* Mobile Styles */
 @media (max-width: 480px) {
-    .container {
-        padding: 0 15px;
-    }
-
     .header {
         height: 70px;
     }
@@ -1364,9 +1355,6 @@ main {
 }
 
 /* Localization Process Section Styles */
-.section-3 {
-    padding-bottom: 60px;
-}
 
 .localization-process-title {
     text-align: left;
