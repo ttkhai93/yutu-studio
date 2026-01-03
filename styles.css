@@ -566,7 +566,7 @@ main {
 }
 
 .update-card {
-    background: #ffffff;
+    background: #eee;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -670,6 +670,7 @@ main {
     padding: 40px 20px 20px 20px;
     margin-top: auto;
     position: relative;
+    background: #eee;
 }
 
 .card-footer::before {
@@ -683,7 +684,8 @@ main {
 }
 
 .card-footer,
-.card-footer::before {
+.card-footer::before,
+.card-footer-wrapper {
     clip-path: polygon(0 10px,
             40% 20px,
             60% 0px,
@@ -698,36 +700,10 @@ main {
     background: #F05A22;
 }
 
-/* .card-footer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -30px;
-    right: -30px;
-    height: 2px;
-    background: repeating-linear-gradient(90deg,
-            #000 0px,
-            #000 8px,
-            transparent 8px,
-            transparent 10px,
-            #000 10px,
-            #000 12px,
-            transparent 12px,
-            transparent 14px);
-    background-size: 14px 2px;
+.card-footer-wrapper {
+    background: #bbb;
+    border-top: 1px solid #bbb;
 }
-
-.update-card.active .card-footer::before {
-    background: repeating-linear-gradient(90deg,
-            #fff 0px,
-            #fff 8px,
-            transparent 8px,
-            transparent 10px,
-            #fff 10px,
-            #fff 12px,
-            transparent 12px,
-            transparent 14px);
-} */
 
 .card-footer-left {
     font-weight: 600;
