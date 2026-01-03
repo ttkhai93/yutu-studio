@@ -670,14 +670,6 @@ main {
     padding: 40px 20px 20px 20px;
     margin-top: auto;
     position: relative;
-    clip-path: polygon(0 10px,
-            40% 20px,
-            60% 0px,
-            68% 6px,
-            80% 0px,
-            100% 10px,
-            100% 100%,
-            0 100%);
 }
 
 .card-footer::before {
@@ -687,7 +679,11 @@ main {
     left: -2px;
     right: -2px;
     bottom: -2px;
+    z-index: -1;
+}
 
+.card-footer,
+.card-footer::before {
     clip-path: polygon(0 10px,
             40% 20px,
             60% 0px,
@@ -696,7 +692,6 @@ main {
             100% 10px,
             100% 100%,
             0 100%);
-    z-index: -1;
 }
 
 .card-footer.active::before {
