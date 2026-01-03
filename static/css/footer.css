@@ -81,6 +81,7 @@
 
 .footer-left {
     padding-left: 30px;
+    flex: 0.5;
 }
 
 .footer-logo {
@@ -90,6 +91,8 @@
 
 .footer-right {
     display: flex;
+    flex: 0.5;
+    gap: 30px;
 }
 
 .footer-column h4 {
@@ -100,9 +103,10 @@
 .footer-column ul {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
-.footer-column ul li a {
+.footer-column {
     transition: color 0.3s ease;
     font-size: 14px;
 }
