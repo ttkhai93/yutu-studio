@@ -7,6 +7,8 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    background-image: url('../images/Yutu.Stu_Portfolio_K25.png');
+    /* background-position: center; */
     position: relative;
     display: flex;
     align-items: end;
