@@ -240,3 +240,46 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+// Update Card Click Functionality
+document.addEventListener('DOMContentLoaded', function () {
+    const updateCards = document.querySelectorAll('.update-card');
+
+    updateCards.forEach((card, index) => {
+        card.addEventListener('click', function () {
+            // Remove active class from all cards and their footers, and remove background images
+            updateCards.forEach(otherCard => {
+                otherCard.classList.remove('active');
+                const otherFooter = otherCard.querySelector('.card-footer');
+                if (otherFooter) {
+                    otherFooter.classList.remove('active');
+                }
+                // Remove background image from all inactive cards
+                otherCard.style.backgroundImage = '';
+            });
+
+            // Add active class to clicked card and its footer
+            this.classList.add('active');
+            const currentFooter = this.querySelector('.card-footer');
+            if (currentFooter) {
+                currentFooter.classList.add('active');
+            }
+
+            // Add background image to the active card
+            this.style.backgroundImage = "url('static/images/HOME/1-13.png')";
+        });
+
+        // Add hover effect for better UX
+        card.addEventListener('mouseenter', function () {
+            if (!this.classList.contains('active')) {
+                this.style.transform = 'translateY(-5px)';
+            }
+        });
+
+        card.addEventListener('mouseleave', function () {
+            if (!this.classList.contains('active')) {
+                this.style.transform = 'translateY(0)';
+            }
+        });
+    });
+});
