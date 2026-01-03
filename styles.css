@@ -993,7 +993,7 @@ main {
     }
 
     .section p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .section-5-box {
@@ -1014,7 +1014,7 @@ main {
     }
 
     .footer-description {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .footer-content {
@@ -1044,7 +1044,7 @@ main {
     }
 
     .section-3-block .block-description {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .production-row {
@@ -1187,7 +1187,6 @@ main {
 
 .localization-right p {
     width: 70%;
-    font-size: 18px;
     line-height: 1.8;
     margin-bottom: 20px;
 }
@@ -1348,7 +1347,7 @@ main {
     }
 
     .vision-description {
-        font-size: 14px;
+        font-size: 16px;
         max-width: 100%;
     }
 }
@@ -1461,7 +1460,7 @@ main {
 }
 
 .process-sub-block p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.8;
     margin: 0;
 }
