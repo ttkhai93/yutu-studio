@@ -108,6 +108,11 @@ main {
     padding: 60px 0;
 }
 
+.section-title {
+    font-size: 75px;
+    font-weight: 700;
+}
+
 .index-page .section-2 {
     padding: 0;
 }
@@ -382,8 +387,6 @@ main {
 }
 
 .section-4-title {
-    font-size: 75px;
-    font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -469,8 +472,6 @@ main {
 
 .partners-title {
     text-align: left;
-    font-size: 48px;
-    font-weight: 600;
     margin-bottom: 60px;
     letter-spacing: 2px;
     border-bottom: 1px solid #ddd;
@@ -580,8 +581,6 @@ main {
 }
 
 .section-5-title {
-    font-size: 75px;
-    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -604,8 +603,6 @@ main {
 }
 
 .section-6-title {
-    font-size: 75px;
-    font-weight: 700;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -888,6 +885,10 @@ main {
         font-size: 32px;
     }
 
+    .section-title {
+        font-size: 60px;
+    }
+
     .section p {
         font-size: 16px;
     }
@@ -990,6 +991,10 @@ main {
     .section h2 {
         font-size: 28px;
         margin-bottom: 15px;
+    }
+
+    .section-title {
+        font-size: 48px;
     }
 
     .section p {
@@ -1098,8 +1103,6 @@ main {
 /* Production Section Styles */
 .production-title {
     text-align: left;
-    font-size: 48px;
-    font-weight: 600;
     margin-bottom: 60px;
     letter-spacing: 2px;
     border-bottom: 1px solid #ddd;
@@ -1161,8 +1164,6 @@ main {
 
 .localization-title {
     text-align: left;
-    font-size: 48px;
-    font-weight: 600;
     margin-bottom: 60px;
     letter-spacing: 2px;
     border-bottom: 1px solid #ddd;
@@ -1220,8 +1221,6 @@ main {
 /* Passion Section Styles */
 .passion-title {
     text-align: left;
-    font-size: 48px;
-    font-weight: 600;
     margin-bottom: 60px;
     letter-spacing: 2px;
     border-bottom: 1px solid #ddd;
@@ -1278,8 +1277,6 @@ main {
 /* Vision Section Styles */
 .vision-title {
     text-align: left;
-    font-size: 48px;
-    font-weight: 600;
     margin-bottom: 60px;
     letter-spacing: 2px;
     border-bottom: 1px solid #ddd;
@@ -1370,8 +1367,6 @@ main {
 
 .localization-process-title {
     text-align: left;
-    font-size: 48px;
-    font-weight: 600;
     margin-bottom: 60px;
     letter-spacing: 2px;
     border-bottom: 1px solid #ddd;
