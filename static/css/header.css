@@ -15,7 +15,7 @@
 
 .header-top {
     width: 100%;
-    margin-bottom: 50px;
+    padding: 20px 80px;
 }
 
 .header-top .container {
@@ -60,9 +60,7 @@
 
 .header-bottom-left {
     flex: 1;
-    padding: 60px;
     color: white;
-    min-height: 200px;
 }
 
 .header-bottom-left>div:nth-child(1) {
@@ -99,10 +97,11 @@
     display: flex;
     min-height: 200px;
     align-items: flex-start;
+    padding: 40px 80px;
 }
 
-.header-bottom-text {
-    padding: 40px;
+.index-page .header-bottom-left {
+    padding: 40px 80px;
 }
 
 .index-page .header-bottom-right {
@@ -136,8 +135,6 @@
 
 .business-page .header-bottom-left {
     color: #000;
-    flex-shrink: 0;
-    padding: 40px;
 }
 
 .business-page .header-bottom-left .header-bottom-text {
@@ -199,11 +196,12 @@
 
 .we-page .header-bottom-left p {
     margin-bottom: 20px;
+    max-width: 750px;
 }
 
 .we-page .header-bottom-right {
     color: #000;
-    width: 40%;
+    width: 45%;
     align-self: end;
 }
 
