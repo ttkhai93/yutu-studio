@@ -211,7 +211,6 @@
 }
 
 .we-page .header-bottom-left p {
-    font-size: 34px;
     margin-bottom: 20px;
     line-height: 1.4;
 }
@@ -223,7 +222,7 @@
 
 .we-page .header-bottom-right {
     color: #000;
-    width: 45%;
+    width: 40%;
     align-self: end;
 }
 
