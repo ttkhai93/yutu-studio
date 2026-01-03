@@ -1291,11 +1291,17 @@ main {
 
 .vision-left,
 .vision-right {
-    max-width: 500px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    padding-left: 100px;
+}
+
+.vision-left .vision-image {
+    height: 343.5px;
+    /* Fixed height for left image because right image has bigger size */
 }
 
 .vision-text-container {
@@ -1308,7 +1314,6 @@ main {
 }
 
 .vision-image img {
-    width: 100%;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
