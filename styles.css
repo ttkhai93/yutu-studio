@@ -520,6 +520,7 @@ main {
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%);
     position: relative;
     isolation: isolate;
+    font-size: 22px;
 }
 
 /* inner inset panel so outer background becomes visible border following the clip-path */
