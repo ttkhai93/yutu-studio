@@ -1250,11 +1250,8 @@ main {
     text-align: left;
 }
 
-.passion-right p {
-    width: 70%;
-    font-size: 18px;
-    line-height: 1.8;
-    margin-bottom: 20px;
+.passion-right p:nth-child(1) {
+    margin-bottom: 40px;
 }
 
 .passion-right p:last-child {
