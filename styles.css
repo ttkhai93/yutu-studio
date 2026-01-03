@@ -705,6 +705,11 @@ main {
     border-top: 1px solid #bbb;
 }
 
+.card-footer-wrapper .card-footer.active {
+    background: #ddd;
+    border-top: 20px solid #ddd;
+}
+
 .card-footer-left {
     font-weight: 600;
     font-size: 22px;
