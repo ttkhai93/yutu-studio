@@ -412,6 +412,8 @@ document.addEventListener('DOMContentLoaded', function () {
         toggle.addEventListener('click', function () {
             const blockGroup = this.parentElement;
             const subBlock = blockGroup.querySelector('.process-sub-block');
+            const downloadBtn = this.querySelector('.process-download-btn img');
+            const processNumber = this.querySelector('.process-number');
 
             if (subBlock) {
                 // Toggle active state on the process block
@@ -420,6 +422,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // Toggle show state on the sub block
                 subBlock.classList.toggle('show');
+
+                // Change button image and process number color based on active state
+                if (this.classList.contains('active')) {
+                    // Block is now active - change to active image and color
+                    if (downloadBtn) {
+                        downloadBtn.src = 'static/images/BUSINESS/1-26.png';
+                    }
+                    if (processNumber) {
+                        processNumber.style.color = '#F05A22';
+                    }
+                } else {
+                    // Block is now inactive - change back to original image and color
+                    if (downloadBtn) {
+                        downloadBtn.src = 'static/images/BUSINESS/1-27.png';
+                    }
+                    if (processNumber) {
+                        processNumber.style.color = '';
+                    }
+                }
 
                 // If showing, scroll into view smoothly
                 if (subBlock.classList.contains('show')) {
