@@ -146,28 +146,44 @@
                     worlds and share them with audiences everywhere.
                 </div>
 
-                <div class="section-4-images">
-                    <div class="image-wrapper image-right-half">
-                        <img src="static/images/HOME/1-13.png" alt="">
-                    </div>
-                    <div class="image-wrapper image-full">
-                        <img src="static/images/HOME/1-14.png" alt="">
-                        <div class="middle-block">
-                            <div class="middle-block-col-left">
-                                <div>GONGJA</div>
-                                <div>수상한 소공자는 천하십대고수</div>
-                            </div>
-                            <div class="middle-block-col-right">
-                                <button class="btn-with-icon" onclick="window.location.href='projects.html'">
-                                    <span></span>
-                                    <span>READ MORE</span>
-                                    <img src="static/images/HOME/1-06.png" alt="">
-                                </button>
+                <div class="swiper mySwiper projects-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image-wrapper image-full">
+                                <img src="static/images/HOME/1-14.png" alt="">
+                                <div class="middle-block">
+                                    <div class="middle-block-col-left">
+                                        <div>GONGJA</div>
+                                        <div>수상한 소공자는 천하십대고수</div>
+                                    </div>
+                                    <div class="middle-block-col-right">
+                                        <button class="btn-with-icon" onclick="window.location.href='projects.html'">
+                                            <span></span>
+                                            <span>READ MORE</span>
+                                            <img src="static/images/HOME/1-06.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="image-wrapper image-left-half">
-                        <img src="static/images/HOME/1-13.png" alt="">
+                        <div class="swiper-slide">
+                            <div class="image-wrapper image-full">
+                                <img src="static/images/HOME/1-13.png" alt="">
+                                <div class="middle-block">
+                                    <div class="middle-block-col-left">
+                                        <div>GONGJA</div>
+                                        <div>수상한 소공자는 천하십대고수</div>
+                                    </div>
+                                    <div class="middle-block-col-right">
+                                        <button class="btn-with-icon" onclick="window.location.href='projects.html'">
+                                            <span></span>
+                                            <span>READ MORE</span>
+                                            <img src="static/images/HOME/1-06.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -197,7 +213,7 @@
             <div class="container">
                 <h1 class="section-title section-6-title">LATEST NEWS</h1>
 
-                <div class="swiper mySwiper">
+                <div class="swiper mySwiper news-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="update-card active"
@@ -422,7 +438,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".mySwiper.news-slider", {
             slidesPerView: 4,
             spaceBetween: 30,
 
@@ -463,6 +479,25 @@
                 slides[slideIndex].style.backgroundImage = "url('static/images/HOME/1-13.png')";
             }
         }
+
+
+        var swiper = new Swiper(".mySwiper.projects-slider", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+
+            centeredSlides: true,
+            centeredSlidesBounds: true,
+
+            slideToClickedSlide: true,
+            on: {
+                click: function (swiper, event) {
+                    console.log('Clicked index:', swiper.clickedIndex);
+                    // Optional: Slide to the clicked slide
+                    swiper.slideTo(swiper.clickedIndex);
+                    activateSlide(swiper.clickedIndex);
+                },
+            },
+        });
     </script>
 </body>
 
