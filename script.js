@@ -266,143 +266,143 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Update Card Slider Functionality - Show 4 cards at a time
-document.addEventListener('DOMContentLoaded', function () {
-    const updateCards = document.querySelectorAll('.update-card');
-    const sliderDots = document.querySelectorAll('.slider-dot');
-    const totalCards = updateCards.length;
-    const cardsToShow = 4;
-    let currentSlide = 0;
+// document.addEventListener('DOMContentLoaded', function () {
+//     const updateCards = document.querySelectorAll('.update-card');
+//     const sliderDots = document.querySelectorAll('.slider-dot');
+//     const totalCards = updateCards.length;
+//     const cardsToShow = 4;
+//     let currentSlide = 0;
 
-    function showSlide(slideIndex) {
-        // Calculate which cards to show
-        const startIndex = slideIndex;
-        const endIndex = Math.min(startIndex + cardsToShow, totalCards);
+//     function showSlide(slideIndex) {
+//         // Calculate which cards to show
+//         const startIndex = slideIndex;
+//         const endIndex = Math.min(startIndex + cardsToShow, totalCards);
 
-        // Smooth transition: hide cards that shouldn't be visible, show cards that should be
-        updateCards.forEach((card, index) => {
-            const shouldBeVisible = (index >= startIndex && index < endIndex);
-            const isCurrentlyVisible = card.classList.contains('visible');
+//         // Smooth transition: hide cards that shouldn't be visible, show cards that should be
+//         updateCards.forEach((card, index) => {
+//             const shouldBeVisible = (index >= startIndex && index < endIndex);
+//             const isCurrentlyVisible = card.classList.contains('visible');
 
-            if (shouldBeVisible && !isCurrentlyVisible) {
-                // Show card that needs to be visible
-                setTimeout(() => {
-                    card.classList.add('visible');
-                }, (index - startIndex) * 30); // Smooth stagger
-            } else if (!shouldBeVisible && isCurrentlyVisible) {
-                // Hide card that shouldn't be visible  
-                card.classList.remove('visible', 'active');
-                const footer = card.querySelector('.card-footer');
-                if (footer) {
-                    footer.classList.remove('active');
-                }
-                card.style.backgroundImage = '';
-            }
-        });
+//             if (shouldBeVisible && !isCurrentlyVisible) {
+//                 // Show card that needs to be visible
+//                 setTimeout(() => {
+//                     card.classList.add('visible');
+//                 }, (index - startIndex) * 30); // Smooth stagger
+//             } else if (!shouldBeVisible && isCurrentlyVisible) {
+//                 // Hide card that shouldn't be visible  
+//                 card.classList.remove('visible', 'active');
+//                 const footer = card.querySelector('.card-footer');
+//                 if (footer) {
+//                     footer.classList.remove('active');
+//                 }
+//                 card.style.backgroundImage = '';
+//             }
+//         });
 
-        currentSlide = slideIndex;
-    }
+//         currentSlide = slideIndex;
+//     }
 
-    function activateCard(cardIndex, dotIndex) {
-        // Remove active from all cards
-        updateCards.forEach((card, index) => {
-            card.classList.remove('active');
-            const footer = card.querySelector('.card-footer');
-            if (footer) {
-                footer.classList.remove('active');
-            }
-            card.style.backgroundImage = '';
-        });
+//     function activateCard(cardIndex, dotIndex) {
+//         // Remove active from all cards
+//         updateCards.forEach((card, index) => {
+//             card.classList.remove('active');
+//             const footer = card.querySelector('.card-footer');
+//             if (footer) {
+//                 footer.classList.remove('active');
+//             }
+//             card.style.backgroundImage = '';
+//         });
 
-        // Remove active from all dots
-        sliderDots.forEach(dot => {
-            dot.classList.remove('active');
-        });
+//         // Remove active from all dots
+//         sliderDots.forEach(dot => {
+//             dot.classList.remove('active');
+//         });
 
-        // Activate the specified card
-        if (updateCards[cardIndex]) {
-            updateCards[cardIndex].classList.add('active');
-            const footer = updateCards[cardIndex].querySelector('.card-footer');
-            if (footer) {
-                footer.classList.add('active');
-            }
-            updateCards[cardIndex].style.backgroundImage = "url('static/images/HOME/1-13.png')";
-        }
+//         // Activate the specified card
+//         if (updateCards[cardIndex]) {
+//             updateCards[cardIndex].classList.add('active');
+//             const footer = updateCards[cardIndex].querySelector('.card-footer');
+//             if (footer) {
+//                 footer.classList.add('active');
+//             }
+//             updateCards[cardIndex].style.backgroundImage = "url('static/images/HOME/1-13.png')";
+//         }
 
-        // Activate the corresponding dot
-        if (sliderDots[dotIndex]) {
-            sliderDots[dotIndex].classList.add('active');
-        }
-    }
+//         // Activate the corresponding dot
+//         if (sliderDots[dotIndex]) {
+//             sliderDots[dotIndex].classList.add('active');
+//         }
+//     }
 
-    // Initialize - show first 4 cards and activate first card
-    showSlide(0);
-    setTimeout(() => {
-        activateCard(0, 0);
-    }, 150);
+//     Initialize - show first 4 cards and activate first card
+//     showSlide(0);
+//     setTimeout(() => {
+//         activateCard(0, 0);
+//     }, 150);
 
-    // Card click handlers - activate clicked card within visible set
-    updateCards.forEach((card, index) => {
-        card.addEventListener('click', function () {
-            if (this.classList.contains('visible')) {
-                // Determine which dot should be active based on current slide and card index
-                let dotIndex;
-                if (currentSlide === 0) {
-                    // In first slide (showing cards 1-4), dot index matches card index
-                    dotIndex = index;
-                } else {
-                    // In second slide (showing cards 3-6), map card index to dot index
-                    if (index >= 4) {
-                        dotIndex = index; // Cards 5-6 map to dots 5-6
-                    } else {
-                        dotIndex = index + 2; // Cards 3-4 map to dots 3-4
-                    }
-                }
+//     Card click handlers - activate clicked card within visible set
+//     updateCards.forEach((card, index) => {
+//         card.addEventListener('click', function () {
+//             if (this.classList.contains('visible')) {
+//                 // Determine which dot should be active based on current slide and card index
+//                 let dotIndex;
+//                 if (currentSlide === 0) {
+//                     // In first slide (showing cards 1-4), dot index matches card index
+//                     dotIndex = index;
+//                 } else {
+//                     // In second slide (showing cards 3-6), map card index to dot index
+//                     if (index >= 4) {
+//                         dotIndex = index; // Cards 5-6 map to dots 5-6
+//                     } else {
+//                         dotIndex = index + 2; // Cards 3-4 map to dots 3-4
+//                     }
+//                 }
 
-                activateCard(index, dotIndex);
-            }
-        });
+//                 activateCard(index, dotIndex);
+//             }
+//         });
 
-        // Add hover effect for visible cards
-        card.addEventListener('mouseenter', function () {
-            if (this.classList.contains('visible') && !this.classList.contains('active')) {
-                this.style.transform = 'translateY(-5px) translateX(0)';
-            }
-        });
+//         // Add hover effect for visible cards
+//         card.addEventListener('mouseenter', function () {
+//             if (this.classList.contains('visible') && !this.classList.contains('active')) {
+//                 this.style.transform = 'translateY(-5px) translateX(0)';
+//             }
+//         });
 
-        card.addEventListener('mouseleave', function () {
-            if (this.classList.contains('visible') && !this.classList.contains('active')) {
-                this.style.transform = 'translateY(0) translateX(0)';
-            }
-        });
-    });
+//         card.addEventListener('mouseleave', function () {
+//             if (this.classList.contains('visible') && !this.classList.contains('active')) {
+//                 this.style.transform = 'translateY(0) translateX(0)';
+//             }
+//         });
+//     });
 
-    // Slider dot click handlers - dots 1-4 activate cards, dots 5-6 slide view
-    sliderDots.forEach((dot, index) => {
-        dot.addEventListener('click', function () {
-            if (index <= 3) {
-                // Dots 1-4: Only activate the corresponding card within current view (cards 1-4)
-                if (currentSlide === 0) {
-                    // We're showing cards 1-4, just activate the card at this index
-                    activateCard(index, index);
-                } else {
-                    // If we're in a different slide, go back to first slide and activate the card
-                    showSlide(0);
-                    setTimeout(() => {
-                        activateCard(index, index);
-                    }, 150);
-                }
-            } else {
-                // Dots 5-6: Slide to show the last 4 cards (cards 3-6)
-                const slideIndex = totalCards - cardsToShow; // This will show cards 3-6 (indices 2-5)
-                showSlide(slideIndex);
-                setTimeout(() => {
-                    // Activate the corresponding card: dot 5 -> card 5 (index 4), dot 6 -> card 6 (index 5)
-                    activateCard(index, index);
-                }, 150);
-            }
-        });
-    });
-});
+//     Slider dot click handlers - dots 1-4 activate cards, dots 5-6 slide view
+//     sliderDots.forEach((dot, index) => {
+//         dot.addEventListener('click', function () {
+//             if (index <= 3) {
+//                 // Dots 1-4: Only activate the corresponding card within current view (cards 1-4)
+//                 if (currentSlide === 0) {
+//                     // We're showing cards 1-4, just activate the card at this index
+//                     activateCard(index, index);
+//                 } else {
+//                     // If we're in a different slide, go back to first slide and activate the card
+//                     showSlide(0);
+//                     setTimeout(() => {
+//                         activateCard(index, index);
+//                     }, 150);
+//                 }
+//             } else {
+//                 // Dots 5-6: Slide to show the last 4 cards (cards 3-6)
+//                 const slideIndex = totalCards - cardsToShow; // This will show cards 3-6 (indices 2-5)
+//                 showSlide(slideIndex);
+//                 setTimeout(() => {
+//                     // Activate the corresponding card: dot 5 -> card 5 (index 4), dot 6 -> card 6 (index 5)
+//                     activateCard(index, index);
+//                 }, 150);
+//             }
+//         });
+//     });
+// });
 
 // Process Block Toggle Functionality
 document.addEventListener('DOMContentLoaded', function () {
