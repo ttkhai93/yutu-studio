@@ -416,6 +416,32 @@ document.addEventListener('DOMContentLoaded', function () {
             const processNumber = this.querySelector('.process-number');
 
             if (subBlock) {
+                // First, close all other process toggles
+                processToggles.forEach(otherToggle => {
+                    if (otherToggle !== this) {
+                        const otherBlockGroup = otherToggle.parentElement;
+                        const otherSubBlock = otherBlockGroup.querySelector('.process-sub-block');
+                        const otherDownloadBtn = otherToggle.querySelector('.process-download-btn img');
+                        const otherProcessNumber = otherToggle.querySelector('.process-number');
+
+                        // Remove active states
+                        otherToggle.classList.remove('active', 'process-block-with-bg');
+
+                        // Hide sub block
+                        if (otherSubBlock) {
+                            otherSubBlock.classList.remove('show');
+                        }
+
+                        // Reset button image and process number color
+                        if (otherDownloadBtn) {
+                            otherDownloadBtn.src = 'static/images/BUSINESS/1-27.png';
+                        }
+                        if (otherProcessNumber) {
+                            otherProcessNumber.style.color = '';
+                        }
+                    }
+                });
+
                 // Toggle active state on the process block
                 this.classList.toggle('active');
                 this.classList.toggle('process-block-with-bg');
