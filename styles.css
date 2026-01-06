@@ -164,17 +164,29 @@ main {
     overflow: visible;
 }
 
+/* Keyframes for scrolling text animation */
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100vw) translateY(-50%);
+    }
+
+    100% {
+        transform: translateX(-100%) translateY(-50%);
+    }
+}
+
 .project-background-text {
     font-size: 300px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.05);
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 0;
+    transform: translateY(-50%);
     z-index: 0;
     white-space: nowrap;
     letter-spacing: 20px;
+    animation: scroll-text 10s linear infinite;
 }
 
 .project-image {
@@ -941,6 +953,7 @@ main {
     .project-background-text {
         font-size: 200px;
         letter-spacing: 10px;
+        animation: scroll-text 15s linear infinite;
     }
 
     .project-image {
@@ -1080,6 +1093,7 @@ main {
     .project-background-text {
         font-size: 120px;
         letter-spacing: 5px;
+        animation: scroll-text 10s linear infinite;
     }
 
     .project-image {
