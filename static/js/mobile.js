@@ -19,6 +19,7 @@ function createMobileMenuOverlay() {
         <nav class="mobile-nav">
             <a href="we.html" data-translate="nav_we">We</a>
             <a href="business.html" data-translate="nav_business">Business</a>
+            <a href="projects.html" data-translate="nav_project">Project</a>
             <a href="join.html" data-translate="nav_join">Join</a>
         </nav>
         <div class="mobile-language-selector">
