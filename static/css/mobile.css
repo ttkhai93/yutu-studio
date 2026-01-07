@@ -1,5 +1,10 @@
 /* Mobile Styles - Optimized for iPhone 12 Pro (390x844) and similar devices */
 
+/* Hide mobile menu on desktop */
+.mobile-menu-overlay {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     main {
         padding: 0 20px;
