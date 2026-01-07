@@ -222,12 +222,24 @@
 
     /* Sections - Mobile adjustments */
     .section-1 {
-        padding: 20px 0;
+        padding: 20px 0 0 0;
         min-height: 50vh;
     }
 
     .container {
-        padding: 0 20px;
+        /* padding: 0 20px; */
+    }
+
+    /* Section 2 - Use mobile image */
+    .section-2 img {
+        display: none;
+    }
+
+    .section-2 .container {
+        background: url(../images/MOBILE/1-16.png) center / contain no-repeat;
+        min-height: 350px;
+        display: flex;
+        align-items: center;
     }
 
     /* Section 1 - Stack vertically */
