@@ -315,16 +315,52 @@
     }
 
     /* Sliders - Mobile adjustments */
+    .swiper.projects-slider {
+        padding: 0 10px;
+        margin: 0 -10px;
+    }
+
     .swiper.projects-slider .swiper-slide {
-        width: 90% !important;
+        width: 95% !important;
+        max-width: 300px;
     }
 
     .swiper.news-slider {
-        padding: 0 20px;
+        padding: 0 10px;
+        margin: 0 -10px;
     }
 
     .swiper.news-slider .swiper-slide {
-        width: 85% !important;
+        width: 90% !important;
+        max-width: 280px;
+    }
+
+    /* Enable touch scrolling for mobile */
+    .swiper {
+        touch-action: pan-y;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .swiper-wrapper {
+        transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    /* Middle block - Stack vertically on mobile */
+    .middle-block {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    /* .middle-block-col-left,
+    .middle-block-col-right {
+        width: 100% !important;
+    } */
+
+    .middle-block-col-right {
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
     }
 
     /* Footer - Mobile adjustments */
@@ -345,9 +381,9 @@
 
     /* Buttons - Mobile friendly sizing */
     .btn-with-icon {
-        padding: 12px 20px;
+        /* padding: 12px 20px; */
         font-size: 14px;
-        width: 140px;
+        width: 150px;
         gap: 10px;
     }
 

@@ -443,17 +443,23 @@
     <script src="static/js/mobile.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper.news-slider", {
-            slidesPerView: 4,
-            spaceBetween: 30,
-
+            slidesPerView: 1.2,
+            spaceBetween: 20,
             centeredSlides: true,
             centeredSlidesBounds: true,
-
             slideToClickedSlide: true,
+            touchRatio: 1,
+            touchAngle: 45,
+            grabCursor: true,
+            breakpoints: {
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                }
+            },
             on: {
                 click: function (swiper, event) {
                     console.log('Clicked index:', swiper.clickedIndex);
-                    // Optional: Slide to the clicked slide
                     swiper.slideTo(swiper.clickedIndex);
                     activateSlide(swiper.clickedIndex);
                 },
@@ -486,17 +492,23 @@
 
 
         var swiper = new Swiper(".mySwiper.projects-slider", {
-            slidesPerView: 2,
-            spaceBetween: 30,
-
+            slidesPerView: 1.1,
+            spaceBetween: 15,
             centeredSlides: true,
             centeredSlidesBounds: true,
-
             slideToClickedSlide: true,
+            touchRatio: 1,
+            touchAngle: 45,
+            grabCursor: true,
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                }
+            },
             on: {
                 click: function (swiper, event) {
                     console.log('Clicked index:', swiper.clickedIndex);
-                    // Optional: Slide to the clicked slide
                     swiper.slideTo(swiper.clickedIndex);
                     activateSlide(swiper.clickedIndex);
                 },
