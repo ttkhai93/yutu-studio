@@ -341,6 +341,11 @@ main {
     line-height: 1.6;
 }
 
+.section3-header {
+    width: 70%;
+    margin: auto;
+}
+
 .section-3-title {
     font-size: 121px;
     font-weight: 700;
