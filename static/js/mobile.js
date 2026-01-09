@@ -45,7 +45,7 @@ function createMobileMenuOverlay() {
             <div class="mobile-menu-border"></div>
             <div class="mobile-menu-section mobile-language-section">
                 <div class="mobile-language-selector">
-                    <button class="lang-btn active" data-lang="en">ENGLISH</button>
+                    <button class="lang-btn active" data-lang="en">ENLISH</button>
                     <button class="lang-btn" data-lang="ko">KOREAN</button>
                     <button class="lang-btn" data-lang="vi">VIETNAMESE</button>
                 </div>
@@ -98,7 +98,7 @@ function initializeMobileMenu() {
             this.classList.add('active');
 
             // Also update desktop language selector if it exists
-            const desktopLangButtons = document.querySelectorAll('.language-selector .lang-btn');
+            const desktopLangButtons = document.querySelectorAll('.header .language-selector .lang-btn');
             const selectedLang = this.getAttribute('data-lang');
 
             desktopLangButtons.forEach(btn => {
@@ -107,6 +107,9 @@ function initializeMobileMenu() {
                     btn.classList.add('active');
                 }
             });
+
+            // Update data-translate elements in mobile menu
+            updateMobileMenuTranslations(selectedLang);
 
             // Trigger language change event if there's a global language handler
             if (typeof window.changeLanguage === 'function') {
@@ -191,9 +194,43 @@ function closeMobileMenu() {
     }
 }
 
+// Function to update mobile menu translations
+function updateMobileMenuTranslations(lang) {
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav a[data-translate]');
+
+    const translations = {
+        'en': {
+            'nav_we': 'We',
+            'nav_business': 'Business',
+            'nav_project': 'Project',
+            'nav_join': 'Join'
+        },
+        'ko': {
+            'nav_we': '우리',
+            'nav_business': '사업',
+            'nav_project': '프로젝트',
+            'nav_join': '채용'
+        },
+        'vi': {
+            'nav_we': 'Chúng tôi',
+            'nav_business': 'Kinh doanh',
+            'nav_project': 'Dự án',
+            'nav_join': 'Tham gia'
+        }
+    };
+
+    mobileNavLinks.forEach(link => {
+        const key = link.getAttribute('data-translate');
+        if (translations[lang] && translations[lang][key]) {
+            link.textContent = translations[lang][key];
+        }
+    });
+}
+
 // Expose functions globally if needed
 window.openMobileMenu = openMobileMenu;
 window.closeMobileMenu = closeMobileMenu;
+window.updateMobileMenuTranslations = updateMobileMenuTranslations;
 
 // Handle orientation change for mobile devices
 window.addEventListener('orientationchange', function () {
