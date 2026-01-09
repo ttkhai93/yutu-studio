@@ -126,10 +126,48 @@
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
         backdrop-filter: blur(10px);
+        padding: 40px 20px;
     }
 
     .mobile-menu-overlay.active {
         transform: translateX(0);
+    }
+
+    /* Mobile menu content container */
+    .mobile-menu-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* Mobile menu sections */
+    .mobile-menu-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mobile-nav-section,
+    .mobile-contact-section {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .mobile-language-section {
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    /* Border between sections */
+    .mobile-menu-border {
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 100%;
+        margin: 0;
     }
 
     /* Close button */
@@ -138,16 +176,15 @@
         top: 20px;
         right: 20px;
         background: none;
-        border: none;
+        border: 1px solid #fff;
         color: #fff;
-        font-size: 24px;
+        font-size: 14px;
+        font-weight: 500;
         cursor: pointer;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
+        padding: 8px 16px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
         transition: background-color 0.3s ease;
     }
 
@@ -159,15 +196,15 @@
     .mobile-nav {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        margin-bottom: 50px;
+        align-items: flex-start;
+        gap: 20px;
+        width: 100%;
     }
 
     .mobile-nav a {
         color: #fff;
         text-decoration: none;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -194,30 +231,105 @@
         width: 100%;
     }
 
+    /* Mobile contact section */
+    .mobile-contact {
+        width: 100%;
+        color: #fff;
+    }
+
+    .mobile-contact h4 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0 0 15px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .mobile-contact span {
+        display: block;
+        color: #fff;
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 5px;
+    }
+
+    .mobile-contact-details {
+        margin-top: 15px;
+    }
+
+    .contact-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 8px;
+    }
+
+    .contact-item span {
+        color: #fff;
+        font-size: 14px;
+        margin: 0;
+        min-width: 50px;
+    }
+
+    .contact-item a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.3s ease;
+    }
+
+    .contact-item a:hover {
+        color: #ccc;
+    }
+
     /* Mobile language selector */
     .mobile-language-selector {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 15px;
+        align-items: flex-end;
+        gap: 12px;
+        width: 100%;
     }
 
     .mobile-language-selector .lang-btn {
-        background: none;
+        /* background: none;
         border: 1px solid #fff;
         color: #fff;
-        padding: 10px 20px;
-        font-size: 14px;
+        padding: 8px 16px;
+        font-size: 13px;
+        font-weight: 500;
         cursor: pointer;
-        border-radius: 25px;
+        border-radius: 20px;
         transition: all 0.3s ease;
-        min-width: 120px;
+        min-width: 100px;
+        text-align: center; */
+
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        line-height: 18px;
+        padding: 2px 4px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 6px;
     }
 
-    .mobile-language-selector .lang-btn.active,
-    .mobile-language-selector .lang-btn:hover {
+    .mobile-language-sector .lang-btn::before {
+        content: '';
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        transition: all 0.3s ease;
+    }
+
+    .mobile-language-selector .lang-btn.active::before {
         background-color: #fff;
-        color: #000;
     }
 
     /* Sections - Mobile adjustments */

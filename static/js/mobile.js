@@ -15,17 +15,41 @@ function createMobileMenuOverlay() {
     const overlay = document.createElement('div');
     overlay.className = 'mobile-menu-overlay';
     overlay.innerHTML = `
-        <button class="mobile-menu-close">&times;</button>
-        <nav class="mobile-nav">
-            <a href="we.html" data-translate="nav_we">We</a>
-            <a href="business.html" data-translate="nav_business">Business</a>
-            <a href="projects.html" data-translate="nav_project">Project</a>
-            <a href="join.html" data-translate="nav_join">Join</a>
-        </nav>
-        <div class="mobile-language-selector">
-            <button class="lang-btn active" data-lang="en">ENGLISH</button>
-            <button class="lang-btn" data-lang="ko">KOREAN</button>
-            <button class="lang-btn" data-lang="vi">VIETNAMESE</button>
+        <button class="mobile-menu-close">Close</button>
+        <div class="mobile-menu-content">
+            <div class="mobile-menu-section mobile-nav-section">
+                <nav class="mobile-nav">
+                    <a href="we.html" data-translate="nav_we">We</a>
+                    <a href="business.html" data-translate="nav_business">Business</a>
+                    <a href="projects.html" data-translate="nav_project">Project</a>
+                    <a href="join.html" data-translate="nav_join">Join</a>
+                </nav>
+            </div>
+            <div class="mobile-menu-border"></div>
+            <div class="mobile-menu-section mobile-contact-section">
+                <div class="mobile-contact">
+                    <span>S1.F15, No. 1 Tran Van Danh Street,</span>
+                    <span class="address-link">
+                        Carillon 1 Building, Tan Binh Ward, Ho Chi Minh City
+                    </span>
+                    <div class="mobile-contact-details">
+                        <div class="contact-item">
+                            <span>Phone</span> <a href="tel:+84964348068">+84 964 348 068</a>
+                        </div>
+                        <div class="contact-item">
+                            <span>Email</span><a href="mailto:biz@yutuvn.com">biz@yutuvn.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu-border"></div>
+            <div class="mobile-menu-section mobile-language-section">
+                <div class="mobile-language-selector">
+                    <button class="lang-btn active" data-lang="en">ENGLISH</button>
+                    <button class="lang-btn" data-lang="ko">KOREAN</button>
+                    <button class="lang-btn" data-lang="vi">VIETNAMESE</button>
+                </div>
+            </div>
         </div>
     `;
 
