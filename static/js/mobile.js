@@ -15,7 +15,7 @@ function createMobileMenuOverlay() {
     const overlay = document.createElement('div');
     overlay.className = 'mobile-menu-overlay';
     overlay.innerHTML = `
-        <button class="mobile-menu-close">Close</button>
+        <a class="mobile-menu-close">Close</a>
         <div class="mobile-menu-content">
             <div class="mobile-menu-section mobile-nav-section">
                 <nav class="mobile-nav">
