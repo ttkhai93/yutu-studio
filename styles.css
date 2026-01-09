@@ -866,6 +866,10 @@ main {
     opacity: 0.7;
 }
 
+.header-bottom-row.mobile-layout {
+    display: none;
+}
+
 /* Tablet Styles */
 @media (max-width: 768px) {
     .section {

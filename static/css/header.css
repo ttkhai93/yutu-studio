@@ -195,7 +195,6 @@
 }
 
 .we-page .header-bottom-left p {
-    margin-bottom: 20px;
     max-width: 750px;
 }
 
@@ -222,8 +221,6 @@
 .we-page .lang-btn {
     color: #000;
 }
-
-
 
 .header-bottom-image {
     width: 100%;
@@ -416,6 +413,23 @@
         right: 60px;
         margin-top: 10px;
         margin-left: 0;
+    }
+
+    .header-bottom-row.desktop-layout {
+        display: none;
+    }
+
+    .header-bottom-row.mobile-layout {
+        display: block;
+        padding: 20px;
+    }
+
+    .header-bottom-medium-text {
+        font-size: 20px;
+    }
+
+    .we-page .header-bottom-text {
+        padding: 10px 0;
     }
 }
 

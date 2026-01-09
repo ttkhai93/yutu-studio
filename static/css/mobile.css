@@ -102,7 +102,7 @@
     }
 
     .header-bottom-normal-text {
-        font-size: 11px;
+        font-size: 14px;
         line-height: 1.4;
     }
 
@@ -624,6 +624,11 @@
 
     .update-card.active {
         background-image: url('../images/MOBILE/1-10.png');
+    }
+
+    /* Mobile-specific header bottom image */
+    .header-bottom-image img {
+        content: url('../images/MOBILE/1-12.png');
     }
 }
 
