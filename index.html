@@ -219,8 +219,7 @@
                 <div class="swiper mySwiper news-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="update-card active"
-                                style="background-image: url('static/images/HOME/1-13.png');">
+                            <div class="update-card active">
                                 <div class="card-content">
                                     <div class="card-header">
                                         <div class="card-category">Company Update</div>
@@ -476,7 +475,6 @@
                 if (footer) {
                     footer.classList.remove('active');
                 }
-                slide.style.backgroundImage = '';
             });
 
             // Add active to the selected slide
@@ -486,7 +484,6 @@
                 if (footer) {
                     footer.classList.add('active');
                 }
-                slides[slideIndex].style.backgroundImage = "url('static/images/HOME/1-13.png')";
             }
         }
 

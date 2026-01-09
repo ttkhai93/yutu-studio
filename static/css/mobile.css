@@ -435,6 +435,30 @@
         min-height: 50vh;
         background: url(../images/MOBILE/1-07.png) center center / cover no-repeat;
     }
+
+    .card-content {
+        font-size: 14px;
+    }
+
+    .card-header {
+        padding: 0 20px;
+    }
+
+    .card-title {
+        padding: 0 20px;
+    }
+
+    .card-description {
+        padding: 0 20px;
+    }
+
+    .update-card {
+        min-height: 350px;
+    }
+
+    .update-card.active {
+        background-image: url('../images/MOBILE/1-10.png');
+    }
 }
 
 /* iPhone 12 Pro specific adjustments */
