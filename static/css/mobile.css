@@ -364,19 +364,73 @@
     }
 
     /* Footer - Mobile adjustments */
+    .footer {
+        background-size: contain;
+        clip-path: polygon(0 15px, 33.3% 0, 66.6% 15px, 100% 5px, 100% 100%, 0 100%);
+        align-items: flex-start !important;
+        padding-top: 120px !important;
+    }
+
+    /* Ensure the gradient overlay works properly on mobile */
+    .footer::before {
+        background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 1) 40%);
+    }
+
+    /* Add logo to top of footer-top on mobile */
+    .footer-top::before {
+        content: '';
+        display: block;
+        height: 65px;
+        margin: 0 auto 10px auto;
+        background-image: url('../images/MOBILE/1-14.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    /* Move logo above footer-top */
+    .footer-left {
+        /* order: -1;
+        text-align: center;
+        padding: 0 0 20px 0;
+        width: 100%;
+        flex: none; */
+        display: none;
+    }
+
     .footer-content {
         flex-direction: column;
-        gap: 30px;
+        gap: 0;
         text-align: center;
+        margin-bottom: 0;
+        padding: 10px 20px;
     }
 
     .footer-right {
-        flex-direction: column;
-        gap: 30px;
+        flex-direction: row;
+        gap: 10px;
+        width: 100% !important;
+        /* Full width */
+        flex: 1;
+        text-align: left;
+    }
+
+    /* Hide the first footer-column (EXPLORE section) */
+    .footer-column:first-child {
+        display: none !important;
     }
 
     .footer-column {
         flex: 1 !important;
+        font-size: 10px;
+    }
+
+    .footer-contact {
+        width: 60%;
+    }
+
+    .footer-bottom {
+        font-size: 10px;
     }
 
     /* Buttons - Mobile friendly sizing */

@@ -916,9 +916,9 @@ main {
         min-height: 80vh;
     }
 
-    .footer-top {
+    /* .footer-top {
         padding: 40px 20px;
-    }
+    } */
 
     .footer-title {
         font-size: 32px;
@@ -1021,9 +1021,9 @@ main {
         min-height: 70vh;
     }
 
-    .footer-top {
+    /* .footer-top {
         padding: 30px 15px;
-    }
+    } */
 
     .footer-title {
         font-size: 28px;
@@ -1042,9 +1042,9 @@ main {
         width: 100px;
     }
 
-    .footer-column h4 {
+    /* .footer-column h4 {
         font-size: 16px;
-    }
+    } */
 
     .section-3-title {
         font-size: 28px;
