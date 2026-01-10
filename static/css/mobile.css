@@ -128,6 +128,21 @@
         font-size: 14px;
     }
 
+    /* Join page specific header-bottom mobile styles */
+    .join-page .header-bottom-row {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px
+    }
+
+    .join-page .header-bottom-right {
+        order: 1;
+    }
+
+    .join-page .header-bottom-left {
+        order: 2;
+    }
+
     /* Mobile Menu Overlay */
     .mobile-menu-overlay {
         position: fixed;
@@ -588,7 +603,7 @@
     .section-3-title,
     .highlight-text {
         margin-left: 0;
-        font-size: 36px !important;
+        font-size: 32px !important;
         line-height: 1.3;
     }
 
