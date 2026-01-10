@@ -711,6 +711,26 @@
     .localization-right p {
         width: 100%;
     }
+
+    .localization-process-title {
+        margin-bottom: 0;
+    }
+
+    .process-block {
+        padding: 20px;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+    }
+
+    .process-number {
+        min-width: 0;
+    }
+
+    .process-header {
+        font-size: 16px;
+    }
 }
 
 /* iPhone 12 Pro specific adjustments */
