@@ -703,6 +703,14 @@
     .production-row h1 {
         font-size: 36px;
     }
+
+    .section-title.localization-title {
+        margin-bottom: 20px;
+    }
+
+    .localization-right p {
+        width: 100%;
+    }
 }
 
 /* iPhone 12 Pro specific adjustments */
