@@ -86,62 +86,6 @@
         transform: rotate(45deg) translate(-5px, -6px);
     }
 
-    /* Header Bottom - Stack vertically */
-    .header-bottom {
-        flex-direction: column;
-        /* padding: 20px; */
-        gap: 30px;
-        min-height: auto;
-    }
-
-    .header-bottom-left,
-    .header-bottom-right {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .header-bottom-left {
-        text-align: left;
-        order: 1;
-    }
-
-    .header-bottom-right {
-        order: 2;
-        justify-content: space-between;
-        /* flex-direction: column; */
-        align-items: center;
-        gap: 15px;
-    }
-
-    .header-bottom-large-text {
-        font-size: 36px;
-        line-height: 1.2;
-        margin-bottom: 15px;
-    }
-
-    .header-bottom-normal-text {
-        font-size: 14px;
-        line-height: 1.4;
-    }
-
-    .header-bottom-right-left {
-        font-size: 14px;
-    }
-
-    /* Join page specific header-bottom mobile styles */
-    .join-page .header-bottom-row {
-        flex-direction: column;
-        gap: 20px;
-        padding: 0 20px
-    }
-
-    .join-page .header-bottom-right {
-        order: 1;
-    }
-
-    .join-page .header-bottom-left {
-        order: 2;
-    }
 
     /* Mobile Menu Overlay */
     .mobile-menu-overlay {
@@ -368,7 +312,7 @@
     /* Sections - Mobile adjustments */
     .section-1 {
         padding: 20px 0 0 0;
-        min-height: 50vh;
+        min-height: auto;
     }
 
     .container {
@@ -857,7 +801,7 @@
 
     .footer {
         padding: 40px 0 20px;
-        min-height: 80vh;
+        min-height: auto;
     }
 
     /* .footer-top {
@@ -995,6 +939,10 @@
         max-height: 300px;
         /* Allow more height on mobile for longer text */
     }
+
+    .section-3-block .block-title {
+        font-size: 24px;
+    }
 }
 
 /* iPhone 12 Pro specific adjustments */
@@ -1006,10 +954,6 @@
     .section-title {
         font-size: 24px;
     }
-
-    /* .mobile-nav a {
-        font-size: 22px;
-    } */
 
     .header {
         height: 70px;
@@ -1050,22 +994,10 @@
         font-size: 48px;
     }
 
-    .section p {
-        font-size: 16px;
-    }
 
     .section-5-box {
         padding: 30px 20px;
     }
-
-    .footer {
-        padding: 30px 0 15px;
-        min-height: 70vh;
-    }
-
-    /* .footer-top {
-        padding: 30px 15px;
-    } */
 
     .footer-title {
         font-size: 28px;
@@ -1084,10 +1016,6 @@
         width: 100px;
     }
 
-    /* .footer-column h4 {
-        font-size: 16px;
-    } */
-
     .section-3-title {
         font-size: 28px;
     }
@@ -1095,10 +1023,6 @@
     .section-3-description {
         font-size: 16px;
         margin-bottom: 40px;
-    }
-
-    .section-3-block .block-title {
-        font-size: 24px;
     }
 
     .section-3-block .block-description {
@@ -1155,7 +1079,7 @@
 }
 
 /* Landscape mode adjustments */
-@media screen and (max-width: 844px) and (orientation: landscape) {
+/* @media screen and (max-width: 844px) and (orientation: landscape) {
     .mobile-menu-overlay {
         padding: 20px;
         justify-content: flex-start;
@@ -1170,4 +1094,4 @@
     .mobile-nav a {
         font-size: 20px;
     }
-}
+} */
