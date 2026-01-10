@@ -319,17 +319,7 @@ section:last-child {
 .section3-header {
     width: 70%;
     margin: auto;
-}
-
-.section-3-title {
     font-size: 121px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.index-page .section-3 span:nth-child(2) {
-    font-size: 120px;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
