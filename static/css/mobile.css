@@ -669,6 +669,40 @@
     .production-title {
         margin-bottom: 0px;
     }
+
+    /* Production rows - Mobile layout */
+    .production-row {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        align-items: flex-start;
+    }
+
+    .production-step {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 20px;
+    }
+
+    .production-step img {
+        height: 100px;
+        width: auto;
+    }
+
+    .production-content {
+        order: 2;
+        padding: 0;
+        width: 100%;
+    }
+
+    .production-image-right {
+        order: 1;
+    }
+
+    .production-row h1 {
+        font-size: 36px;
+    }
 }
 
 /* iPhone 12 Pro specific adjustments */
