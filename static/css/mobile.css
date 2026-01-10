@@ -545,9 +545,8 @@
         height: 16px;
     }
 
-    /* Typography adjustments */
     .section-title {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .index-page .section3-header {
@@ -629,11 +628,7 @@
         height: 200px;
     }
 
-    .production-title {
-        margin-bottom: 0px;
-    }
-
-    /* Production rows - Mobile layout */
+    /* Business Page */
     .production-row {
         flex-direction: column;
         gap: 20px;
@@ -667,16 +662,8 @@
         font-size: 36px;
     }
 
-    .section-title.localization-title {
-        margin-bottom: 20px;
-    }
-
     .localization-right p {
         width: 100%;
-    }
-
-    .localization-process-title {
-        margin-bottom: 0;
     }
 
     .process-block {
@@ -705,10 +692,6 @@
         min-height: 150px;
     }
 
-    .partners-title {
-        margin-bottom: 0;
-    }
-
     .partner-block img {
         height: auto;
     }
@@ -717,8 +700,8 @@
         width: 100%;
     }
 
-    .join-page.section h2 {
-        font-size: 40px;
+    .join-page .section-title {
+        text-align: left;
     }
 
     .hiring-sections {
@@ -768,10 +751,6 @@
 
     .section h2 {
         font-size: 32px;
-    }
-
-    .section-title {
-        font-size: 60px;
     }
 
     .section p {
@@ -838,10 +817,6 @@
         gap: 30px;
     }
 
-    .localization-title {
-        font-size: 36px;
-    }
-
     .localization-right p {
         font-size: 16px;
     }
@@ -851,11 +826,6 @@
         gap: 30px;
     }
 
-    .passion-title {
-        font-size: 36px;
-        margin-bottom: 10px;
-    }
-
     .passion-right p {
         font-size: 16px;
     }
@@ -863,10 +833,6 @@
     .vision-content {
         flex-direction: column;
         gap: 40px;
-    }
-
-    .vision-title {
-        font-size: 36px;
     }
 
     .vision-label {
@@ -880,10 +846,6 @@
     .vision-description {
         font-size: 16px;
         max-width: 100%;
-    }
-
-    .localization-process-title {
-        font-size: 36px;
     }
 
     .process-blocks-wrapper {
@@ -928,10 +890,6 @@
         font-size: 36px;
     }
 
-    .section-title {
-        font-size: 24px;
-    }
-
     .header {
         height: 70px;
     }
@@ -948,11 +906,6 @@
         font-size: 28px;
         margin-bottom: 15px;
     }
-
-    .section-title {
-        font-size: 48px;
-    }
-
 
     .section-5-box {
         padding: 30px 20px;
@@ -999,10 +952,6 @@
         width: 100%;
         text-align: center;
         padding: 0 20px;
-    }
-
-    .production-title {
-        font-size: 36px;
     }
 
     .projects-page.section-1,

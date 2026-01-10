@@ -107,6 +107,8 @@ section:last-child {
 .section-title {
     font-size: 75px;
     font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.4;
 }
 
 .section .container {
@@ -265,9 +267,19 @@ section:last-child {
 }
 
 /* Hiring Section Styles */
-.hiring-title {
-    text-align: left;
-    margin-bottom: 20px;
+.join-page .section-1 .container {
+    width: fit-content;
+    max-width: none;
+    position: relative;
+}
+
+.join-page .hiring-number,
+.join-page .hiring-section-title {
+    font-weight: bold;
+}
+
+.join-page .hiring-section-title {
+    margin-bottom: 10px;
 }
 
 .hiring-description {
@@ -365,11 +377,6 @@ section:last-child {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.section-4-title {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 .section-4-description {
     font-size: 22px;
     margin-bottom: 60px !important;
@@ -447,13 +454,6 @@ section:last-child {
 .image-full {
     flex: 0 0 50%;
     position: relative;
-}
-
-.partners-title {
-    text-align: left;
-    margin-bottom: 60px;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #ddd;
 }
 
 .partners-grid {
@@ -560,10 +560,6 @@ section:last-child {
     text-align: center;
 }
 
-.section-5-title {
-    margin-bottom: 20px;
-}
-
 .section-5-description {
     font-size: 22px;
     line-height: 1.6;
@@ -574,12 +570,6 @@ section:last-child {
 .section-5-button {
     display: flex;
     justify-content: center;
-}
-
-
-.section-6-title {
-    text-align: center;
-    margin-bottom: 60px;
 }
 
 /* .section-6-cards {
@@ -826,10 +816,8 @@ section:last-child {
 }
 
 /* Production Section Styles */
-.production-title {
+.business-page .section-title {
     text-align: left;
-    margin-bottom: 60px;
-    letter-spacing: 2px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -886,13 +874,6 @@ section:last-child {
 
 /* Localization Section Styles */
 
-.localization-title {
-    text-align: left;
-    margin-bottom: 60px;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #ddd;
-}
-
 .localization-content {
     display: flex;
     align-items: center;
@@ -926,10 +907,8 @@ section:last-child {
 }
 
 /* Passion Section Styles */
-.passion-title {
+.we-page .section-title {
     text-align: left;
-    margin-bottom: 60px;
-    letter-spacing: 2px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -963,14 +942,6 @@ section:last-child {
 }
 
 /* Vision Section Styles */
-.vision-title {
-    text-align: left;
-    margin-bottom: 60px;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
-}
-
 .vision-content {
     display: flex;
     justify-content: space-evenly;
@@ -1026,13 +997,6 @@ section:last-child {
 }
 
 /* Localization Process Section Styles */
-
-.localization-process-title {
-    text-align: left;
-    margin-bottom: 60px;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #ddd;
-}
 
 .process-blocks-wrapper {
     max-width: 1200px;
