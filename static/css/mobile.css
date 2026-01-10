@@ -339,39 +339,35 @@
         gap: 30px;
     }
 
-    .section-1-left,
-    .section-1-right {
+    .index-page .section-1-left,
+    .index-page .section-1-right {
         width: 100%;
     }
 
-
-    .section-1-left {
+    .index-page .section-1-left {
         display: none;
     }
 
-    .section-1-left img {
-        width: 100%;
-        height: auto;
+    .index-page .section-1-right {
+        padding-left: 0;
     }
 
-    .section-1-right {
-        padding-left: 0px;
+    .index-page .section-1-right-top {
+        font-size: 18px;
     }
 
-    .section-1-right-top span {
-        font-size: 20px;
-    }
-
-    .section-1-right-bottom {
+    .index-page .section-1-right-bottom {
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: auto auto;
         gap: 15px;
         align-items: flex-start;
         border-top: none;
+        min-height: 200px;
+        padding-top: 40px;
     }
 
-    .section-1-right-bottom-left {
+    .index-page .section-1-right-bottom-left {
         width: 100%;
         font-size: 36px;
         grid-column: 1;
@@ -379,7 +375,7 @@
         line-height: 1.1;
     }
 
-    .section-1-right-bottom-border {
+    .index-page .section-1-right-bottom-border {
         grid-column: 1 / -1;
         grid-row: 1;
         align-self: end;
@@ -388,12 +384,12 @@
         margin-top: 15px;
     }
 
-    .section-1-right-bottom-mid {
+    .index-page .section-1-right-bottom-mid {
         grid-column: 1;
         grid-row: 2;
     }
 
-    .section-1-right-bottom-right {
+    .index-page .section-1-right-bottom-right {
         grid-column: 2;
         grid-row: 2;
         text-align: right;
@@ -757,23 +753,6 @@
         min-height: auto;
     }
 
-    .section-1-left,
-    .section-1-right {
-        width: 100%;
-    }
-
-    .section-1-left {
-        min-height: 200px;
-    }
-
-    .section-1-right-top {
-        min-height: 120px;
-    }
-
-    .section-1-right-bottom {
-        min-height: 280px;
-    }
-
     /* Remove transforms for projects page sections on mobile */
     .projects-page.section-1,
     .projects-page.section-2 {
@@ -965,18 +944,7 @@
     }
 
 
-    .section-1-left {
-        padding: 30px 20px;
-        min-height: 180px;
-    }
 
-    .section-1-right-top {
-        min-height: 100px;
-    }
-
-    .section-1-right-bottom {
-        min-height: 230px;
-    }
 
     .section h2 {
         font-size: 28px;
