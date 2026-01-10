@@ -413,6 +413,18 @@
         font-size: 16px;
     }
 
+    .section-5 {
+        padding: 40px 20px;
+    }
+
+    .section-5-box {
+        padding: 20px 10px;
+    }
+
+    .section-5-description {
+        font-size: 14px;
+    }
+
     /* Sliders - Mobile adjustments */
     .swiper.projects-slider {
         padding: 0 10px;
@@ -757,10 +769,6 @@
         font-size: 16px;
     }
 
-    .section-5-box {
-        padding: 40px 30px;
-    }
-
     .footer {
         padding: 40px 0 20px;
         min-height: auto;
@@ -905,10 +913,6 @@
     .section h2 {
         font-size: 28px;
         margin-bottom: 15px;
-    }
-
-    .section-5-box {
-        padding: 30px 20px;
     }
 
     .footer-title {

@@ -237,7 +237,7 @@ section:last-child {
     height: 60%;
     font-size: 30px;
     font-weight: 700;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .index-page .section-1-right-bottom {
@@ -325,7 +325,7 @@ section:last-child {
 }
 
 .hiring-section-text {
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .index-page .section3-header {
@@ -373,7 +373,7 @@ section:last-child {
 .index-page .section-3-block .block-description {
     height: 50%;
     font-size: 22px;
-    line-height: 1.6;
+    line-height: 1.4;
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -562,8 +562,8 @@ section:last-child {
 
 .section-5-description {
     font-size: 22px;
-    line-height: 1.6;
-    margin-bottom: 30px;
+    line-height: 1.4;
+    margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -684,7 +684,7 @@ section:last-child {
 }
 
 .card-description {
-    line-height: 1.6;
+    line-height: 1.4;
     padding: 0 30px;
     margin-bottom: 25px;
     flex: 1;
