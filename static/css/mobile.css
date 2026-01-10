@@ -52,25 +52,25 @@
     /* Show mobile menu toggle */
     .mobile-menu-toggle {
         display: flex !important;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 30px;
         height: 30px;
-        background: none;
+        background: url('../images/MOBILE/1-17.png') center center / contain no-repeat;
         border: none;
         cursor: pointer;
         padding: 0;
     }
 
+    /* Make menu toggle dark on non-index pages */
+    .business-page .mobile-menu-toggle,
+    .we-page .mobile-menu-toggle,
+    .join-page .mobile-menu-toggle {
+        filter: invert(1);
+    }
+
     .mobile-menu-toggle span {
-        display: block;
-        width: 25px;
-        height: 3px;
-        background-color: #fff;
-        margin: 3px 0;
-        transition: 0.3s;
-        border-radius: 2px;
+        display: none;
     }
 
     /* Hamburger animation */
