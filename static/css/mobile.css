@@ -315,16 +315,15 @@
         min-height: auto;
     }
 
-
-    .section {
+    section {
         padding: 10px 0;
     }
 
-    .section:first-child {
+    section:first-child {
         padding-top: 20px;
     }
 
-    .section:last-child {
+    section:last-child {
         padding-bottom: 20px;
     }
 
