@@ -343,11 +343,11 @@
     }
 
     /* Section 2 - Use mobile image */
-    .section-2 img {
+    .index-page .section-2 img {
         display: none;
     }
 
-    .section-2 .container {
+    .index-page .section-2 .container {
         background: url(../images/MOBILE/1-16.png) center / contain no-repeat;
         min-height: 350px;
         display: flex;
@@ -629,6 +629,23 @@
     /* Mobile-specific header bottom image */
     .header-bottom-image img {
         content: url('../images/MOBILE/1-12.png');
+    }
+
+    .vision-left,
+    .vision-right {
+        padding-left: 0;
+    }
+
+    .vision-left .vision-image {
+        height: 220px;
+    }
+
+    .vision-right .vision-image {
+        height: 220px;
+    }
+
+    .vision-image img {
+        height: 200px;
     }
 }
 
