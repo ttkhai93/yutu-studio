@@ -309,12 +309,6 @@
         background-color: #fff;
     }
 
-    /* Sections - Mobile adjustments */
-    .section-1 {
-        padding: 20px 0 0 0;
-        min-height: auto;
-    }
-
     section {
         padding: 10px 0;
     }

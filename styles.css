@@ -122,7 +122,7 @@ section:last-child {
 /* Different backgrounds for sections */
 /* Section 1 Layout */
 
-
+/* Projects Page Styles */
 .projects-page.section-1,
 .projects-page.section-2 {
     overflow: hidden;
@@ -136,15 +136,6 @@ section:last-child {
 .projects-page.section-2 {
     transform: translateX(200px);
 }
-
-.section-1 .container,
-.section-2 .container {
-    max-width: none;
-    /* margin: 0 auto; */
-    position: relative;
-    /* overflow: visible; */
-}
-
 
 .projects-page.section-1 .container,
 .projects-page.section-2 .container {
