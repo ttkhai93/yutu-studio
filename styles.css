@@ -93,16 +93,20 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px 0;
+    padding: 40px 0;
+}
+
+.section:first-child {
+    padding-top: 80px;
+}
+
+.section:last-child {
+    padding-bottom: 80px;
 }
 
 .section-title {
     font-size: 75px;
     font-weight: 700;
-}
-
-.index-page .section-2 {
-    padding: 0;
 }
 
 .section .container {
@@ -382,11 +386,6 @@ main {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.section-4 {
-    background: #ffffff;
-    padding-bottom: 60px;
-}
-
 .section-4-title {
     margin-bottom: 20px;
     text-align: center;
@@ -560,8 +559,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 150px;
-    height: 60vh;
+    padding: 80px 150px;
+    /* height: 60vh; */
 }
 
 .section-5-content {
@@ -598,11 +597,6 @@ main {
     justify-content: center;
 }
 
-/* Section 6 */
-.section-6 {
-    padding: 80px 0;
-    background: #f8f9fa;
-}
 
 .section-6-title {
     text-align: center;
