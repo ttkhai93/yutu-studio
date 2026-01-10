@@ -395,10 +395,22 @@
         text-align: right;
     }
 
-    /* Section 3 blocks - Stack vertically */
-    .section-3-blocks {
+    /* Index page Section 3 blocks - Stack vertically */
+    .index-page .section-3-blocks {
         flex-direction: column;
         gap: 30px;
+    }
+
+    .index-page .section-3-block {
+        padding: 30px;
+    }
+
+    .index-page .section-3-block .block-title {
+        font-size: 24px;
+    }
+
+    .index-page .section-3-block .block-description {
+        font-size: 16px;
     }
 
     /* Sliders - Mobile adjustments */
@@ -538,12 +550,12 @@
         font-size: 28px;
     }
 
-    .section3-header {
+    .index-page .section3-header {
         width: 80%;
         font-size: 36px;
     }
 
-    .section-3-description {
+    .index-page .section-3-description {
         font-size: 16px;
         line-height: 1.4;
         margin: 20px 0;
@@ -907,9 +919,7 @@
         /* Allow more height on mobile for longer text */
     }
 
-    .section-3-block .block-title {
-        font-size: 24px;
-    }
+
 }
 
 /* iPhone 12 Pro specific adjustments */
@@ -965,9 +975,7 @@
         width: 100px;
     }
 
-    .section-3-block .block-description {
-        font-size: 16px;
-    }
+
 
     .production-row {
         flex-direction: column;
