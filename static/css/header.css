@@ -431,6 +431,16 @@
     .we-page .header-bottom-text {
         padding: 10px 0;
     }
+
+    .business-page .header-bottom-row {
+        font-size: 60px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .business-page .header-bottom-right {
+        width: 100%;
+    }
 }
 
 /* Mobile Styles */

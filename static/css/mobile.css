@@ -665,6 +665,10 @@
     .vision-image img {
         height: 200px;
     }
+
+    .production-title {
+        margin-bottom: 0px;
+    }
 }
 
 /* iPhone 12 Pro specific adjustments */
