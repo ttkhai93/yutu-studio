@@ -788,6 +788,12 @@
     .hiring-content span:nth-child(2) {
         font-size: 16px;
     }
+
+    .project-footer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: baseline;
+    }
 }
 
 /* iPhone 12 Pro specific adjustments */

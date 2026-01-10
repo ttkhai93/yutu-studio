@@ -896,6 +896,12 @@ main {
         min-height: 280px;
     }
 
+    /* Remove transforms for projects page sections on mobile */
+    .projects-page.section-1,
+    .projects-page.section-2 {
+        transform: none;
+    }
+
     .section h2 {
         font-size: 32px;
     }
