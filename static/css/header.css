@@ -63,9 +63,6 @@
     color: white;
 }
 
-.header-bottom-left>div:nth-child(1) {
-    margin-bottom: 20px;
-}
 
 .header-bottom-right {
     width: 50%;
@@ -163,9 +160,6 @@
 }
 
 /* Join page specific text colors */
-.join-page .header-bottom-row {
-    font-size: 60px;
-}
 
 .join-page .header-bottom-left {
     padding: 0;
