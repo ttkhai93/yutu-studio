@@ -731,6 +731,24 @@
     .process-header {
         font-size: 16px;
     }
+
+    /* Partners Grid Mobile Styles */
+    .partners-grid {
+        gap: 20px;
+    }
+
+    .partner-block {
+        flex: 0 0 calc(50% - 10px);
+        min-height: 150px;
+    }
+
+    .partners-title {
+        margin-bottom: 0;
+    }
+
+    .partner-block img {
+        height: auto;
+    }
 }
 
 /* iPhone 12 Pro specific adjustments */
