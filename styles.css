@@ -1009,6 +1009,8 @@ section:last-child {
     padding: 60px 80px;
     clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 50px, 100% 100%, 0 100%);
     position: relative;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 .process-block-with-bg {
@@ -1038,16 +1040,12 @@ section:last-child {
 }
 
 .process-number {
-    font-size: 48px;
-    font-weight: 700;
     min-width: 100px;
     color: #bbb;
 }
 
 .process-header {
     flex: 1;
-    font-size: 52px;
-    font-weight: 700;
     margin: 0;
     text-align: left;
 }
