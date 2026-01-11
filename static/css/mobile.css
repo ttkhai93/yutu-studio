@@ -862,3 +862,437 @@
         gap: 20px;
     }
 }
+
+/* Landscape Mode for iPhone 12 Pro and similar devices (844x390) */
+@media screen and (orientation: landscape) and (max-height: 480px) {
+
+    /* Base adjustments */
+    body {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    main {
+        padding: 0 20px;
+    }
+
+    /* Header */
+    .header-top {
+        padding: 5px 15px;
+    }
+
+    .header-top .container {
+        /* padding-top: 5px; */
+    }
+
+    .nav-controls-group {
+        gap: 15px;
+        /* right: 10px; */
+        /* top: 5px; */
+    }
+
+    .nav-list li a {
+        font-size: 20px;
+    }
+
+    .lang-btn {
+        font-size: 12px;
+    }
+
+    .mobile-menu-toggle {
+        width: 18px;
+        height: 18px;
+    }
+
+    .header-bottom-row {
+        padding: 10px 15px;
+        min-height: 50px;
+    }
+
+    .header-bottom-large-text {
+        font-size: 36px;
+    }
+
+    .header-bottom-medium-text {
+        font-size: 22px;
+    }
+
+    .header-bottom-normal-text {
+        font-size: 11px;
+    }
+
+    .header-bottom-right-left {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .header-bottom-right-right {
+        padding: 5px;
+    }
+
+    .index-page .header-bottom-left {
+        padding: 20px;
+    }
+
+    /* Mobile menu adjustments */
+    .mobile-menu-overlay {
+        padding: 15px 10px;
+    }
+
+    .mobile-menu-close {
+        top: 8px;
+        right: 10px;
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+
+    .mobile-menu-content {
+        gap: 15px;
+    }
+
+    .mobile-nav a {
+        font-size: 16px;
+    }
+
+    .mobile-contact h4 {
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+
+    .mobile-contact span,
+    .contact-item span,
+    .contact-item a {
+        font-size: 7px;
+    }
+
+    .mobile-language-selector .lang-btn {
+        font-size: 8px;
+    }
+
+    /* Sections */
+    section {
+        padding: 5px 0;
+    }
+
+    section:first-child {
+        padding-top: 10px;
+    }
+
+    section:last-child {
+        padding-bottom: 10px;
+    }
+
+    .section-title {
+        font-size: 18px;
+        margin-bottom: 5px;
+        line-height: 1.2;
+    }
+
+    .section h2 {
+        font-size: 14px;
+        margin-bottom: 5px;
+        padding: 3px 0;
+    }
+
+    /* Section 1 */
+    .section-1-layout {
+        min-height: auto;
+    }
+
+    .index-page .section-1-right {
+        padding-left: 20px;
+    }
+
+    .index-page .section-1-right-top {
+        font-size: 16px;
+    }
+
+    .index-page .section-1-right-bottom {
+        gap: 8px;
+        padding-top: 10px;
+        min-height: auto;
+    }
+
+    .index-page .section-1-right-bottom-left {
+        font-size: 24px;
+    }
+
+    .index-page .section-1-right-bottom-mid,
+    .index-page .section-1-right-bottom-right {
+        font-size: 16px;
+    }
+
+    /* Section 3 */
+    .index-page .section3-header {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .index-page .section-3-description {
+        font-size: 8px;
+        line-height: 1.2;
+        margin: 8px 0;
+    }
+
+    .index-page .section-3-blocks {
+        gap: 10px;
+    }
+
+    .index-page .section-3-block {
+        padding: 10px;
+    }
+
+    .block-title {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .block-description {
+        font-size: 7px;
+        line-height: 1.2;
+    }
+
+    /* Section 5 */
+    .section-5 {
+        padding: 15px 10px;
+    }
+
+    .section-5-box {
+        padding: 8px 5px;
+    }
+
+    /* Middle blocks */
+    .middle-block {
+        gap: 8px;
+        padding: 8px 0;
+    }
+
+    /* Cards */
+    .update-card {
+        min-height: 120px;
+    }
+
+    .card-header,
+    .card-title,
+    .card-description {
+        padding: 0 10px;
+    }
+
+    .card-content {
+        font-size: 7px;
+    }
+
+    /* Vision sections */
+    .vision-content {
+        gap: 15px;
+    }
+
+    .vision-left .vision-image,
+    .vision-right .vision-image {
+        height: 80px;
+    }
+
+    .vision-image img {
+        height: 70px;
+    }
+
+    .vision-label {
+        font-size: 8px;
+    }
+
+    .vision-subtitle {
+        font-size: 18px;
+    }
+
+    /* Business page */
+    .production-row {
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .production-row h1 {
+        font-size: 16px;
+    }
+
+    .production-step {
+        gap: 10px;
+    }
+
+    .production-step img {
+        height: 40px;
+    }
+
+    .business-page .header-bottom-left .header-bottom-text {
+        width: 70%;
+    }
+
+    /* Process blocks */
+    .process-blocks-wrapper {
+        gap: 8px;
+    }
+
+    .process-block {
+        padding: 5px;
+        gap: 8px;
+        font-size: 8px;
+        clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+    }
+
+    .process-sub-block {
+        padding: 0 12px;
+        font-size: 7px;
+    }
+
+    .process-sub-block.show {
+        padding: 8px 12px;
+        max-height: 100px;
+    }
+
+    /* Partners */
+    .partners-grid {
+        gap: 8px;
+    }
+
+    .partner-block {
+        min-height: 60px;
+    }
+
+    /* Localization & Passion */
+    .localization-content,
+    .passion-content {
+        gap: 12px;
+    }
+
+    /* Projects page */
+    .projects-page.section-1,
+    .projects-page.section-2 {
+        padding: 15px 10px;
+    }
+
+    .project-background-text {
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+
+    .project-footer {
+        gap: 8px;
+        margin-top: 8px;
+    }
+
+    /* Join/Hiring page */
+    .hiring-sections {
+        width: 100%;
+    }
+
+    .hiring-section {
+        padding: 8px 0;
+        gap: 10px;
+    }
+
+    .hiring-description {
+        margin-bottom: 15px;
+    }
+
+    .hiring-description p {
+        margin-bottom: 5px;
+    }
+
+    /* Sliders */
+    .swiper.projects-slider,
+    .swiper.news-slider {
+        padding: 0 5px;
+        margin: 0 -5px;
+    }
+
+    .swiper.projects-slider .swiper-slide {
+        max-width: 150px;
+    }
+
+    .swiper.news-slider .swiper-slide {
+        max-width: 130px;
+    }
+
+    /* Buttons */
+    .btn-with-icon {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        gap: 4px;
+        padding: 0;
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+    }
+
+    .btn-with-icon::before {
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 9px), calc(100% - 9px) 100%, 0 100%);
+    }
+
+    .btn-with-icon img {
+        width: 8px !important;
+        height: 8px !important;
+    }
+
+    /* Scroll to top */
+    .scroll-to-top-btn {
+        width: 25px;
+        height: 25px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .scroll-to-top-btn img {
+        width: 12px;
+        height: 12px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 15px 0 10px;
+        min-height: 50vh;
+        clip-path: polygon(0 8px, 33.3% 0, 66.6% 8px, 100% 3px, 100% 100%, 0 100%);
+    }
+
+    .footer-top::before {
+        height: 25px;
+        margin: 0 auto 5px auto;
+    }
+
+    .footer-title {
+        font-size: 16px;
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+    }
+
+    .footer-description {
+        margin-bottom: 8px;
+        font-size: 7px;
+    }
+
+    .footer-content {
+        padding: 5px 10px;
+        gap: 5px;
+        margin-top: 15px;
+    }
+
+    .footer-right {
+        gap: 5px;
+    }
+
+    .footer-column {
+        font-size: 5px;
+    }
+
+    .footer-column h4 {
+        margin-bottom: 3px;
+        font-size: 6px;
+    }
+
+    .footer-bottom {
+        font-size: 5px;
+        padding: 5px 10px;
+    }
+
+    /* Logo */
+    .logo h1 {
+        font-size: 10px;
+    }
+}

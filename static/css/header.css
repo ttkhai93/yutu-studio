@@ -69,7 +69,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     gap: 20px;
 }
 
@@ -200,8 +200,6 @@
 
 .we-page .header-bottom-text {
     font-size: 60px;
-    line-height: 2;
-    padding: 40px 0;
 }
 
 .we-page .nav-list li {
