@@ -228,18 +228,8 @@
     display: block;
 }
 
-.logo img {
-    height: 250px;
-    width: auto;
-}
-
 .logo a {
     display: block;
-}
-
-.logo-small img {
-    height: 100px;
-    width: auto;
 }
 
 .navbar {

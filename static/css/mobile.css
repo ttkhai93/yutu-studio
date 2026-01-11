@@ -1,14 +1,5 @@
 /* Mobile Styles - Optimized for iPhone 12 Pro (390x844) and similar devices */
 
-/* Logo display control */
-.mobile-logo {
-    display: none;
-}
-
-.desktop-logo {
-    display: block;
-}
-
 /* Hide mobile menu on desktop */
 .mobile-menu-overlay {
     display: none;
@@ -30,21 +21,6 @@
     /* Header Styles */
     .header-top .container {
         padding: 10px 20px;
-    }
-
-    /* Logo display control for mobile */
-    .desktop-logo {
-        display: none !important;
-    }
-
-    .mobile-logo {
-        display: block !important;
-    }
-
-    /* Logo - smaller size */
-    .logo img {
-        height: 60px;
-        width: auto;
     }
 
     /* Hide desktop navigation and language selector on mobile */
