@@ -896,12 +896,6 @@
         height: auto;
     }
 
-    .production-content {
-        width: 100%;
-        text-align: center;
-        padding: 0 20px;
-    }
-
     .projects-page.section-1,
     .projects-page.section-2 {
         padding: 30px 15px;
