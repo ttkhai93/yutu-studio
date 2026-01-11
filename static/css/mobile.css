@@ -356,7 +356,7 @@
         align-items: flex-start;
         border-top: none;
         min-height: 200px;
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
     .index-page .section-1-right-bottom-left {
@@ -570,7 +570,7 @@
     }
 
     .header-with-bg {
-        min-height: 50vh;
+        min-height: 55vh;
         background: url(../images/MOBILE/1-07.png) center center / cover no-repeat;
     }
 
