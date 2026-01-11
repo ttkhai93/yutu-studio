@@ -445,11 +445,6 @@
 
     /* Move logo above footer-top */
     .footer-left {
-        /* order: -1;
-        text-align: center;
-        padding: 0 0 20px 0;
-        width: 100%;
-        flex: none; */
         display: none;
     }
 
@@ -707,10 +702,6 @@
         gap: 30px;
     }
 
-    .footer-logo {
-        width: 120px;
-    }
-
     .section-3-blocks {
         flex-direction: column;
         gap: 20px;
@@ -809,10 +800,6 @@
     .footer-content {
         gap: 25px;
         margin-bottom: 25px;
-    }
-
-    .footer-logo {
-        width: 100px;
     }
 
     .production-row {
@@ -1230,9 +1217,8 @@
 
     /* Footer */
     .footer {
-        padding: 15px 0 10px;
-        min-height: 50vh;
         clip-path: polygon(0 8px, 33.3% 0, 66.6% 8px, 100% 3px, 100% 100%, 0 100%);
+        padding-bottom: 10px;
     }
 
     .footer-top::before {
@@ -1241,24 +1227,32 @@
     }
 
     .footer-title {
-        font-size: 16px;
+        font-size: 48px;
         margin-bottom: 5px;
         letter-spacing: 1px;
     }
 
     .footer-description {
+        font-size: 16px;
         margin-bottom: 8px;
-        font-size: 7px;
     }
 
     .footer-content {
-        padding: 5px 10px;
-        gap: 5px;
-        margin-top: 15px;
+        max-width: 500px;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+
+    .footer-left {
+        padding-left: 0;
     }
 
     .footer-right {
-        gap: 5px;
+        gap: 15px;
+    }
+
+    .footer-logo {
+        width: 100px;
     }
 
     .footer-column {
@@ -1268,6 +1262,10 @@
     .footer-column h4 {
         margin-bottom: 3px;
         font-size: 6px;
+    }
+
+    .address-link {
+        width: 100px
     }
 
     .footer-bottom {
