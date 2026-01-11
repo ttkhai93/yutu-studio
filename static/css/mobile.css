@@ -14,7 +14,7 @@
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     body {
         font-size: 16px;
     }
@@ -832,10 +832,7 @@
     .business-page .header-bottom-left .header-bottom-text {
         width: 60%;
     }
-}
 
-/* iPhone 12 Pro specific adjustments */
-@media screen and (max-width: 390px) {
     .header-bottom-large-text {
         font-size: 36px;
     }
@@ -865,8 +862,6 @@
     .footer-logo {
         width: 100px;
     }
-
-
 
     .production-row {
         flex-direction: column;
@@ -906,21 +901,3 @@
         gap: 20px;
     }
 }
-
-/* Landscape mode adjustments */
-/* @media screen and (max-width: 844px) and (orientation: landscape) {
-    .mobile-menu-overlay {
-        padding: 20px;
-        justify-content: flex-start;
-        padding-top: 60px;
-    }
-
-    .mobile-nav {
-        margin-bottom: 30px;
-        gap: 20px;
-    }
-
-    .mobile-nav a {
-        font-size: 20px;
-    }
-} */
