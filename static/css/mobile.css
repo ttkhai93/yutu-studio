@@ -971,15 +971,15 @@
 
     /* Sections */
     section {
-        padding: 5px 0;
+        padding: 10px 0;
     }
 
     section:first-child {
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     section:last-child {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 
     .section-title {
