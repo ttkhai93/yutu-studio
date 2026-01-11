@@ -3,7 +3,6 @@
     /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
     z-index: 1000;
     width: 100%;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -344,21 +343,6 @@
 
 /* Tablet Styles */
 @media (max-width: 768px) {
-    .header {
-        height: 80px;
-    }
-
-    .header.we-page {
-        min-height: 90vh;
-    }
-
-    .header.business-page {
-        min-height: 75vh;
-    }
-
-    .header.join-page {
-        min-height: 80vh;
-    }
 
     .logo h1 {
         font-size: 22px;
