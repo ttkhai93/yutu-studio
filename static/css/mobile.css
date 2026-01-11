@@ -313,18 +313,6 @@
         padding-bottom: 20px;
     }
 
-    /* Section 2 - Use mobile image */
-    .index-page .section-2 img {
-        display: none;
-    }
-
-    .index-page .section-2 .container {
-        background: url(../images/MOBILE/1-16.png) center / contain no-repeat;
-        min-height: 350px;
-        display: flex;
-        align-items: center;
-    }
-
     /* Section 1 - Stack vertically */
     .section-1-layout {
         flex-direction: column;
