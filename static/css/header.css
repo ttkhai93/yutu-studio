@@ -249,7 +249,7 @@
 .nav-list {
     display: flex;
     gap: 10px;
-    line-height: normal;
+    line-height: 0.8;
 }
 
 .nav-list li {
@@ -285,7 +285,7 @@
     border: none;
     color: #fff;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 1.4;
     padding: 2px 4px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -474,7 +474,7 @@
 
     .header-bottom-large-text {
         font-size: 36px;
-        line-height: 1.2;
+        line-height: 1.4;
         margin-bottom: 15px;
     }
 

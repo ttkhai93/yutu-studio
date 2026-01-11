@@ -15,6 +15,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
     main {
         padding: 0 20px;
     }
@@ -271,23 +275,11 @@
     }
 
     .mobile-language-selector .lang-btn {
-        /* background: none;
-        border: 1px solid #fff;
-        color: #fff;
-        padding: 8px 16px;
-        font-size: 13px;
-        font-weight: 500;
-        cursor: pointer;
-        border-radius: 20px;
-        transition: all 0.3s ease;
-        min-width: 100px;
-        text-align: center; */
-
         background: transparent;
         border: none;
         color: #fff;
         font-size: 16px;
-        line-height: 18px;
+        line-height: 1.4;
         padding: 2px 4px;
         cursor: pointer;
         transition: all 0.3s ease;
@@ -372,7 +364,7 @@
         font-size: 36px;
         grid-column: 1;
         grid-row: 1;
-        line-height: 1.1;
+        line-height: 1.4;
     }
 
     .index-page .section-1-right-bottom-border {
@@ -409,20 +401,12 @@
         font-size: 24px;
     }
 
-    .index-page .section-3-block .block-description {
-        font-size: 16px;
-    }
-
     .section-5 {
         padding: 40px 20px;
     }
 
     .section-5-box {
         padding: 20px 10px;
-    }
-
-    .section-5-description {
-        font-size: 14px;
     }
 
     /* Sliders - Mobile adjustments */
@@ -463,11 +447,6 @@
         gap: 15px;
         padding: 20px 0;
     }
-
-    /* .middle-block-col-left,
-    .middle-block-col-right {
-        width: 100% !important;
-    } */
 
     .middle-block-col-right {
         justify-content: flex-start !important;
@@ -724,13 +703,6 @@
         gap: 20px;
     }
 
-    .hiring-list li {
-        font-size: 16px;
-    }
-
-    .hiring-content span:nth-child(2) {
-        font-size: 16px;
-    }
 
     .project-footer {
         flex-direction: column;
@@ -765,10 +737,6 @@
         font-size: 32px;
     }
 
-    .section p {
-        font-size: 16px;
-    }
-
     .footer {
         padding: 40px 0 20px;
         min-height: auto;
@@ -780,10 +748,6 @@
 
     .footer-title {
         font-size: 32px;
-    }
-
-    .footer-description {
-        font-size: 16px;
     }
 
     .footer-content {
@@ -825,17 +789,9 @@
         gap: 30px;
     }
 
-    .localization-right p {
-        font-size: 16px;
-    }
-
     .passion-content {
         flex-direction: column;
         gap: 30px;
-    }
-
-    .passion-right p {
-        font-size: 16px;
     }
 
     .vision-content {
@@ -849,11 +805,6 @@
 
     .vision-subtitle {
         font-size: 50px;
-    }
-
-    .vision-description {
-        font-size: 16px;
-        max-width: 100%;
     }
 
     .process-blocks-wrapper {
@@ -917,10 +868,6 @@
 
     .footer-title {
         font-size: 28px;
-    }
-
-    .footer-description {
-        font-size: 16px;
     }
 
     .footer-content {

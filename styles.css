@@ -205,8 +205,6 @@ section:last-child {
 .project-title {
     font-weight: 700;
     margin-bottom: 10px !important;
-    padding: 0 !important;
-    line-height: normal;
 }
 
 .section-1-layout {
@@ -252,7 +250,7 @@ section:last-child {
     width: 40%;
     font-size: 60px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.4;
 }
 
 .index-page .section-1-right-bottom-mid {
@@ -338,7 +336,6 @@ section:last-child {
 }
 
 .index-page .section-3-description {
-    font-size: 22px;
     margin-bottom: 60px;
     text-align: center;
 }
@@ -355,7 +352,7 @@ section:last-child {
     padding: 60px;
     border-radius: 8px;
     transition: transform 0.3s ease;
-    line-height: normal;
+    line-height: 1.4;
 }
 
 .index-page .section-3-block:hover {
@@ -372,13 +369,11 @@ section:last-child {
 
 .index-page .section-3-block .block-description {
     height: 50%;
-    font-size: 22px;
     line-height: 1.4;
     color: rgba(255, 255, 255, 0.9);
 }
 
 .section-4-description {
-    font-size: 22px;
     margin-bottom: 60px !important;
     text-align: center;
     max-width: 1200px;
@@ -441,8 +436,7 @@ section:last-child {
 
 }
 
-.middle-block-col-left div {
-    font-size: 22px;
+.middle-block-col-left {
     font-weight: 700;
 }
 
@@ -561,7 +555,6 @@ section:last-child {
 }
 
 .section-5-description {
-    font-size: 22px;
     line-height: 1.4;
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.9);
@@ -678,7 +671,7 @@ section:last-child {
 .card-title {
     font-weight: 700;
     margin-bottom: 30px;
-    line-height: 1.3;
+    line-height: 1.4;
     padding: 0 30px;
     transition: color 0.3s ease;
 }
@@ -898,7 +891,7 @@ section:last-child {
 
 .localization-right p {
     width: 70%;
-    line-height: 1.8;
+    line-height: 1.4;
     margin-bottom: 20px;
 }
 
@@ -993,7 +986,7 @@ section:last-child {
 
 .vision-description {
     width: 100%;
-    line-height: 1.8;
+    line-height: 1.4;
 }
 
 /* Localization Process Section Styles */
@@ -1097,9 +1090,7 @@ section:last-child {
 }
 
 .process-sub-block p {
-    font-size: 16px;
-    line-height: 1.8;
-    margin: 0;
+    line-height: 1.4;
 }
 
 .process-toggle {
