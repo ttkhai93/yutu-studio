@@ -10,6 +10,7 @@
 
 .header-with-bg {
     background: url('../images/HOME/1-10.png') center center / cover no-repeat;
+    min-height: 100vh;
 }
 
 .header-top {
