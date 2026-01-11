@@ -526,8 +526,7 @@ section:last-child {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px 150px;
-    /* height: 60vh; */
+    padding: 80px 180px;
 }
 
 .section-5-content {
