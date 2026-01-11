@@ -599,9 +599,9 @@
     }
 
     /* Mobile-specific header bottom image */
-    .header-bottom-image img {
+    /* .header-bottom-image img {
         content: url('../images/MOBILE/1-12.png');
-    }
+    } */
 
     .vision-left,
     .vision-right {
@@ -829,7 +829,9 @@
         /* Allow more height on mobile for longer text */
     }
 
-
+    .business-page .header-bottom-left .header-bottom-text {
+        width: 60%;
+    }
 }
 
 /* iPhone 12 Pro specific adjustments */
