@@ -116,12 +116,6 @@ section:last-child {
     text-align: center;
 }
 
-.section h2 {
-    font-size: 42px;
-    margin-bottom: 20px;
-    padding: 10px 0;
-}
-
 /* Different backgrounds for sections */
 /* Section 1 Layout */
 
@@ -377,7 +371,7 @@ section:last-child {
 .section-4-description {
     margin-bottom: 60px !important;
     text-align: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
 }
 

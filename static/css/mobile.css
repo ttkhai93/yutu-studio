@@ -684,10 +684,6 @@
         transform: none;
     }
 
-    .section h2 {
-        font-size: 32px;
-    }
-
     .footer {
         padding: 40px 0 20px;
         min-height: auto;
@@ -804,11 +800,6 @@
 
     .navbar {
         top: 70px;
-    }
-
-    .section h2 {
-        font-size: 28px;
-        margin-bottom: 15px;
     }
 
     .footer-title {
@@ -983,15 +974,9 @@
     }
 
     .section-title {
-        font-size: 18px;
-        margin-bottom: 5px;
+        font-size: 48px;
+        margin-bottom: 10px;
         line-height: 1.2;
-    }
-
-    .section h2 {
-        font-size: 14px;
-        margin-bottom: 5px;
-        padding: 3px 0;
     }
 
     /* Section 1 */
@@ -1024,14 +1009,13 @@
 
     /* Section 3 */
     .index-page .section3-header {
-        font-size: 16px;
-        width: 90%;
+        font-size: 48px;
+        width: 50%;
     }
 
     .index-page .section-3-description {
-        font-size: 8px;
-        line-height: 1.2;
-        margin: 8px 0;
+        font-size: 16px;
+        margin-bottom: 20px;
     }
 
     .index-page .section-3-blocks {
@@ -1042,14 +1026,14 @@
         padding: 10px;
     }
 
-    .block-title {
-        font-size: 10px;
-        margin-bottom: 5px;
+    .index-page .section-3-block .block-title {
+        font-size: 32px;
+        margin-bottom: 10px;
     }
 
-    .block-description {
-        font-size: 7px;
-        line-height: 1.2;
+
+    .index-page .section-3-block .block-description {
+        font-size: 14px;
     }
 
     /* Section 5 */
