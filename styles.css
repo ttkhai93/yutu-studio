@@ -122,20 +122,18 @@ section:last-child {
 .projects-page.section-1,
 .projects-page.section-2 {
     overflow: hidden;
-    padding: 60px 40px;
 }
 
 .projects-page.section-1 {
-    transform: translateX(-200px);
+    transform: translateX(-350px);
 }
 
 .projects-page.section-2 {
-    transform: translateX(200px);
+    transform: translateX(350px);
 }
 
 .projects-page.section-1 .container,
 .projects-page.section-2 .container {
-    max-width: 1400px;
     margin: 0 auto;
     position: relative;
     overflow: visible;
@@ -157,7 +155,7 @@ section:last-child {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.05);
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 0;
     transform: translateY(-50%);
     z-index: 0;
@@ -169,13 +167,11 @@ section:last-child {
 .project-image {
     position: relative;
     z-index: 1;
-    max-width: 900px;
+    max-width: 865px;
     margin: 0 auto;
 }
 
 .project-image img {
-    width: 100%;
-    height: auto;
     display: block;
 }
 

@@ -792,9 +792,7 @@
     }
 
     .project-background-text {
-        font-size: 120px;
-        letter-spacing: 5px;
-        animation: scroll-text 10s linear infinite;
+        animation: none;
     }
 
     .project-image {
@@ -1115,9 +1113,21 @@
         gap: 12px;
     }
 
-    .projects-page.section-1,
+    .project-image {
+        max-width: 360px;
+    }
+
+    .projects-page.section-1 {
+        transform: translateX(-150px);
+    }
+
     .projects-page.section-2 {
-        transform: none;
+        transform: translateX(150px);
+    }
+
+    .project-background-text {
+        font-size: 150px;
+        letter-spacing: 5px;
     }
 
     /* Join/Hiring page */
