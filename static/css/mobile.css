@@ -613,12 +613,6 @@
         font-size: 36px;
     }
 
-    .localization-right p {
-        width: 100%;
-    }
-
-
-
     /* Partners Grid Mobile Styles */
     .partners-grid {
         gap: 20px;
@@ -1083,11 +1077,20 @@
     /* Business page */
     .production-row {
         gap: 10px;
-        padding: 10px 0;
+        padding: 10px 20px;
     }
 
     .production-row h1 {
-        font-size: 16px;
+        font-size: 24px;
+        width: 150px;
+    }
+
+    .production-content {
+        width: 300px;
+    }
+
+    .production-image-right {
+        width: 30%;
     }
 
     .production-step {
@@ -1098,10 +1101,6 @@
         height: 40px;
     }
 
-    .business-page .header-bottom-left .header-bottom-text {
-        width: 70%;
-    }
-
     /* Process blocks */
     .process-blocks-wrapper {
         gap: 8px;
@@ -1110,13 +1109,13 @@
     .process-block {
         padding: 5px;
         gap: 8px;
-        font-size: 8px;
-        clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+        font-size: 32px;
+        clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%);
     }
 
     .process-sub-block {
         padding: 0 12px;
-        font-size: 7px;
+        font-size: 16px;
     }
 
     .process-sub-block.show {
@@ -1125,10 +1124,6 @@
     }
 
     /* Partners */
-    .partners-grid {
-        gap: 8px;
-    }
-
     .partner-block {
         min-height: 60px;
     }
