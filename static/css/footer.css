@@ -81,6 +81,9 @@
     flex: 0.5;
 }
 
+.footer-logo {
+    width: 45%;
+}
 
 .footer-right {
     display: flex;
