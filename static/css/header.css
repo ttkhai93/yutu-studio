@@ -52,7 +52,6 @@
 .header-bottom-normal-text {
     font-size: 22px;
     font-weight: 400;
-    line-height: 1.4;
 }
 
 .header-bottom-left {
@@ -433,13 +432,10 @@
 
     .header-bottom-large-text {
         font-size: 36px;
-        line-height: 1.4;
-        margin-bottom: 15px;
     }
 
     .header-bottom-normal-text {
         font-size: 11px;
-        line-height: 1.4;
     }
 
     .header-bottom-right-left {

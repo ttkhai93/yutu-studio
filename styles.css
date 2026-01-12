@@ -109,7 +109,6 @@ section:last-child {
     font-size: 75px;
     font-weight: 700;
     margin-bottom: 20px;
-    line-height: 1.4;
 }
 
 .section .container {
@@ -230,7 +229,6 @@ section:last-child {
     height: 60%;
     font-size: 30px;
     font-weight: 700;
-    line-height: 1.4;
 }
 
 .index-page .section-1-right-bottom {
@@ -316,10 +314,6 @@ section:last-child {
     margin-bottom: 8px;
 }
 
-.hiring-section-text {
-    line-height: 1.4;
-}
-
 .index-page .section3-header {
     width: 70%;
     margin: auto;
@@ -347,7 +341,6 @@ section:last-child {
     padding: 60px;
     border-radius: 8px;
     transition: transform 0.3s ease;
-    line-height: 1.4;
 }
 
 .index-page .section-3-block:hover {
@@ -364,7 +357,6 @@ section:last-child {
 
 .index-page .section-3-block .block-description {
     height: 50%;
-    line-height: 1.4;
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -548,7 +540,6 @@ section:last-child {
 }
 
 .section-5-description {
-    line-height: 1.4;
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.9);
 }
@@ -664,13 +655,11 @@ section:last-child {
 .card-title {
     font-weight: 700;
     margin-bottom: 30px;
-    line-height: 1.4;
     padding: 0 30px;
     transition: color 0.3s ease;
 }
 
 .card-description {
-    line-height: 1.4;
     padding: 0 30px;
     margin-bottom: 30px;
     flex: 1;
@@ -883,7 +872,6 @@ section:last-child {
 }
 
 .localization-right p {
-    line-height: 1.4;
     margin-bottom: 20px;
 }
 
@@ -978,7 +966,6 @@ section:last-child {
 
 .vision-description {
     width: 100%;
-    line-height: 1.4;
 }
 
 /* Localization Process Section Styles */
@@ -1077,10 +1064,6 @@ section:last-child {
     max-height: 200px;
     opacity: 1;
     padding: 40px 80px;
-}
-
-.process-sub-block p {
-    line-height: 1.4;
 }
 
 .process-toggle {

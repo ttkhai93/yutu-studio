@@ -207,7 +207,6 @@
         display: block;
         color: #fff;
         font-size: 14px;
-        line-height: 1.4;
         margin-bottom: 5px;
     }
 
@@ -255,7 +254,6 @@
         border: none;
         color: #fff;
         font-size: 16px;
-        line-height: 1.4;
         padding: 2px 4px;
         cursor: pointer;
         transition: all 0.3s ease;
@@ -328,7 +326,6 @@
         font-size: 36px;
         grid-column: 1;
         grid-row: 1;
-        line-height: 1.4;
     }
 
     .index-page .section-1-right-bottom-border {
@@ -513,7 +510,6 @@
 
     .index-page .section-3-description {
         font-size: 16px;
-        line-height: 1.4;
         margin: 20px 0;
     }
 
@@ -523,7 +519,6 @@
 
     .block-description {
         font-size: 14px;
-        line-height: 1.4;
     }
 
     .index-page .header-bottom-left {
@@ -832,7 +827,6 @@
     /* Base adjustments */
     body {
         font-size: 16px;
-        line-height: 1.2;
     }
 
     main {
@@ -944,7 +938,6 @@
     .section-title {
         font-size: 36px;
         margin-bottom: 10px;
-        line-height: 1.2;
     }
 
     /* Section 1 */
