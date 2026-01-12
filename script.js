@@ -97,6 +97,7 @@ const translations = {
         // Navigation
         nav_we: "We",
         nav_business: "Business",
+        nav_project: "Project",
         nav_join: "Join",
 
         // Home page
@@ -139,6 +140,7 @@ const translations = {
         // Navigation
         nav_we: "Chúng Tôi",
         nav_business: "Doanh Nghiệp",
+        nav_project: "Dự án",
         nav_join: "Tham Gia",
 
         // Home page
@@ -181,6 +183,7 @@ const translations = {
         // Navigation
         nav_we: "우리",
         nav_business: "비즈니스",
+        nav_project: "프로젝트",
         nav_join: "참여하기",
 
         // Home page
