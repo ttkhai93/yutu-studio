@@ -485,10 +485,16 @@
 
     /* Buttons - Mobile friendly sizing */
     .btn-with-icon {
-        /* padding: 12px 20px; */
-        font-size: 14px;
-        width: 150px;
-        gap: 10px;
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        gap: 4px;
+        padding: 0;
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+    }
+
+    .btn-with-icon::before {
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 9px), calc(100% - 9px) 100%, 0 100%);
     }
 
     .btn-with-icon img {
@@ -521,7 +527,7 @@
     }
 
     .index-page .header-bottom-left {
-        padding: 0 20px;
+        padding: 10px 20px;
     }
 
     .index-page .header-bottom-right {
@@ -830,16 +836,12 @@
     }
 
     main {
-        padding: 0 20px;
+        padding: 0 40px;
     }
 
     /* Header */
     .header-top {
-        padding: 5px 15px;
-    }
-
-    .header-top .container {
-        /* padding-top: 5px; */
+        padding: 10px 40px;
     }
 
     .nav-controls-group {
@@ -888,7 +890,7 @@
     }
 
     .index-page .header-bottom-left {
-        padding: 20px;
+        padding: 20px 0 20px 40px;
     }
 
     /* Mobile menu adjustments */
