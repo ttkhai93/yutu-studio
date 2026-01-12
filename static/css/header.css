@@ -15,11 +15,10 @@
 
 .header-top {
     width: 100%;
-    padding: 20px 80px;
+    padding: 40px 80px;
 }
 
 .header-top .container {
-    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -72,7 +71,6 @@
 .header-bottom-right-left {
     padding: 10px 20px;
     flex: 0 0 auto;
-    font-size: 30px;
 }
 
 .header-bottom-right-right {
