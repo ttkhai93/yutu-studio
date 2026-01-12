@@ -1021,7 +1021,7 @@
 
     /* Cards */
     .update-card {
-        min-height: 120px;
+        min-height: 200px;
     }
 
     .card-header,
@@ -1031,7 +1031,22 @@
     }
 
     .card-content {
-        font-size: 7px;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .card-footer {
+        padding: 20px 10px 10px 10px;
+    }
+
+    .card-footer,
+    .card-footer::before,
+    .card-footer-wrapper {
+        clip-path: polygon(0 5px, 40% 10px, 60% 0px, 68% 3px, 80% 0px, 100% 5px, 100% 100%, 0 100%);
+    }
+
+    .card-footer-left {
+        font-size: 14px;
     }
 
     /* Vision sections */
@@ -1181,19 +1196,16 @@
         margin-bottom: 5px;
     }
 
-    /* Sliders */
-    .swiper.projects-slider,
-    .swiper.news-slider {
-        padding: 0 5px;
-        margin: 0 -5px;
+    .card-header {
+        margin-bottom: 10px;
     }
 
-    .swiper.projects-slider .swiper-slide {
-        max-width: 150px;
+    .card-title {
+        margin-bottom: 10px;
     }
 
-    .swiper.news-slider .swiper-slide {
-        max-width: 130px;
+    .card-description {
+        margin-bottom: 10px;
     }
 
     /* Buttons */

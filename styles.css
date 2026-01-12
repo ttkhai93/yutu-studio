@@ -672,7 +672,7 @@ section:last-child {
 .card-description {
     line-height: 1.4;
     padding: 0 30px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     flex: 1;
     transition: color 0.3s ease;
 }
