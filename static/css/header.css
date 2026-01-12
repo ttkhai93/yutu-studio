@@ -28,9 +28,6 @@
 
 /* Group for navbar and controls */
 .nav-controls-group {
-    position: absolute;
-    right: 20px;
-    top: 20px;
     display: flex;
     align-items: flex-start;
     gap: 60px;
@@ -264,8 +261,6 @@
 .language-selector {
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    margin-left: 30px;
 }
 
 .lang-btn {
@@ -383,14 +378,6 @@
     .nav-controls-group {
         position: static;
         flex-direction: column;
-    }
-
-    .language-selector {
-        position: absolute;
-        top: 100%;
-        right: 60px;
-        margin-top: 10px;
-        margin-left: 0;
     }
 
     .header-bottom-row.desktop-layout {
