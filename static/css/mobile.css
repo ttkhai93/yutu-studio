@@ -701,21 +701,6 @@
         gap: 20px;
     }
 
-    .projects-page.section-1,
-    .projects-page.section-2 {
-        padding: 40px 20px;
-    }
-
-    .project-background-text {
-        font-size: 200px;
-        letter-spacing: 10px;
-        animation: scroll-text 15s linear infinite;
-    }
-
-    .project-image {
-        max-width: 100%;
-    }
-
     .localization-content {
         flex-direction: column;
         gap: 30px;
@@ -816,7 +801,7 @@
 
     .projects-page.section-1,
     .projects-page.section-2 {
-        padding: 30px 15px;
+        padding: 20px 0;
     }
 
     .project-background-text {
@@ -1135,7 +1120,7 @@
     }
 
     /* Projects page */
-    .projects-page.section-1,
+    /* .projects-page.section-1,
     .projects-page.section-2 {
         padding: 15px 10px;
     }
@@ -1148,7 +1133,33 @@
     .project-footer {
         gap: 8px;
         margin-top: 8px;
+    } */
+
+    .projects-page.section-1,
+    .projects-page.section-2 {
+        transform: none;
     }
+
+    /* 
+    .projects-page.section-1,
+    .projects-page.section-2 {
+        padding: 60px 40px;
+    } */
+
+    /* .project-background-text {
+        font-size: 120px;
+        letter-spacing: 5px;
+        animation: scroll-text 10s linear infinite;
+    } */
+
+    /* .project-image {
+        max-width: 100%;
+    }
+
+    .project-footer {
+        flex-direction: column;
+        gap: 20px;
+    } */
 
     /* Join/Hiring page */
     .hiring-sections {
