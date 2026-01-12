@@ -864,7 +864,7 @@
     }
 
     .header-bottom-row {
-        padding: 10px 15px;
+        padding: 20px 40px;
         min-height: 50px;
     }
 
@@ -881,12 +881,12 @@
     }
 
     .header-bottom-right-left {
-        padding: 5px;
+        padding: 10px 40px;
         font-size: 10px;
     }
 
     .header-bottom-right-right {
-        padding: 5px;
+        padding: 10px 40px;
     }
 
     .index-page .header-bottom-left {
