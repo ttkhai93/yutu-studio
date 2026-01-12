@@ -1058,21 +1058,26 @@
         gap: 15px;
     }
 
+    .vision-left,
+    .vision-right {
+        padding-left: 80px;
+    }
+
     .vision-left .vision-image,
     .vision-right .vision-image {
-        height: 80px;
+        height: 160px;
     }
 
     .vision-image img {
-        height: 70px;
+        height: 150px;
     }
 
     .vision-label {
-        font-size: 8px;
+        font-size: 22px;
     }
 
     .vision-subtitle {
-        font-size: 18px;
+        font-size: 32px;
     }
 
     /* Business page */
