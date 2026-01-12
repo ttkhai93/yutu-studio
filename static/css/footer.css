@@ -45,7 +45,6 @@
 
 .footer-top {
     text-align: center;
-    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -53,7 +52,6 @@
     font-size: 75px;
     font-weight: 700;
     margin-bottom: 10px;
-    letter-spacing: 2px;
     color: #F05A22;
 }
 
@@ -69,9 +67,9 @@
 .footer-content {
     display: flex;
     justify-content: space-between;
-    padding: 40px 0;
-    max-width: 1200px;
     margin: auto;
+    max-width: 60%;
+    padding: 40px 0;
     border-top: 1px solid #fff;
     margin-top: 40px;
 }
@@ -92,8 +90,9 @@
 }
 
 .footer-column h4 {
-    margin-bottom: 10px;
-    font-weight: 600;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #ccc;
 }
 
 .footer-column ul {
@@ -114,7 +113,7 @@
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .address-link {
@@ -133,7 +132,6 @@
         padding: 40px 0 20px;
         min-height: 50vh;
     }
-
 
     .footer-title {
         font-size: 32px;

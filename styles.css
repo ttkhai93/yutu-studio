@@ -735,7 +735,6 @@ section:last-child {
 .card-footer-left {
     font-weight: 600;
     font-size: 22px;
-    letter-spacing: 0.5px;
     transition: color 0.3s ease;
 }
 
@@ -954,14 +953,12 @@ section:last-child {
 .vision-label {
     font-size: 24px;
     font-weight: 600;
-    letter-spacing: 1px;
 }
 
 .vision-subtitle {
     font-size: 55px;
     font-weight: 700;
     margin-bottom: 10px;
-    letter-spacing: 2px;
 }
 
 .vision-description {

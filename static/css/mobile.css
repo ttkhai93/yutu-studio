@@ -136,7 +136,6 @@
         cursor: pointer;
         padding: 8px 16px;
         border-radius: 20px;
-        letter-spacing: 0.5px;
         transition: background-color 0.3s ease;
         text-decoration: underline;
     }
@@ -160,7 +159,6 @@
         font-size: 32px;
         font-weight: 700;
         text-transform: uppercase;
-        letter-spacing: 1px;
         transition: color 0.3s ease;
         position: relative;
     }
@@ -196,7 +194,6 @@
         font-weight: 600;
         margin: 0 0 15px 0;
         text-transform: uppercase;
-        letter-spacing: 0.5px;
     }
 
     .mobile-contact span {
@@ -442,11 +439,9 @@
     }
 
     .footer-content {
-        flex-direction: column;
-        gap: 0;
-        text-align: center;
-        margin-bottom: 0;
-        padding: 10px 20px;
+        max-width: 95%;
+        padding: 10px 0;
+        margin-top: 20px;
     }
 
     .footer-right {
@@ -474,6 +469,11 @@
 
     .footer-bottom {
         font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .footer-column h4 {
+        margin-bottom: 10px;
     }
 
     /* Buttons - Mobile friendly sizing */
@@ -683,11 +683,6 @@
         font-size: 32px;
     }
 
-    .footer-content {
-        flex-direction: column;
-        gap: 40px;
-    }
-
     .footer-right {
         grid-template-columns: 1fr;
         gap: 30px;
@@ -771,11 +766,6 @@
 
     .footer-title {
         font-size: 28px;
-    }
-
-    .footer-content {
-        gap: 25px;
-        margin-bottom: 25px;
     }
 
     .production-row {
@@ -1125,47 +1115,10 @@
         gap: 12px;
     }
 
-    /* Projects page */
-    /* .projects-page.section-1,
-    .projects-page.section-2 {
-        padding: 15px 10px;
-    }
-
-    .project-background-text {
-        font-size: 50px;
-        letter-spacing: 3px;
-    }
-
-    .project-footer {
-        gap: 8px;
-        margin-top: 8px;
-    } */
-
     .projects-page.section-1,
     .projects-page.section-2 {
         transform: none;
     }
-
-    /* 
-    .projects-page.section-1,
-    .projects-page.section-2 {
-        padding: 60px 40px;
-    } */
-
-    /* .project-background-text {
-        font-size: 120px;
-        letter-spacing: 5px;
-        animation: scroll-text 10s linear infinite;
-    } */
-
-    /* .project-image {
-        max-width: 100%;
-    }
-
-    .project-footer {
-        flex-direction: column;
-        gap: 20px;
-    } */
 
     /* Join/Hiring page */
     .hiring-sections {
@@ -1243,7 +1196,6 @@
     .footer-title {
         font-size: 48px;
         margin-bottom: 5px;
-        letter-spacing: 1px;
     }
 
     .footer-description {
@@ -1252,7 +1204,7 @@
     }
 
     .footer-content {
-        max-width: 500px;
+        min-width: 95%;
         padding: 10px 0;
         margin-top: 20px;
     }
@@ -1266,21 +1218,22 @@
     }
 
     .footer-column {
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .footer-column h4 {
-        margin-bottom: 3px;
-        font-size: 6px;
+        margin-bottom: 10px;
+        font-size: 10px;
     }
 
     .address-link {
-        width: 100px
+        display: inline;
+        white-space: normal;
     }
 
     .footer-bottom {
-        font-size: 5px;
-        padding: 5px 10px;
+        font-size: 10px;
+        padding-top: 10px;
     }
 
     /* Logo */
