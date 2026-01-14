@@ -66,12 +66,24 @@
 
 .footer-button .btn-with-icon {
     color: #ffffff;
-    background: white;
+    background: transparent;
+    border: none;
 }
 
 .footer-button .btn-with-icon::before {
-    background: black;
     border: solid 1px white;
+    background: transparent;
+}
+
+.footer-button .btn-with-icon::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(135deg, transparent calc(50% - 0.7px), white calc(50% - 0.7px), white calc(50% + 0.7px), transparent calc(50% + 0.7px));
+    z-index: 1;
 }
 
 .footer-button .btn-with-icon img {
