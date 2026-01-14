@@ -30,9 +30,9 @@
     background: linear-gradient(to bottom,
             transparent 0%,
             transparent 20%,
-            rgba(0, 0, 0, 0.5) 40%,
-            rgba(0, 0, 0, 0.8) 60%,
-            rgba(0, 0, 0, 0.95) 100%);
+            rgba(0, 0, 0, 0.6) 60%,
+            rgba(0, 0, 0, 0.8) 80%,
+            rgba(0, 0, 0, 1) 100%);
     pointer-events: none;
     z-index: 1;
 }
@@ -62,6 +62,20 @@
 .footer-button {
     display: flex;
     justify-content: center;
+}
+
+.footer-button .btn-with-icon {
+    color: #ffffff;
+    background: white;
+}
+
+.footer-button .btn-with-icon::before {
+    background: black;
+    border: solid 1px white;
+}
+
+.footer-button .btn-with-icon img {
+    filter: brightness(0) invert(1);
 }
 
 .footer-content {

@@ -22,6 +22,14 @@ main {
     padding: 0 80px;
 }
 
+button {
+    border: none;
+    box-shadow: none;
+    color: black;
+    border: solid 1px black;
+    background: transparent;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -483,7 +491,7 @@ section:last-child {
     /* controls visible border thickness */
     background: #ffffff;
     /* inner fill */
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 14.5px), calc(100% - 14.5px) 100%, 0 100%);
     z-index: -1;
 }
 
@@ -543,6 +551,20 @@ section:last-child {
 .section-5-button {
     display: flex;
     justify-content: center;
+}
+
+.section-5-button .btn-with-icon {
+    color: #ffffff;
+    background: white;
+}
+
+.section-5-button .btn-with-icon::before {
+    background: black;
+    border: solid 1px white;
+}
+
+.section-5-button .btn-with-icon img {
+    filter: brightness(0) invert(1);
 }
 
 /* .section-6-cards {
