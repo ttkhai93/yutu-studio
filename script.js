@@ -91,14 +91,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Language Translation Feature
-const translations = {
+// Global Language Translation Feature
+window.translations = {
     en: {
         // Navigation
         nav_we: "We",
         nav_business: "Business",
         nav_project: "Project",
         nav_join: "Join",
+        translate_test: "STORIES"
     },
     vi: {
         // Navigation
@@ -106,6 +107,7 @@ const translations = {
         nav_business: "Doanh Nghiệp",
         nav_project: "Dự án",
         nav_join: "Tham Gia",
+        translate_test: "CÂU CHUYỆN"
     },
     ko: {
         // Navigation
@@ -113,6 +115,7 @@ const translations = {
         nav_business: "비즈니스",
         nav_project: "프로젝트",
         nav_join: "참여하기",
+        translate_test: "이야기들"
     }
 };
 
@@ -132,14 +135,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function setActiveLanguage(lang) {
-        // Remove active class from all buttons
-        langButtons.forEach(btn => btn.classList.remove('active'));
+        // Remove active class from all buttons (both desktop and mobile)
+        const allLangButtons = document.querySelectorAll('.lang-btn');
+        allLangButtons.forEach(btn => btn.classList.remove('active'));
 
-        // Add active class to selected language button
-        const activeBtn = document.querySelector(`[data-lang="${lang}"]`);
-        if (activeBtn) {
-            activeBtn.classList.add('active');
-        }
+        // Add active class to selected language buttons (both desktop and mobile)
+        const activeBtns = document.querySelectorAll(`[data-lang="${lang}"]`);
+        activeBtns.forEach(btn => btn.classList.add('active'));
 
         // Update page language attribute
         document.documentElement.lang = lang;
@@ -153,11 +155,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
         elements.forEach(element => {
             const key = element.getAttribute('data-translate');
-            if (translations[lang] && translations[lang][key]) {
-                element.textContent = translations[lang][key];
+            if (window.translations[lang] && window.translations[lang][key]) {
+                element.textContent = window.translations[lang][key];
             }
         });
     }
+
+    // Make functions globally available
+    window.setActiveLanguage = setActiveLanguage;
+    window.translatePage = translatePage;
+    window.changeLanguage = setActiveLanguage; // Alias for mobile compatibility
 });
 
 // Process Block Toggle Functionality

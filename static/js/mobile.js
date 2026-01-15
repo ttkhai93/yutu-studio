@@ -8,6 +8,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initialize mobile menu functionality
     initializeMobileMenu();
+
+    // Sync mobile language buttons with saved language preference
+    const savedLang = localStorage.getItem('selectedLanguage') || 'en';
+    const mobileLangButtons = document.querySelectorAll('.mobile-language-selector .lang-btn');
+    mobileLangButtons.forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.getAttribute('data-lang') === savedLang) {
+            btn.classList.add('active');
+        }
+    });
 });
 
 function createMobileMenuOverlay() {
@@ -91,29 +101,18 @@ function initializeMobileMenu() {
     // Handle mobile language selection
     mobileLangButtons.forEach(button => {
         button.addEventListener('click', function () {
-            // Remove active class from all mobile language buttons
-            mobileLangButtons.forEach(btn => btn.classList.remove('active'));
-
-            // Add active class to clicked button
-            this.classList.add('active');
-
-            // Also update desktop language selector if it exists
-            const desktopLangButtons = document.querySelectorAll('.header .language-selector .lang-btn');
             const selectedLang = this.getAttribute('data-lang');
 
-            desktopLangButtons.forEach(btn => {
-                btn.classList.remove('active');
-                if (btn.getAttribute('data-lang') === selectedLang) {
-                    btn.classList.add('active');
-                }
-            });
-
-            // Update data-translate elements in mobile menu
-            updateMobileMenuTranslations(selectedLang);
-
-            // Trigger language change event if there's a global language handler
-            if (typeof window.changeLanguage === 'function') {
-                window.changeLanguage(selectedLang);
+            // Use global language function if available, otherwise fallback to local handling
+            if (typeof window.setActiveLanguage === 'function') {
+                window.setActiveLanguage(selectedLang);
+                localStorage.setItem('selectedLanguage', selectedLang);
+            } else {
+                // Fallback if global function not loaded yet
+                const allLangButtons = document.querySelectorAll('.lang-btn');
+                allLangButtons.forEach(btn => btn.classList.remove('active'));
+                const activeBtns = document.querySelectorAll(`[data-lang="${selectedLang}"]`);
+                activeBtns.forEach(btn => btn.classList.add('active'));
             }
         });
     });
@@ -194,43 +193,9 @@ function closeMobileMenu() {
     }
 }
 
-// Function to update mobile menu translations
-function updateMobileMenuTranslations(lang) {
-    const mobileNavLinks = document.querySelectorAll('.mobile-nav a[data-translate]');
-
-    const translations = {
-        'en': {
-            'nav_we': 'We',
-            'nav_business': 'Business',
-            'nav_project': 'Project',
-            'nav_join': 'Join'
-        },
-        'ko': {
-            'nav_we': '우리',
-            'nav_business': '사업',
-            'nav_project': '프로젝트',
-            'nav_join': '채용'
-        },
-        'vi': {
-            'nav_we': 'Chúng tôi',
-            'nav_business': 'Kinh doanh',
-            'nav_project': 'Dự án',
-            'nav_join': 'Tham gia'
-        }
-    };
-
-    mobileNavLinks.forEach(link => {
-        const key = link.getAttribute('data-translate');
-        if (translations[lang] && translations[lang][key]) {
-            link.textContent = translations[lang][key];
-        }
-    });
-}
-
 // Expose functions globally if needed
 window.openMobileMenu = openMobileMenu;
 window.closeMobileMenu = closeMobileMenu;
-window.updateMobileMenuTranslations = updateMobileMenuTranslations;
 
 // Handle orientation change for mobile devices
 window.addEventListener('orientationchange', function () {
