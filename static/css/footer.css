@@ -80,8 +80,8 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 16px;
-    height: 16px;
+    width: 15.5px;
+    height: 15.5px;
     background: linear-gradient(135deg, transparent calc(50% - 0.7px), white calc(50% - 0.7px), white calc(50% + 0.7px), transparent calc(50% + 0.7px));
     z-index: 1;
 }
