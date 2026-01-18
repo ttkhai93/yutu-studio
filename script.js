@@ -271,7 +271,7 @@ window.translations = {
         project_name_shingeom: "SHINGEOM: The Child of Godslayer",
 
         index_section5_title: "HỢP TÁC CÙNG CHÚNG TÔI",
-        index_section5_description: "Yutu Studio sản xuất, phân phối và xuất bản các nội dung như truyện tranh, webtoon, phim ảnh, v.v.",
+        index_section5_description: "Yutu Studio sản xuất, phân phối và phát hành các nội dung sáng tạo như truyện tranh, webtoon, phim và nhiều định dạng khác.",
 
         index_section6_title: "TIN TỨC MỚI NHẤT",
         index_section6_card_top_left: "CẬP NHẬT TỪ CÔNG TY",
