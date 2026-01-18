@@ -230,6 +230,8 @@ window.translations = {
         footer_info_addr_2: "Carillon 1 Building, Tan Binh Ward, Ho Chi Minh City",
         footer_info_phone: "Phone:",
         footer_info_email: "Email:",
+        footer_title_part1: "JOIN",
+        footer_title_part2: "OUR TEAM",
     },
     vi: {
         // Navigation
@@ -368,6 +370,8 @@ window.translations = {
         footer_info_addr_2: "Tòa nhà Carillon 1, P. Tân Bình, TP. Hồ Chí Minh",
         footer_info_phone: "Số điện thoại:",
         footer_info_email: "Địa chỉ email:",
+        footer_title_part1: "CÙNG",
+        footer_title_part2: "YUTU SÁNG TẠO",
     },
     ko: {
         // Navigation
@@ -506,6 +510,8 @@ window.translations = {
         footer_info_addr_2: "Carillon 1 Building, Tan Binh Ward, Ho Chi Minh City",
         footer_info_phone: "전화:",
         footer_info_email: "이메일:",
+        footer_title_part1: "팀에",
+        footer_title_part2: "합류하세요",
     }
 };
 
@@ -549,6 +555,22 @@ document.addEventListener('DOMContentLoaded', function () {
                 element.textContent = window.translations[lang][key];
             }
         });
+
+        // Handle special footer title styling for Korean
+        const footerPart1 = document.getElementById('footer-title-part1');
+        const footerPart2 = document.getElementById('footer-title-part2');
+
+        if (footerPart1 && footerPart2) {
+            if (lang === 'ko') {
+                // Korean: first part highlighted, second part normal
+                footerPart1.classList.add('highlight-text');
+                footerPart2.classList.remove('highlight-text');
+            } else {
+                // English/Vietnamese: second part highlighted, first part normal
+                footerPart1.classList.remove('highlight-text');
+                footerPart2.classList.add('highlight-text');
+            }
+        }
     }
 
     // Make functions globally available
