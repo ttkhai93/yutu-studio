@@ -805,6 +805,7 @@
 
     .project-background-text {
         animation: none;
+        display: none;
     }
 
     .project-image {
@@ -1138,8 +1139,8 @@
     }
 
     .project-background-text {
-        font-size: 150px;
-        letter-spacing: 5px;
+        animation: none;
+        display: none;
     }
 
     /* Join/Hiring page */
