@@ -110,7 +110,8 @@ window.translations = {
 
         index_section1_highlight_text: "AT YUTU STUDIO",
         index_section1_normal_text: ", we nurture ideas and empower artists to turn imagination into visual storytelling. Our mission is to inspire creators to explore new worlds and share them with audiences everywhere.",
-        index_section1_best: "THE BEST OF YUTU",
+        index_section1_best_1: "THE BEST",
+        index_section1_best_2: "OF YUTU",
         index_section1_portfolio: "/PORTFOLIO",
         index_section1_download: "DOWNLOAD",
 
@@ -250,7 +251,8 @@ window.translations = {
 
         index_section1_highlight_text: "Tại YUTU Studio",
         index_section1_normal_text: ", chúng tôi nuôi dưỡng ý tưởng và đồng hành cùng nghệ sĩ để biến trí tưởng tượng thành những câu chuyện bằng hình ảnh. Chúng tôi mong muốn truyền cảm hứng để các nhà sáng tạo khám phá những thế giới mới và chia sẻ chúng với khán giả ở khắp mọi nơi.",
-        index_section1_best: "NHỮNG DỰ ÁN TIÊU BIỂU CỦA YUTU",
+        index_section1_best_1: "NHỮNG DỰ ÁN TIÊU BIỂU",
+        index_section1_best_2: "CỦA YUTU",
         index_section1_portfolio: "???",
         index_section1_download: "TẢI VỀ",
 
@@ -390,7 +392,8 @@ window.translations = {
 
         index_section1_highlight_text: "YUTU STUDIO는",
         index_section1_normal_text: "아이디어를 키우고 아티스트가 상상력을 시각적 스토리텔링으로 구현할 수 있도록 지원합니다. 우리의 미션은 창작자들이 새로운 세계를 탐험하고, 그 경험을 전 세계의 관객과 공유하도록 영감을 주는 것입니다.",
-        index_section1_best: "YUTU의 베스트 작품",
+        index_section1_best_1: "YUTU의",
+        index_section1_best_2: "베스트 작품",
         index_section1_portfolio: "/포트폴리오",
         index_section1_download: "다운로드",
 
@@ -421,18 +424,18 @@ window.translations = {
 
         business_production_title: "제작",
         business_production_step_1: "사전제작",
-        business_production_step_1_content: "제작 전 콘셉트, 스토리라인, 캐릭터, 비주얼 디렉션을 정립해탄탄한 서사 기반을 마련합니다.",
+        business_production_step_1_content: "제작 전 콘셉트, 스토리라인, 캐릭터, 비주얼 디렉션을 정립해 탄탄한 서사 기반을 마련합니다.",
         business_production_step_2: "제작",
-        business_production_step_2_content: "일관된 스타일과 워크플로우에 따라스케치, 선화, 채색, 컷 구성 등 아트워크를 제작합니다.",
+        business_production_step_2_content: "일관된 스타일과 워크플로우에 따라 스케치, 선화, 채색, 컷 구성 등 아트워크를 제작합니다.",
         business_production_step_3: "후반제작",
-        business_production_step_3_content: "시각적 완성도를 위해보정, 편집, 포맷팅 및 품질 관리를 진행합니다.",
+        business_production_step_3_content: "시각적 완성도를 위해 보정, 편집, 포맷팅 및 품질 관리를 진행합니다.",
         business_production_step_4: "공동제작",
-        business_production_step_4_content: "파트너 및 창작자와 협업해리소스와 워크플로우를 통합하고 프로젝트를 확장합니다.",
+        business_production_step_4_content: "파트너 및 창작자와 협업해 리소스와 워크플로우를 통합하고 프로젝트를 확장합니다.",
 
         business_localization_title: "현지화",
-        business_localization_content_1: "Yutu Studio는 웹툰을 다국어로 현지화하여 글로벌 시장에 선보이는전문 번역 및 로컬라이제이션 서비스를 제공합니다.",
-        business_localization_content_2: "월 수천 화에 달하는 제작 역량을 기반으로, 언어적 정확성과 문화적 감수성을 모두 갖춘 콘텐츠를 제작하여전 세계 독자들에게 공감과 몰입을 선사합니다.",
-        business_localization_content_3: "또한 네이버, 카카오페이지, 레진 등 주요 플랫폼과 협력해 왔으며, 각 플랫폼의 고유한 창의적·기술적 요구에 부합하는전문적인 품질 기준을 유지하고 있습니다.",
+        business_localization_content_1: "Yutu Studio는 웹툰을 다국어로 현지화하여 글로벌 시장에 선보이는 전문 번역 및 로컬라이제이션 서비스를 제공합니다.",
+        business_localization_content_2: "월 수천 화에 달하는 제작 역량을 기반으로, 언어적 정확성과 문화적 감수성을 모두 갖춘 콘텐츠를 제작하여 전 세계 독자들에게 공감과 몰입을 선사합니다.",
+        business_localization_content_3: "또한 네이버, 카카오페이지, 레진 등 주요 플랫폼과 협력해 왔으며, 각 플랫폼의 고유한 창의적·기술적 요구에 부합하는 전문적인 품질 기준을 유지하고 있습니다.",
 
         business_localization_process_title: "로컬라이제이션 프로세스",
         business_localization_process_step_1: "콘텐츠 분석",
