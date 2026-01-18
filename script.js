@@ -282,13 +282,13 @@ window.translations = {
         business_header_bottom_normal_text: "Khám phá những tác phẩm được chọn lọc — nơi ý tưởng dần hình thành câu chuyện hình ảnh, được tạo nên bằng sự chăm chút, rõ ràng và một mục đích nhất quán.",
 
         business_production_title: "Sản xuất",
-        business_production_step_1: "Pre-Production",
+        business_production_step_1: "Tiền kỳ",
         business_production_step_1_content: "Phát triển ý tưởng, xây dựng kịch bản, thiết kế nhân vật và định hướng hình ảnh để đặt nền móng vững chắc cho câu chuyện.",
-        business_production_step_2: "Production",
+        business_production_step_2: "Sản xuất",
         business_production_step_2_content: "Thực hiện artwork từ phác thảo, lineart đến tô màu và bố cục khung truyện, giữ sự nhất quán trong phong cách và nhịp sản xuất.",
-        business_production_step_3: "Post-Production",
+        business_production_step_3: "Hậu kỳ",
         business_production_step_3_content: "Hoàn thiện, chỉnh sửa và kiểm soát chất lượng để mỗi tác phẩm đạt độ hoàn chỉnh và sẵn sàng đến với nền tảng phát hành.",
-        business_production_step_4: "Co-Production",
+        business_production_step_4: "Đồng sản xuất",
         business_production_step_4_content: "Cùng hợp tác với đối tác và nhà sáng tạo, kết nối quy trình và nguồn lực để mở rộng quy mô dự án một cách hiệu quả.",
 
         business_localization_title: "BẢN ĐỊA HOÁ",
