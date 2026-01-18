@@ -262,8 +262,7 @@ section:last-child {
 
 /* Hiring Section Styles */
 .join-page .section-1 .container {
-    width: fit-content;
-    max-width: none;
+    width: 1100px;
     position: relative;
 }
 
@@ -274,6 +273,10 @@ section:last-child {
 
 .join-page .hiring-section-title {
     margin-bottom: 10px;
+}
+
+.join-page .section-title {
+    text-align: left;
 }
 
 .hiring-description {

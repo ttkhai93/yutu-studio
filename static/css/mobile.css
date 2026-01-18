@@ -636,7 +636,7 @@
         height: auto;
     }
 
-    .join-page.section-1 .container {
+    .join-page .section-1 .container {
         width: 100%;
     }
 
@@ -1144,6 +1144,10 @@
     }
 
     /* Join/Hiring page */
+    .join-page .section-1 .container {
+        width: 650px;
+    }
+
     .hiring-sections {
         width: 100%;
     }
