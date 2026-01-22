@@ -103,7 +103,7 @@ window.translations = {
         btn_read_more: "READ MORE",
 
         index_header_bottom_title: "Where ideas grow into value.",
-        index_header_bottom_description_1: "Yutu is a creative studio building thoughtful digital solutions.",
+        index_header_bottom_description_1: "YUTU is a creative studio building thoughtful digital solutions.",
         index_header_bottom_description_2: "We focus on clarity, purpose, and long-term value.",
         index_header_bottom_latest_work: "OUT LATEST WORKS",
         index_header_bottom_viewall: "VIEW ALL",
@@ -116,7 +116,7 @@ window.translations = {
         index_section1_download: "DOWNLOAD",
 
         index_section3_title: "A little joy of your daily life",
-        index_section3_description: "Yutu Studio dreams of a world where both creators and users will find happiness.",
+        index_section3_description: "YUTU Studio dreams of a world where both creators and users will find happiness.",
         index_section3_block_1_title: "Production & Distribution",
         index_section3_block_1_description: "Produce contents such as films, comics, webtoons, etc., and distribution on & offline.",
         index_section3_block_2_title: "Localization",
@@ -130,7 +130,7 @@ window.translations = {
         project_name_shingeom: "SHINGEOM: The Child of Godslayer",
 
         index_section5_title: "BUSINESS",
-        index_section5_description: "Yutu Studio produces, distributes, and publishes contents like comics, webtoons, films, etc.",
+        index_section5_description: "YUTU Studio produces, distributes, and publishes contents like comics, webtoons, films, etc.",
 
         index_section6_title: "LATEST NEWS",
         index_section6_card_top_left: "COMPANY UPDATE",
@@ -151,7 +151,7 @@ window.translations = {
         business_production_step_4_content: "Collaborative production with partners or creators, integrating workflows and resourc- es to scale projects efficiently.",
 
         business_localization_title: "LOCALIZATION",
-        business_localization_content_1: "Yutu Studio provides professional translation and localization services, adapting webtoons into multiple languages for global release.",
+        business_localization_content_1: "YUTU Studio provides professional translation and localization services, adapting webtoons into multiple languages for global release.",
         business_localization_content_2: "With a production capacity of thousands of chapters per month, we ensure linguistic precision and cultural sensitivity, delivering works that resonate with international readers.",
         business_localization_content_3: "We have collaborated and continue to collaborate with leading platforms such as Naver, Kakao Page, and Lezhin, maintaining professional standards that meet each platform’s unique creative and technical requirements.",
 
@@ -176,7 +176,7 @@ window.translations = {
         we_header_bottom_medium_text: "FUELING INSPIRATION",
         we_section1_title: "DRIVEN BY PASSION",
         we_section1_content_1: "Since 2019, our team has collaborated with leading Korean studios like LICO and Ylab.",
-        we_section1_content_2: "In 2023, we founded Yutu Studio to bring world-class webtoon production and localization to Vietnam.",
+        we_section1_content_2: "In 2023, we founded YUTU Studio to bring world-class webtoon production and localization to Vietnam.",
         we_section1_content_3: "Passion drives us to push storytelling boundaries and connect cul- tures through art.",
         we_section2_title: "OUR VISION",
         we_vision_label: "OUR",
@@ -198,7 +198,7 @@ window.translations = {
         join_hiring_section1_item2: "Love webtoons, comics, and storytelling",
         join_hiring_section1_item3: "Curious, responsible, and open to learning",
         join_hiring_section1_item4: "Positive energy and team-first mindset",
-        join_hiring_section1_item5: "Looking for a place to grow long-term with Yutu",
+        join_hiring_section1_item5: "Looking for a place to grow long-term with YUTU",
         join_hiring_section2_title: "How We Work",
         join_hiring_section2_item1: "Working hours: 8:30 – 18:00",
         join_hiring_section2_item2: "Paid leave & public holidays",
@@ -214,7 +214,7 @@ window.translations = {
         projects_header_bottom_normal_text: "WE WORKED WITH OVER 10+ PARTNERS TO TURN IMAGINATION INTO VISUAL STORYTELLING AND INSPIRE CREATORS TO EXPLORE NEW WORLDS AND SHARE THEM WITH AUDIENCES EVERYWHERE.",
 
         // Footer
-        footer_description: "Yutu Studio dreams of a bright world where both creators and users will be happy.",
+        footer_description: "YUTU Studio dreams of a bright world where both creators and users will be happy.",
         footer_apply_btn: "APPLY NOW!",
         footer_explore: "EXPLORE",
         footer_explore_we: "WE",
@@ -244,7 +244,7 @@ window.translations = {
         btn_read_more: "ĐỌC THÊM",
 
         index_header_bottom_title: "Nơi ý tưởng được nuôi dưỡng và trở thành giá trị.",
-        index_header_bottom_description_1: "Yutu là studio sáng tạo, nơi những ý tưởng được phát triển một cách chỉn chu để tạo nên các giải pháp số có chiều sâu.",
+        index_header_bottom_description_1: "YUTU là studio sáng tạo, nơi những ý tưởng được phát triển một cách chỉn chu để tạo nên các giải pháp số có chiều sâu.",
         index_header_bottom_description_2: "Chúng tôi theo đuổi sự rõ ràng, mục đích và giá trị bền vững.",
         index_header_bottom_latest_work: "DỰ ÁN GẦN ĐÂY",
         index_header_bottom_viewall: "XEM TOÀN BỘ",
@@ -257,7 +257,7 @@ window.translations = {
         index_section1_download: "TẢI VỀ",
 
         index_section3_title: "Một chút niềm vui trong từng khoảnh khắc đời thường",
-        index_section3_description: "Yutu Studio Chúng tôi tin vào một thế giới tươi sáng, nơi người sáng tạo và độc giả cùng tìm thấy niềm vui và sự đồng cảm qua từng câu chuyện.",
+        index_section3_description: "YUTU Studio Chúng tôi tin vào một thế giới tươi sáng, nơi người sáng tạo và độc giả cùng tìm thấy niềm vui và sự đồng cảm qua từng câu chuyện.",
         index_section3_block_1_title: "Sản xuất & Phát hành",
         index_section3_block_1_description: "Sáng tạo và sản xuất các nội dung như phim, truyện tranh, webtoon… đồng thời phân phối linh hoạt trên cả nền tảng trực tuyến và ngoại tuyến.",
         index_section3_block_2_title: "Bản địa hóa nội dung",
@@ -271,7 +271,7 @@ window.translations = {
         project_name_shingeom: "SHINGEOM: The Child of Godslayer",
 
         index_section5_title: "HỢP TÁC CÙNG CHÚNG TÔI",
-        index_section5_description: "Yutu Studio sản xuất, phân phối và phát hành các nội dung sáng tạo như truyện tranh, webtoon, phim và nhiều định dạng khác.",
+        index_section5_description: "YUTU Studio sản xuất, phân phối và phát hành các nội dung sáng tạo như truyện tranh, webtoon, phim và nhiều định dạng khác.",
 
         index_section6_title: "TIN TỨC MỚI NHẤT",
         index_section6_card_top_left: "CẬP NHẬT TỪ CÔNG TY",
@@ -292,7 +292,7 @@ window.translations = {
         business_production_step_4_content: "Cùng hợp tác với đối tác và nhà sáng tạo, kết nối quy trình và nguồn lực để mở rộng quy mô dự án một cách hiệu quả.",
 
         business_localization_title: "BẢN ĐỊA HOÁ",
-        business_localization_content_1: "Yutu Studio cung cấp dịch vụ dịch thuật và bản địa hoá chuyên nghiệp, chuyển thể webtoon sang nhiều ngôn ngữ để phát hành trên thị trường toàn cầu.",
+        business_localization_content_1: "YUTU Studio cung cấp dịch vụ dịch thuật và bản địa hoá chuyên nghiệp, chuyển thể webtoon sang nhiều ngôn ngữ để phát hành trên thị trường toàn cầu.",
         business_localization_content_2: "Với năng lực sản xuất hàng nghìn chương mỗi tháng, chúng tôi đảm bảo độ chính xác về ngôn ngữ và sự tinh tế trong văn hoá, giúp mỗi tác phẩm khi ra mắt đều có thể chạm đến độc giả quốc tế một cách tự nhiên và gần gũi.",
         business_localization_content_3: "Chúng tôi đã và đang hợp tác cùng các nền tảng hàng đầu như Naver, Kakao Page và Lezhin, luôn duy trì tiêu chuẩn làm việc chuyên nghiệp, đáp ứng những yêu cầu sáng tạo và kỹ thuật riêng biệt của từng nền tảng.",
 
@@ -300,7 +300,7 @@ window.translations = {
         business_localization_process_step_1: "Phân tích nội dung",
         business_localization_process_step_1_content: "Mỗi câu chuyện và từng nhân vật đều được phân tích kỹ lưỡng để nắm bắt giọng điệu, bối cảnh và tinh thần văn hoá cốt lõi, từ đó xác định cách tiếp cận phù hợp nhất khi chuyển thể nội dung sang ngôn ngữ và thị trường mục tiêu.",
         business_localization_process_step_2: "Dịch thuật & Chuyển thể",
-        business_localization_process_step_2_content: "Đội ngũ biên dịch đa ngôn ngữ bản ngữ của Yutu Studio, giàu kinh nghiệm trong lĩnh vực truyện tranh và kể chuyện, chuyển hoá kịch bản gốc với độ chính xác văn hoá và mạch kể tự nhiên, đồng thời kết hợp dịch thuật và bản địa hoá để giữ trọn cảm xúc cũng như ý đồ của từng câu thoại.",
+        business_localization_process_step_2_content: "Đội ngũ biên dịch đa ngôn ngữ bản ngữ của YUTU Studio, giàu kinh nghiệm trong lĩnh vực truyện tranh và kể chuyện, chuyển hoá kịch bản gốc với độ chính xác văn hoá và mạch kể tự nhiên, đồng thời kết hợp dịch thuật và bản địa hoá để giữ trọn cảm xúc cũng như ý đồ của từng câu thoại.",
         business_localization_process_step_3: "Biên tập nội dung",
         business_localization_process_step_3_content: "Các biên tập viên Hàn Quốc cùng chuyên gia song ngữ tinh chỉnh bản dịch để câu chữ mượt mà, tự nhiên, nhất quán với giọng điệu văn hoá và ý đồ của tác giả, qua đó đảm bảo tính chân thực và đồng bộ xuyên suốt mọi chương truyện.",
         business_localization_process_step_4: "Tích hợp số",
@@ -317,7 +317,7 @@ window.translations = {
         we_header_bottom_medium_text: "Nuôi dưỡng cảm hứng",
         we_section1_title: "ĐƯỢC DẪN DẮT BỞI ĐAM MÊ",
         we_section1_content_1: "Từ năm 2019, đội ngũ của chúng tôi đã đồng hành cùng nhiều studio hàng đầu Hàn Quốc như LICO và Ylab.",
-        we_section1_content_2: "Đến năm 2023, Yutu Studio chính thức được thành lập với mong muốn mang tiêu chuẩn sản xuất và bản địa hóa webtoon đẳng cấp quốc tế đến Việt Nam.",
+        we_section1_content_2: "Đến năm 2023, YUTU Studio chính thức được thành lập với mong muốn mang tiêu chuẩn sản xuất và bản địa hóa webtoon đẳng cấp quốc tế đến Việt Nam.",
         we_section1_content_3: "Chính đam mê là động lực thôi thúc chúng tôi không ngừng mở rộng biên giới kể chuyện và kết nối những nền văn hóa khác nhau thông qua nghệ thuật.",
         we_section2_title: "TẦM NHÌN CỦA CHÚNG TÔI",
         we_vision_label: "OUR",
@@ -327,19 +327,19 @@ window.translations = {
         we_vision_description_vision: "Hướng đến vị thế studio sản xuất webtoon toàn diện hàng đầu tại khu vực Đông Nam Á, nơi sáng tạo và giá trị lâu dài cùng phát triển.",
 
         // Join page
-        join_header_bottom_medium_text: "THAM GIA CÙNG YUTU STUDIO",
-        join_header_bottom_large_text: "Nơi đam mê sáng tạo tạo nên những webtoon khác biệt",
+        join_header_bottom_medium_text: "GIA NHẬP YUTU",
+        join_header_bottom_large_text: "Nơi đam mê và sáng tạo cùng thăng hoa trong webtoon",
         join_section1_title: "Tuyển dụng: Line Art / Coloring / 3D / Editing",
         join_hiring_description_background_title: "Giới thiệu:",
         join_hiring_description_qualifications_title: "Yêu cầu:",
-        join_hiring_description_background: "Chúng tôi không quan tâm đến bằng cấp, giới tính hay danh xưng — điều Yutu Studio tìm kiếm là kỹ năng, đam mê và tinh thần sáng tạo nghiêm túc với nghề.",
+        join_hiring_description_background: "Chúng tôi không quan tâm đến bằng cấp, giới tính hay danh xưng — điều YUTU Studio tìm kiếm là kỹ năng, đam mê và tinh thần sáng tạo nghiêm túc với nghề.",
         join_hiring_description_qualifications: "Không giới hạn về trình độ học vấn, kinh nghiệm hay giới tính.",
         join_hiring_section1_title: "Chúng tôi tìm kiếm",
         join_hiring_section1_item1: "Thành thạo Photoshop hoặc Clip Studio",
         join_hiring_section1_item2: "Yêu thích webtoon, truyện tranh và kể chuyện bằng hình ảnh",
         join_hiring_section1_item3: "Chủ động, có trách nhiệm và sẵn sàng học hỏi",
         join_hiring_section1_item4: "Năng lượng tích cực, tinh thần làm việc nhóm",
-        join_hiring_section1_item5: "Mong muốn gắn bó và phát triển lâu dài cùng Yutu Studio",
+        join_hiring_section1_item5: "Mong muốn gắn bó và phát triển lâu dài cùng YUTU Studio",
         join_hiring_section2_title: "Cách chúng tôi làm việc",
         join_hiring_section2_item1: "Thời gian làm việc: 8:30 – 18:00",
         join_hiring_section2_item2: "Nghỉ thứ Bảy, Chủ nhật và các ngày lễ theo quy định",
@@ -398,7 +398,7 @@ window.translations = {
         index_section1_download: "다운로드",
 
         index_section3_title: "일상 속 작은 기쁨",
-        index_section3_description: "Yutu Studio는 창작자와 사용자 모두가 행복을 발견할 수 있는 밝은 세상을 꿈꿉니다.",
+        index_section3_description: "YUTU Studio는 창작자와 사용자 모두가 행복을 발견할 수 있는 밝은 세상을 꿈꿉니다.",
         index_section3_block_1_title: "제작 및 유통",
         index_section3_block_1_description: "영화, 만화, 웹툰 등 다양한 콘텐츠를 제작해온·오프라인으로 선보입니다.",
         index_section3_block_2_title: "현지화",
@@ -412,7 +412,7 @@ window.translations = {
         project_name_shingeom: "신검 : 신살의 아이",
 
         index_section5_title: "비즈니스",
-        index_section5_description: "Yutu Studio는 만화, 웹툰, 영화 등 다양한 콘텐츠를 제작, 유통 및 퍼블리싱합니다.",
+        index_section5_description: "YUTU Studio는 만화, 웹툰, 영화 등 다양한 콘텐츠를 제작, 유통 및 퍼블리싱합니다.",
 
         index_section6_title: "최신 소식",
         index_section6_card_top_left: "스튜디오 소식",
@@ -433,7 +433,7 @@ window.translations = {
         business_production_step_4_content: "파트너 및 창작자와 협업해 리소스와 워크플로우를 통합하고 프로젝트를 확장합니다.",
 
         business_localization_title: "현지화",
-        business_localization_content_1: "Yutu Studio는 웹툰을 다국어로 현지화하여 글로벌 시장에 선보이는 전문 번역 및 로컬라이제이션 서비스를 제공합니다.",
+        business_localization_content_1: "YUTU Studio는 웹툰을 다국어로 현지화하여 글로벌 시장에 선보이는 전문 번역 및 로컬라이제이션 서비스를 제공합니다.",
         business_localization_content_2: "월 수천 화에 달하는 제작 역량을 기반으로, 언어적 정확성과 문화적 감수성을 모두 갖춘 콘텐츠를 제작하여 전 세계 독자들에게 공감과 몰입을 선사합니다.",
         business_localization_content_3: "또한 네이버, 카카오페이지, 레진 등 주요 플랫폼과 협력해 왔으며, 각 플랫폼의 고유한 창의적·기술적 요구에 부합하는 전문적인 품질 기준을 유지하고 있습니다.",
 
@@ -458,7 +458,7 @@ window.translations = {
         we_header_bottom_medium_text: "영감을 점화하다",
         we_section1_title: "열정으로 나아가다",
         we_section1_content_1: "2019년부터 저희 팀은 LICO, YLAB 등 한국의 대표 스튜디오들과 협업해 왔습니다.",
-        we_section1_content_2: "2023년에는 베트남에서 세계적인 수준의 웹툰 제작과 로컬라이제이션을 선보이기 위해 Yutu Studio를 설립했습니다.",
+        we_section1_content_2: "2023년에는 베트남에서 세계적인 수준의 웹툰 제작과 로컬라이제이션을 선보이기 위해 YUTU Studio를 설립했습니다.",
         we_section1_content_3: "우리의 열정은 스토리텔링의 경계를 넘어, 예술을 통해 문화를 연결하는 원동력입니다.",
         we_section2_title: "비전",
         we_vision_label: "OUR",
@@ -496,7 +496,7 @@ window.translations = {
         projects_header_bottom_normal_text: "10곳 이상의 파트너와 협업하며, 상상력을 시각적 스토리텔링으로 확장해 전 세계 관객과 새로운 세계를 공유합니다.",
 
         // Footer
-        footer_description: "Yutu Studio는 창작자와 사용자가 함께 행복해지는 세상을 꿈꿉니다.",
+        footer_description: "YUTU Studio는 창작자와 사용자가 함께 행복해지는 세상을 꿈꿉니다.",
         footer_apply_btn: "지금 지원하기!",
         footer_explore: "탐색",
         footer_explore_we: "우리 이야기",

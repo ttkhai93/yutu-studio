@@ -1,4 +1,4 @@
-// Mobile functionality for Yutu Studio website
+// Mobile functionality for YUTU Studio website
 
 document.addEventListener('DOMContentLoaded', function () {
     // Create mobile menu overlay if it doesn't exist
