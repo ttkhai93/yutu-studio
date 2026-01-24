@@ -476,7 +476,7 @@ section:last-child {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     /* outer border color */
     background: #000000;
     cursor: pointer;
