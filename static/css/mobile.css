@@ -697,6 +697,10 @@
         font-size: 32px;
     }
 
+    .footer-description {
+        width: 100%;
+    }
+
     .footer-right {
         grid-template-columns: 1fr;
         gap: 30px;
@@ -1246,8 +1250,9 @@
     }
 
     .footer-description {
+        width: 75%;
         font-size: 16px;
-        margin-bottom: 8px;
+        margin: 8px auto;
     }
 
     .footer-content {

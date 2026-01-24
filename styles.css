@@ -43,6 +43,10 @@ ul {
     color: #F05A22;
 }
 
+.uppercase-text {
+    text-transform: uppercase;
+}
+
 /* Container */
 .container {
     /* max-width: 1200px; */
