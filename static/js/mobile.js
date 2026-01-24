@@ -10,14 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     initializeMobileMenu();
 
     // Sync mobile language buttons with saved language preference
-    const savedLang = localStorage.getItem('selectedLanguage') || 'en';
-    const mobileLangButtons = document.querySelectorAll('.mobile-language-selector .lang-btn');
-    mobileLangButtons.forEach(btn => {
-        btn.classList.remove('active');
-        if (btn.getAttribute('data-lang') === savedLang) {
-            btn.classList.add('active');
-        }
-    });
+    syncMobileLanguageButtons();
 });
 
 function createMobileMenuOverlay() {
@@ -65,6 +58,9 @@ function createMobileMenuOverlay() {
 
     // Append to body
     document.body.appendChild(overlay);
+
+    // Sync language buttons after overlay creation
+    setTimeout(syncMobileLanguageButtons, 0);
 }
 
 function initializeMobileMenu() {
@@ -159,6 +155,9 @@ function openMobileMenu() {
         mobileOverlay.classList.add('active');
     }
 
+    // Sync mobile language buttons with current saved language preference
+    syncMobileLanguageButtons();
+
     // Prevent body scroll
     if (window.preventBodyScroll) {
         window.preventBodyScroll(true);
@@ -193,9 +192,27 @@ function closeMobileMenu() {
     }
 }
 
+function syncMobileLanguageButtons() {
+    const savedLang = localStorage.getItem('selectedLanguage') || 'en';
+    const mobileLangButtons = document.querySelectorAll('.mobile-language-selector .lang-btn');
+
+    mobileLangButtons.forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.getAttribute('data-lang') === savedLang) {
+            btn.classList.add('active');
+        }
+    });
+
+    // Also ensure mobile menu content is translated to current language
+    if (typeof window.translatePage === 'function') {
+        window.translatePage(savedLang);
+    }
+}
+
 // Expose functions globally if needed
 window.openMobileMenu = openMobileMenu;
 window.closeMobileMenu = closeMobileMenu;
+window.syncMobileLanguageButtons = syncMobileLanguageButtons;
 
 // Handle orientation change for mobile devices
 window.addEventListener('orientationchange', function () {
