@@ -412,14 +412,27 @@
     /* Footer - Mobile adjustments */
     .footer {
         background-size: contain;
-        clip-path: polygon(0 15px, 33.3% 0, 66.6% 15px, 100% 5px, 100% 100%, 0 100%);
         align-items: flex-start !important;
         padding-top: 120px !important;
+        position: relative;
+    }
+
+    .footer .container {
+        position: relative;
+        z-index: 2;
     }
 
     /* Ensure the gradient overlay works properly on mobile */
     .footer::before {
-        background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 1) 40%);
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 1) 50%);
+        pointer-events: none;
+        z-index: 1;
     }
 
     /* Add logo to top of footer-top on mobile */
@@ -443,6 +456,11 @@
         max-width: 95%;
         padding: 10px 0;
         margin-top: 20px;
+        position: relative;
+        z-index: 2;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 8px;
+        padding: 20px 10px 10px 10px;
     }
 
     .footer-right {
@@ -1235,7 +1253,6 @@
 
     /* Footer */
     .footer {
-        clip-path: polygon(0 8px, 33.3% 0, 66.6% 8px, 100% 3px, 100% 100%, 0 100%);
         padding-bottom: 10px;
     }
 
