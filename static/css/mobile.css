@@ -816,6 +816,10 @@
     }
 
     .business-page .header-bottom-left .header-bottom-text {
+        width: 100%;
+    }
+
+    .projects-page .header-bottom-left .header-bottom-text {
         width: 65%;
     }
 
