@@ -1077,6 +1077,7 @@ section:last-child {
     overflow: hidden;
     opacity: 0;
     transition: max-height 0.4s ease-out, opacity 0.3s ease-out, padding 0.4s ease-out;
+    text-align: left;
 }
 
 .process-sub-block.show {
