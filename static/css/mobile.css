@@ -569,10 +569,9 @@
         background-image: url('../images/MOBILE/1-10.png');
     }
 
-    /* Mobile-specific header bottom image */
-    /* .header-bottom-image img {
-        content: url('../images/MOBILE/1-12.png');
-    } */
+    .we-page .header-bottom-image img {
+        height: auto;
+    }
 
     .vision-left,
     .vision-right {
@@ -885,6 +884,10 @@
 
     .index-page .header-bottom-left {
         padding: 20px 0 20px 40px;
+    }
+
+    .we-page .header-bottom-image img {
+        height: auto;
     }
 
     /* Mobile menu adjustments */

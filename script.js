@@ -170,8 +170,8 @@ window.translations = {
         business_partners_title: "PARTNERS",
 
         // We page
-        we_header_bottom_normal_text_1: "AT YUTU STUDIO, WE NURTURE IDEAS AND EMPOWER ARTISTS TO TURN IMAGINATION INTO VISUAL STORYTELLING.",
-        we_header_bottom_normal_text_2: "OUR MISSION IS TO INSPIRE CREATORS TO EXPLORE NEW WORLDS AND SHARE THEM WITH AUDIENCES EVERYWHERE.",
+        // we_header_bottom_normal_text_1: "AT YUTU STUDIO, WE NURTURE IDEAS AND EMPOWER ARTISTS TO TURN IMAGINATION INTO VISUAL STORYTELLING.",
+        // we_header_bottom_normal_text_2: "OUR MISSION IS TO INSPIRE CREATORS TO EXPLORE NEW WORLDS AND SHARE THEM WITH AUDIENCES EVERYWHERE.",
         we_header_bottom_large_text: "WE BELIEVE EVERY GREAT STORY BEGINS WITH A SPARK",
         we_header_bottom_medium_text: "FUELING INSPIRATION",
         we_section1_title: "DRIVEN BY PASSION",
@@ -311,8 +311,8 @@ window.translations = {
         business_partners_title: "ĐỐI TÁC",
 
         // We page
-        we_header_bottom_normal_text_1: "Tại YUTU Studio, chúng tôi nuôi dưỡng ý tưởng và tiếp sức cho nghệ sĩ, biến trí tưởng tượng thành những câu chuyện hình ảnh đầy sức sống.",
-        we_header_bottom_normal_text_2: "Sứ mệnh của chúng tôi là truyền cảm hứng để các nhà sáng tạo khám phá những thế giới mới và lan toả chúng đến độc giả khắp mọi nơi.",
+        // we_header_bottom_normal_text_1: "Tại YUTU Studio, chúng tôi nuôi dưỡng ý tưởng và tiếp sức cho nghệ sĩ, biến trí tưởng tượng thành những câu chuyện hình ảnh đầy sức sống.",
+        // we_header_bottom_normal_text_2: "Sứ mệnh của chúng tôi là truyền cảm hứng để các nhà sáng tạo khám phá những thế giới mới và lan toả chúng đến độc giả khắp mọi nơi.",
         we_header_bottom_large_text: "Mọi câu chuyện đều bắt đầu từ một khoảnh khắc rung động",
         we_header_bottom_medium_text: "Nuôi dưỡng cảm hứng",
         we_section1_title: "ĐƯỢC DẪN DẮT BỞI ĐAM MÊ",
@@ -452,8 +452,8 @@ window.translations = {
         business_partners_title: "파트너",
 
         // We page
-        we_header_bottom_normal_text_1: "유투스튜디오는 아이디어를 키우고, 아티스트들이 상상력을 시각적 스토리텔링으로 구현할 수 있도록 돕습니다.",
-        we_header_bottom_normal_text_2: "우리의 사명은 창작자들이 새로운 세계를 탐험하고, 그 세계를 전 세계의 관객과 나눌 수 있도록 영감을 주는 것입니다.",
+        // we_header_bottom_normal_text_1: "유투스튜디오는 아이디어를 키우고, 아티스트들이 상상력을 시각적 스토리텔링으로 구현할 수 있도록 돕습니다.",
+        // we_header_bottom_normal_text_2: "우리의 사명은 창작자들이 새로운 세계를 탐험하고, 그 세계를 전 세계의 관객과 나눌 수 있도록 영감을 주는 것입니다.",
         we_header_bottom_large_text: "모든 위대한 이야기는 작은 불꽃에서 시작된다고 믿습니다",
         we_header_bottom_medium_text: "영감을 점화하다",
         we_section1_title: "열정으로 나아가다",

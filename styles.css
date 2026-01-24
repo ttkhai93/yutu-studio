@@ -927,7 +927,8 @@ section:last-child {
     text-align: left;
 }
 
-.passion-right p:nth-child(1) {
+.passion-right p:nth-child(1),
+.passion-right p:nth-child(2) {
     margin-bottom: 40px;
 }
 
