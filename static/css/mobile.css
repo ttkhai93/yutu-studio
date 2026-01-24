@@ -711,8 +711,9 @@
 
     .project-footer {
         flex-direction: column;
-        gap: 20px;
         align-items: baseline;
+        gap: 0px;
+        margin-top: 10px;
     }
 
     .scroll-to-top-btn {
@@ -736,6 +737,10 @@
     .projects-page.section-1,
     .projects-page.section-2 {
         transform: none;
+    }
+
+    .projects-page .header-bottom-image {
+        display: none;
     }
 
     .footer {
@@ -859,11 +864,6 @@
 
     .project-image {
         max-width: 100%;
-    }
-
-    .project-footer {
-        flex-direction: column;
-        gap: 20px;
     }
 }
 
