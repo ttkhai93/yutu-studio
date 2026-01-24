@@ -608,6 +608,41 @@
         height: 200px;
     }
 
+    /* Vision mobile layout: 2 rows with image+subtitle on first row, description on second */
+    .vision-text-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .vision-top-row {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .vision-image {
+        flex-shrink: 0;
+        width: 100px !important;
+        height: auto !important;
+    }
+
+    .vision-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+    .vision-subtitle {
+        flex: 1;
+        margin-bottom: 0;
+        font-size: 32px;
+    }
+
+    .vision-description {
+        width: 100%;
+    }
+
     /* Business Page */
     .production-row {
         flex-direction: column;
@@ -746,10 +781,6 @@
 
     .vision-label {
         font-size: 20px;
-    }
-
-    .vision-subtitle {
-        font-size: 50px;
     }
 
     .process-blocks-wrapper {
