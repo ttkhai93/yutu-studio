@@ -419,7 +419,7 @@ window.translations = {
 
         // Business page
         business_header_bottom_large_text_1: "이야기들에",
-        business_header_bottom_large_text_2: "생명을 불어넣다.",
+        business_header_bottom_large_text_2: "생명을 불어넣다",
         business_header_bottom_normal_text: "아이디어가 시각적 스토리로 진화하는선별된 작품들을 만나보세요. 섬세함과 명확한 방향성, 목적을 담아 완성했습니다.",
 
         business_production_title: "제작",

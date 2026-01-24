@@ -205,8 +205,8 @@
 
 .we-page .header-bottom-right {
     color: #000;
-    width: 45%;
     align-self: end;
+    justify-content: right;
 }
 
 .we-page .header-bottom-text {
