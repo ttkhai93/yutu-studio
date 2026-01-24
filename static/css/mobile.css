@@ -516,8 +516,7 @@
     }
 
     .index-page .section3-header {
-        width: 80%;
-        font-size: 36px;
+        width: 100%;
     }
 
     .index-page .section-3-description {
@@ -971,8 +970,7 @@
 
     /* Section 3 */
     .index-page .section3-header {
-        font-size: 48px;
-        width: 50%;
+        width: 80%;
     }
 
     .index-page .section-3-description {

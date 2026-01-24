@@ -324,8 +324,6 @@ section:last-child {
 .index-page .section3-header {
     width: 70%;
     margin: auto;
-    font-size: 121px;
-    font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -345,7 +343,7 @@ section:last-child {
     flex: 1;
     align-content: center;
     background: #F05A22;
-    padding: 60px;
+    padding: 50px;
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
