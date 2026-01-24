@@ -67,6 +67,10 @@
     font-weight: 400;
 }
 
+.index-page .header-bottom-normal-text {
+    margin-top: 20px;
+}
+
 .header-bottom-left {
     flex: 1;
     color: white;

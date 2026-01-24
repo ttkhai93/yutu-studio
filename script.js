@@ -128,6 +128,7 @@ window.translations = {
         index_section4_description: "Be with YUTU. You will turn imagination into visual storytelling and inspire creators to explore new worlds and share them with audiences everywhere.",
         project_name_gongja: "GONGJA",
         project_name_shingeom: "SHINGEOM: The Child of Godslayer",
+        project_name_demonic: "Demonic Frontline: The Thirteenth Flying Dragon",
 
         index_section5_title: "BUSINESS",
         index_section5_description: "YUTU Studio produces, distributes, and publishes contents like comics, webtoons, films, etc.",
@@ -269,6 +270,7 @@ window.translations = {
         index_section4_description: "Đồng hành cùng YUTU Studio, nơi trí tưởng tượng hoá thành những câu chuyện hình ảnh sống động, kết nối nhà sáng tạo với độc giả trên khắp thế giới.",
         project_name_gongja: "GONGJA",
         project_name_shingeom: "SHINGEOM: The Child of Godslayer",
+        project_name_demonic: "Demonic Frontline: The Thirteenth Flying Dragon",
 
         index_section5_title: "HỢP TÁC CÙNG CHÚNG TÔI",
         index_section5_description: "YUTU Studio sản xuất, phân phối và phát hành các nội dung sáng tạo như truyện tranh, webtoon, phim và nhiều định dạng khác.",
@@ -410,6 +412,7 @@ window.translations = {
         index_section4_description: "YUTU와 함께하세요. 상상력을 시각적 스토리로 만들고, 창작자들에게 새로운 세계를 향한 영감을 전합니다.",
         project_name_gongja: "수상한 소공자는 천하십대고수",
         project_name_shingeom: "신검 : 신살의 아이",
+        project_name_demonic: "마교전선 비룡십삼대",
 
         index_section5_title: "비즈니스",
         index_section5_description: "YUTU Studio는 만화, 웹툰, 영화 등 다양한 콘텐츠를 제작, 유통 및 퍼블리싱합니다.",
