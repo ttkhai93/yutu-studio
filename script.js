@@ -251,7 +251,7 @@ window.translations = {
 
         index_section1_highlight_text: "Tại YUTU Studio",
         index_section1_normal_text: ", chúng tôi nuôi dưỡng ý tưởng và đồng hành cùng nghệ sĩ để biến trí tưởng tượng thành những câu chuyện bằng hình ảnh. Chúng tôi mong muốn truyền cảm hứng để các nhà sáng tạo khám phá những thế giới mới và chia sẻ chúng với khán giả ở khắp mọi nơi.",
-        index_section1_best_1: "NHỮNG DỰ ÁN TIÊU BIỂU",
+        index_section1_best_1: "DỰ ÁN TIÊU BIỂU",
         index_section1_best_2: "CỦA YUTU",
         index_section1_portfolio: "/PORTFOLIO",
         index_section1_download: "TẢI VỀ",
@@ -574,7 +574,43 @@ document.addEventListener('DOMContentLoaded', function () {
                 footerPart2.classList.add('highlight-text');
             }
         }
+
+        // Handle special header title for Vietnamese (2 lines) - Desktop only
+        const headerPart1 = document.getElementById('header-title-part1');
+        const headerPart2 = document.getElementById('header-title-part2');
+
+        if (headerPart1 && headerPart2) {
+            const isDesktop = window.innerWidth > 480;
+
+            if (lang === 'vi' && isDesktop) {
+                // Vietnamese on desktop: split into 2 lines
+                const fullText = window.translations[lang]['index_header_bottom_title'];
+                if (fullText) {
+                    // Split the Vietnamese text appropriately for 2 lines
+                    const parts = fullText.split(' ');
+                    const midPoint = Math.ceil(parts.length / 2);
+                    const line1 = parts.slice(0, midPoint).join(' ');
+                    const line2 = parts.slice(midPoint).join(' ');
+
+                    headerPart1.textContent = line1;
+                    headerPart2.textContent = line2;
+                    headerPart2.style.display = 'block';
+                    headerPart1.classList.add('header-title-part1');
+                }
+            } else {
+                // Other languages OR Vietnamese on mobile/tablet: single line
+                headerPart2.style.display = 'none';
+                headerPart1.classList.remove('header-title-part1');
+                // The normal translation will handle headerPart1 content
+            }
+        }
     }
+
+    // Handle window resize for responsive Vietnamese header
+    window.addEventListener('resize', function () {
+        const currentLang = document.documentElement.lang || 'en';
+        translatePage(currentLang);
+    });
 
     // Make functions globally available
     window.setActiveLanguage = setActiveLanguage;

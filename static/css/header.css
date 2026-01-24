@@ -43,6 +43,20 @@
     font-weight: 700;
 }
 
+/* Vietnamese header title spans styling - Desktop only */
+@media screen and (min-width: 481px) {
+
+    .header-title-part1,
+    .header-title-part2 {
+        display: block;
+        white-space: nowrap;
+    }
+
+    .header-title-part2 {
+        margin-top: -10px;
+    }
+}
+
 .header-bottom-medium-text {
     font-size: 60px;
     font-weight: 700;
@@ -56,11 +70,14 @@
 .header-bottom-left {
     flex: 1;
     color: white;
+    min-width: 0;
+    /* Allow text to wrap/overflow properly */
 }
-
 
 .header-bottom-right {
     width: 50%;
+    flex-shrink: 0;
+    /* Prevent collapse */
     color: white;
     display: flex;
     justify-content: space-between;
