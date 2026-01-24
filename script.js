@@ -237,7 +237,7 @@ window.translations = {
     },
     vi: {
         // Navigation
-        nav_we: "Chúng tôi",
+        nav_we: "Về YUTU",
         nav_business: "Hợp tác",
         nav_project: "Dự án",
         nav_join: "Gia nhập",
