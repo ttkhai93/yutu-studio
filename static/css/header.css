@@ -175,6 +175,7 @@
 .join-page .header-bottom-left {
     padding: 0;
     flex-shrink: 0;
+    align-self: end;
 }
 
 .join-page .header-bottom-text {
