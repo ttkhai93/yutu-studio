@@ -438,7 +438,7 @@
     /* Add logo to top of footer-top on mobile */
     .footer-top::before {
         content: '';
-        display: block;
+        display: none;
         height: 65px;
         margin: 0 auto 10px auto;
         background-image: url('../images/MOBILE/1-14.png');
@@ -483,7 +483,7 @@
     }
 
     .footer-contact {
-        width: 60%;
+        width: 65%;
     }
 
     .footer-bottom {
