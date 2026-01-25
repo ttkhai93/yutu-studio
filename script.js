@@ -281,7 +281,7 @@ window.translations = {
         // Business page
         business_header_bottom_large_text_1: "Những câu chuyện",
         business_header_bottom_large_text_2: "được thổi hồn",
-        business_header_bottom_normal_text: "Khám phá những tác phẩm được chọn lọc — nơi ý tưởng dần hình thành câu chuyện hình ảnh, được tạo nên bằng sự chăm chút, rõ ràng và một mục đích nhất quán.",
+        business_header_bottom_normal_text: "Nơi câu chuyện của bạn được phát triển đa định dạng, chỉn chu và nhất quán.",
 
         business_production_title: "Sản xuất",
         business_production_step_1: "Tiền kỳ",
@@ -315,9 +315,9 @@ window.translations = {
         // We page
         // we_header_bottom_normal_text_1: "Tại YUTU Studio, chúng tôi nuôi dưỡng ý tưởng và tiếp sức cho nghệ sĩ, biến trí tưởng tượng thành những câu chuyện hình ảnh đầy sức sống.",
         // we_header_bottom_normal_text_2: "Sứ mệnh của chúng tôi là truyền cảm hứng để các nhà sáng tạo khám phá những thế giới mới và lan toả chúng đến độc giả khắp mọi nơi.",
-        we_header_bottom_large_text: "Mọi câu chuyện đều bắt đầu từ một khoảnh khắc rung động",
+        we_header_bottom_large_text: "Chúng tôi tin rằng mọi cảm hứng đều xứng đáng trở thành một câu chuyện",
         we_header_bottom_medium_text: "Nuôi dưỡng cảm hứng",
-        we_section1_title: "ĐƯỢC DẪN DẮT BỞI ĐAM MÊ",
+        we_section1_title: "TIẾP LỬA ĐAM MÊ",
         we_section1_content_1: "Từ năm 2019, đội ngũ của chúng tôi đã đồng hành cùng nhiều studio hàng đầu Hàn Quốc như LICO và Ylab.",
         we_section1_content_2: "Đến năm 2023, YUTU Studio chính thức được thành lập với mong muốn mang tiêu chuẩn sản xuất và bản địa hóa webtoon đẳng cấp quốc tế đến Việt Nam.",
         we_section1_content_3: "Chính đam mê là động lực thôi thúc chúng tôi không ngừng mở rộng biên giới kể chuyện và kết nối những nền văn hóa khác nhau thông qua nghệ thuật.",
@@ -330,7 +330,7 @@ window.translations = {
 
         // Join page
         join_header_bottom_medium_text: "GIA NHẬP YUTU",
-        join_header_bottom_large_text: "Nơi đam mê và sáng tạo cùng thăng hoa trong webtoon",
+        join_header_bottom_large_text: "Nơi đam mê và sáng tạo cùng thăng hoa",
         join_section1_title: "Tuyển dụng: Line Art / Coloring / 3D / Editing",
         join_hiring_description_background_title: "Giới thiệu:",
         join_hiring_description_qualifications_title: "Yêu cầu:",
