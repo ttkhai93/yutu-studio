@@ -847,6 +847,10 @@ section:last-child {
     flex-shrink: 0;
 }
 
+.production-image-right {
+    height: 200px;
+}
+
 .production-row h1 {
     width: 450px;
     flex-shrink: 0;
