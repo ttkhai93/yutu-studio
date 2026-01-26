@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/auwcnmer/repositories/yutu-studio
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp we.html $DEPLOYPATH
+    - /bin/cp business.html $DEPLOYPATH
+    - /bin/cp join.html $DEPLOYPATH
+    - /bin/cp projects.html $DEPLOYPATH
+    - /bin/cp styles.css $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
+    - /bin/cp -R static $DEPLOYPATH
