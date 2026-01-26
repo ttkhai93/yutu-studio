@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/auwcnmer/repositories/yutu-studio
+    - export DEPLOYPATH=/home/auwcnmer/public_html
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp we.html $DEPLOYPATH
     - /bin/cp business.html $DEPLOYPATH
