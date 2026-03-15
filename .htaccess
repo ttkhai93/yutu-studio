@@ -1,34 +1,5 @@
-# Django .htaccess for cPanel Passenger
 PassengerEnabled On
-PassengerAppRoot /home/auwcnmer/public_html
-
-# Set the startup file
+PassengerAppRoot /home/auwcnmer/yutu-python-app
+PassengerBaseURI /
 PassengerStartupFile passenger_wsgi.py
-
-# Python version - adjust based on your cPanel Python selector
-PassengerPython /home/auwcnmer/virtualenv/public_html/bin/python
-
-# Serve static files directly (bypass Django)
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /
-    
-    # Serve static files directly
-    RewriteCond %{REQUEST_FILENAME} -f [OR]
-    RewriteCond %{REQUEST_FILENAME} -d
-    RewriteRule ^ - [L]
-    
-    # Everything else goes to Django
-    RewriteRule ^ passenger_wsgi.py [L]
-</IfModule>
-
-# Allow access to static and media directories
-<Directory /home/auwcnmer/public_html/static>
-    Allow from all
-    Options -Indexes
-</Directory>
-
-<Directory /home/auwcnmer/public_html/media>
-    Allow from all
-    Options -Indexes
-</Directory>
+PassengerPython /home/auwcnmer/virtualenv/yutu-python-app/3.11/bin/python
