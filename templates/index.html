@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUTU Studio - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="/static/css/header.css">
+    <link rel="stylesheet" href="/static/css/footer.css">
+    <link rel="stylesheet" href="/static/css/slider.css">
+    <link rel="stylesheet" href="/static/css/mobile.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header header-with-bg index-page">
+        <div class="header-top">
+            <div class="container">
+                <div class="logo">
+                    <picture>
+                        <source media="(orientation: landscape) and (max-height: 480px)"
+                            srcset="/static/images/MOBILE/1-14.png">
+                        <source media="(max-width: 480px)" srcset="/static/images/MOBILE/1-14.png">
+                        <img src="/static/images/1-07.png" alt="YUTU Studio">
+                    </picture>
+                </div>
+                <div class="nav-controls-group">
+                    <nav class="navbar">
+                        <ul class="nav-list">
+                            <li><a href="we.html" data-translate="nav_we">We</a></li>
+                            <li><a href="business.html" data-translate="nav_business">Business</a></li>
+                            <li><a href="join.html" data-translate="nav_join">Join</a></li>
+                        </ul>
+                    </nav>
+                    <div class="language-selector">
+                        <button class="lang-btn active" data-lang="en">ENGLISH</button>
+                        <button class="lang-btn" data-lang="ko">KOREAN</button>
+                        <button class="lang-btn" data-lang="vi">VIETNAMESE</button>
+                    </div>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="header-bottom-left">
+                <div class="header-bottom-large-text">
+                    <span id="header-title-part1" data-translate="index_header_bottom_title">
+                        "Where ideas grow into value."
+                    </span>
+                    <span id="header-title-part2" class="header-title-part2" style="display: none;"></span>
+                </div>
+                <div class="header-bottom-normal-text">
+                    <p data-translate="index_header_bottom_description_1">
+                        YUTU is a creative studio building thoughtful digital solutions.
+                    </p>
+                    <p data-translate="index_header_bottom_description_2">
+                        We focus on clarity, purpose, and long-term value.
+                    </p>
+                </div>
+            </div>
+            <div class="header-bottom-right">
+                <div class="header-bottom-right-left" data-translate="index_header_bottom_latest_work">OUT LATEST WORKS
+                </div>
+                <div class="header-bottom-right-right">
+                    <button class="btn-with-icon" onclick="window.location.href='projects.html'">
+                        <span></span>
+                        <span data-translate="index_header_bottom_viewall">VIEW ALL</span>
+                        <img src="/static/images/HOME/1-06.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="index-page">
+        <!-- Section 1 -->
+        <section class="section section-1">
+            <div class="section-1-layout">
+                <div class="section-1-left">
+                    <img src="/static/images/HOME/1-11.png">
+                </div>
+                <div class="section-1-right">
+                    <div class="section-1-right-top">
+                        <span class="highlight-text" data-translate="index_section1_highlight_text">AT YUTU
+                            STUDIO</span>
+                        <span data-translate="index_section1_normal_text">, we nurture ideas and empower artists
+                            to turn imagination into visual storytelling. Our mission
+                            is to inspire creators to explore new worlds and share
+                            them with audiences everywhere.</span>
+                    </div>
+                    <div class="section-1-right-bottom">
+                        <div class="section-1-right-bottom-left">
+                            <p data-translate="index_section1_best_1">THE BEST</p>
+                            <p data-translate="index_section1_best_2">OF YUTU</p>
+                        </div>
+                        <div class="section-1-right-bottom-border"></div>
+                        <div class="section-1-right-bottom-mid" data-translate="index_section1_portfolio">/PORTFOLIO
+                        </div>
+                        <div class="section-1-right-bottom-right">
+                            <button id="download-portfolio" class="btn-with-icon">
+                                <span></span>
+                                <span data-translate="index_section1_download">DOWNLOAD</span>
+                                <img src="/static/images/HOME/1-06.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="section section-2">
+            <div class="container">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="/static/images/MOBILE/1-16.png">
+                    <img style="width: 100%;" src="/static/images/HOME/1-12.png" alt="">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="section section-3">
+            <div class="container">
+                <div class="section3-header section-title">
+                    <span data-translate="index_section3_title">A little joy of your daily life</span><span
+                        class="highlight-text">.</span>
+                </div>
+                <div class="section-3-description" data-translate="index_section3_description">
+                    YUTU Studio dreams of a world where both creators and users will find happiness.
+                </div>
+
+                <div class="section-3-blocks">
+                    <div class="section-3-block">
+                        <p class="block-title" data-translate="index_section3_block_1_title">Production & Distribution
+                        </p>
+                        <p class="block-description" data-translate="index_section3_block_1_description">Produce
+                            contents such as films,
+                            comics, webtoons, etc., and distribution on & offline.
+                        </p>
+                    </div>
+                    <div class="section-3-block">
+                        <p class="block-title" data-translate="index_section3_block_2_title">Localization</p>
+                        <p class="block-description" data-translate="index_section3_block_2_description">Translate,
+                            digitalize, censor and
+                            marketing for films, comics, webtoons, and multimedia.
+                        </p>
+                    </div>
+                    <div class="section-3-block">
+                        <p class="block-title" data-translate="index_section3_block_3_title">Cooperative Relationship
+                        </p>
+                        <p class="block-description" data-translate="index_section3_block_3_description">Maintain
+                            partnerships with IT and
+                            content-related companies for greater benefits.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="section section-4">
+            <div class="container">
+                <h1 class="section-title" data-translate="index_section4_title">WEBTOON SHOWCASE</h1>
+                <div class="section-4-description" data-translate="index_section4_description">
+                    Be with YUTU. You will turn imagination into visual storytelling and inspire creators to explore new
+                    worlds and share them with audiences everywhere.
+                </div>
+
+                <div class="swiper mySwiper projects-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image-wrapper image-full">
+                                <picture>
+                                    <!-- <source media="(orientation: landscape) and (max-height: 480px)"
+                                        srcset="/static/images/PROJECTS/PROJECT-1.png">
+                                    <source media="(max-width: 480px)" srcset="/static/images/PROJECTS/PROJECT-1.png"> -->
+                                    <img src="/static/images/PROJECTS/PROJECT-1.png" alt="">
+                                </picture>
+                                <div class="middle-block">
+                                    <div class="middle-block-col-left">
+                                        <div data-translate="project_name_gongja">GONGJA</div>
+                                        <!-- <div>수상한 소공자는 천하십대고수</div> -->
+                                    </div>
+                                    <div class="middle-block-col-right">
+                                        <button class="btn-with-icon"
+                                            onclick="window.location.href='https://comic.naver.com/webtoon/list?titleId=819386'">
+                                            <span></span>
+                                            <span data-translate="btn_read_more">READ MORE</span>
+                                            <img src="/static/images/HOME/1-06.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-wrapper image-full">
+                                <picture>
+                                    <!-- <source media="(orientation: landscape) and (max-height: 480px)"
+                                        srcset="/static/images/MOBILE/1-11.png">
+                                    <source media="(max-width: 480px)" srcset="/static/images/MOBILE/1-11.png"> -->
+                                    <img src="/static/images/PROJECTS/PROJECT-2.png" alt="">
+                                </picture>
+                                <div class="middle-block">
+                                    <div class="middle-block-col-left">
+                                        <div data-translate="project_name_shingeom">SHINGEOM: The Child of Godslayer
+                                        </div>
+                                        <!-- <div>신검 : 신살의 아이</div> -->
+                                    </div>
+                                    <div class="middle-block-col-right">
+                                        <button class="btn-with-icon"
+                                            onclick="window.location.href='https://page.kakao.com/content/64915152'">
+                                            <span></span>
+                                            <span data-translate="btn_read_more">READ MORE</span>
+                                            <img src="/static/images/HOME/1-06.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="image-wrapper image-full">
+                                <picture>
+                                    <!-- <source media="(orientation: landscape) and (max-height: 480px)"
+                                        srcset="/static/images/HOME/demonic.png">
+                                    <source media="(max-width: 480px)" srcset="/static/images/HOME/demonic.png"> -->
+                                    <img src="/static/images/PROJECTS/PROJECT-3.png" alt="">
+                                </picture>
+                                <div class="middle-block">
+                                    <div class="middle-block-col-left">
+                                        <div data-translate="project_name_demonic">Demonic Frontline: The Thirteenth
+                                            Flying Dragon
+                                        </div>
+                                        <!-- <div>신검 : 신살의 아이</div> -->
+                                    </div>
+                                    <div class="middle-block-col-right">
+                                        <button class="btn-with-icon"
+                                            onclick="window.location.href='https://comic.naver.com/webtoon/list?titleId=842352&tab=wed'">
+                                            <span></span>
+                                            <span data-translate="btn_read_more">READ MORE</span>
+                                            <img src="/static/images/HOME/1-06.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="section section-5">
+            <div class="section-5-content">
+                <div class="section-5-box">
+                    <h1 class="section-title" data-translate="index_section5_title">BUSINESS</h1>
+                    <div class="section-5-description" data-translate="index_section5_description">YUTU Studio produces,
+                        distributes, and publishes contents like
+                        comics, webtoons, films, etc.</div>
+                    <div class="section-5-button">
+                        <button class="btn-with-icon" onclick="window.location.href='business.html'">
+                            <span></span>
+                            <span data-translate="btn_read_more">VIEW MORE</span>
+                            <img src="/static/images/HOME/1-06.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6 -->
+        <section class="section section-6">
+            <div class="container">
+                <h1 class="section-title" data-translate="index_section6_title">LATEST NEWS</h1>
+
+                <div class="swiper mySwiper news-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="update-card active">
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-category" data-translate="index_section6_card_top_left">Company
+                                            Update</div>
+                                        <div class="card-date">Dec 22, 2025</div>
+                                    </div>
+                                    <div class="card-title">Partnership Announcement</div>
+                                    <div class="card-description">
+                                        YUTU Studio is excited to announce a strategic partnership with leading content
+                                        creators
+                                        to expand our creative horizons.
+                                    </div>
+                                    <div class="card-footer-wrapper">
+                                        <div class="card-footer active">
+                                            <div class="card-footer-left" data-translate="btn_read_more">READ MORE</div>
+                                            <div class="card-footer-right">
+                                                <img src="/static/images/HOME/1-06.png" alt="arrow">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="update-card">
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-category" data-translate="index_section6_card_top_left">Company
+                                            Update</div>
+                                        <div class="card-date">Dec 15, 2025</div>
+                                    </div>
+                                    <div class="card-title">Studio Expansion</div>
+                                    <div class="card-description">
+                                        We're expanding our studio facilities to accommodate more creative talent and
+                                        cutting-edge production capabilities.
+                                    </div>
+                                    <div class="card-footer-wrapper">
+                                        <div class="card-footer">
+                                            <div class="card-footer-left" data-translate="btn_read_more">READ MORE</div>
+                                            <div class="card-footer-right">
+                                                <img src="/static/images/HOME/1-06.png" alt="arrow">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="update-card">
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-category" data-translate="index_section6_card_top_left">Company
+                                            Update</div>
+                                        <div class="card-date">Dec 10, 2025</div>
+                                    </div>
+                                    <div class="card-title">Award Recognition</div>
+                                    <div class="card-description">
+                                        YUTU Studio received the Excellence in Animation award for our outstanding
+                                        contributions
+                                        to digital storytelling.
+                                    </div>
+                                    <div class="card-footer-wrapper">
+                                        <div class="card-footer">
+                                            <div class="card-footer-left" data-translate="btn_read_more">READ MORE</div>
+                                            <div class="card-footer-right">
+                                                <img src="/static/images/HOME/1-06.png" alt="arrow">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="update-card">
+                                <div class="card-content">
+                                    <div class="card-header">
+                                        <div class="card-category" data-translate="index_section6_card_top_left">Company
+                                            Update</div>
+                                        <div class="card-date">Dec 05, 2025</div>
+                                    </div>
+                                    <div class="card-title">New Project Launch</div>
+                                    <div class="card-description">
+                                        We're thrilled to unveil our latest project that combines innovative
+                                        storytelling with
+                                        cutting-edge animation techniques.
+                                    </div>
+                                    <div class="card-footer-wrapper">
+                                        <div class="card-footer">
+                                            <div class="card-footer-left" data-translate="btn_read_more">READ MORE</div>
+                                            <div class="card-footer-right">
+                                                <img src="/static/images/HOME/1-06.png" alt="arrow">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-to-top-btn">
+        <img src="/static/images/HOME/SCROLL.png" alt="Scroll to top">
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-title">
+                    <span id="footer-title-part1" data-translate="footer_title_part1">JOIN</span>
+                    <span id="footer-title-part2" class="highlight-text" data-translate="footer_title_part2">OUR
+                        TEAM</span>
+                </div>
+                <div class="footer-description" data-translate="footer_description">
+                    YUTU Studio dreams of a bright world where both creators and users will be happy.
+                </div>
+                <div class="footer-button">
+                    <button class="btn-with-icon" onclick="window.location.href='join.html'">
+                        <span></span>
+                        <span data-translate="footer_apply_btn">APPLY NOW</span>
+                        <img src="/static/images/HOME/1-06.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <div class="footer-left">
+                    <picture>
+                        <source media="(orientation: landscape) and (max-height: 480px)"
+                            srcset="/static/images/MOBILE/1-14.png">
+                        <source media="(max-width: 480px)" srcset="/static/images/MOBILE/1-14.png">
+                        <img src="/static/images/1-07.png" alt="YUTU Studio" class="footer-logo">
+                    </picture>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-column" style="flex: 0.6;">
+                        <h4 data-translate="footer_explore">EXPLORE</h4>
+                        <ul>
+                            <li><a href="we.html" data-translate="footer_explore_we">WE</a></li>
+                            <li><a href="projects.html" data-translate="footer_explore_projects">PROJECTS</a></li>
+                            <li><a href="business.html" data-translate="footer_explore_business">BUSINESS</a></li>
+                            <li><a href="join.html" data-translate="footer_explore_recruitement">RECRUITEMENT</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column" style="flex: 0.6;">
+                        <h4 data-translate="footer_follow">FOLLOW US</h4>
+                        <ul>
+                            <li><a href="https://www.instagram.com/yutustudio"
+                                    data-translate="footer_follow_ig">INSTAGRAM</a></li>
+                            <li><a href="https://www.facebook.com/yutustu"
+                                    data-translate="footer_follow_fb">FACEBOOK</a></li>
+                            <li><a href="#" data-translate="footer_follow_tt">TIKTOK</a></li>
+                            <li><a href="#" data-translate="footer_follow_yt">YOUTUBE</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column" style="flex: 1;">
+                        <h4 data-translate="footer_info">OUR INFO</h4>
+                        <span data-translate="footer_info_addr_1">S1.F15, No. 1 Tran Van Danh Street,</span>
+                        <span class="address-link" data-translate="footer_info_addr_2">
+                            Carillon 1 Building, Tan Binh Ward, Ho Chi Minh City
+                        </span>
+
+                        <div class="footer-contact">
+                            <div style="display: flex; justify-content: space-between;">
+                                <span data-translate="footer_info_phone">Phone</span> <a href="#"> +84 964 348 068</a>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <span data-translate="footer_info_email">Email</span><a href="#">biz@yutuvn.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 YUTU Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="/static/script.js"></script>
+    <script src="/static/js/mobile.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper.news-slider", {
+            slidesPerView: 1.2,
+            spaceBetween: 20,
+            centeredSlides: true,
+            centeredSlidesBounds: true,
+            slideToClickedSlide: true,
+            touchRatio: 1,
+            touchAngle: 45,
+            grabCursor: true,
+            breakpoints: {
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                }
+            },
+            on: {
+                click: function (swiper, event) {
+                    console.log('Clicked index:', swiper.clickedIndex);
+                    swiper.slideTo(swiper.clickedIndex);
+                    activateSlide(swiper.clickedIndex);
+                },
+            },
+        });
+
+        const slides = document.querySelectorAll('.update-card');
+
+        function activateSlide(slideIndex) {
+            // Remove active from all slides
+            slides.forEach((slide, index) => {
+                slide.classList.remove('active');
+                const footer = slide.querySelector('.card-footer');
+                if (footer) {
+                    footer.classList.remove('active');
+                }
+            });
+
+            // Add active to the selected slide
+            if (slides[slideIndex]) {
+                slides[slideIndex].classList.add('active');
+                const footer = slides[slideIndex].querySelector('.card-footer');
+                if (footer) {
+                    footer.classList.add('active');
+                }
+            }
+        }
+
+
+        var swiper = new Swiper(".mySwiper.projects-slider", {
+            slidesPerView: 1.1,
+            spaceBetween: 15,
+            centeredSlides: true,
+            centeredSlidesBounds: true,
+            slideToClickedSlide: true,
+            touchRatio: 1,
+            touchAngle: 45,
+            grabCursor: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                }
+            },
+            on: {
+                click: function (swiper, event) {
+                    console.log('Clicked index:', swiper.clickedIndex);
+                    swiper.slideTo(swiper.clickedIndex);
+                    activateSlide(swiper.clickedIndex);
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>

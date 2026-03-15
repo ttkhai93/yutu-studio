@@ -1,0 +1,5 @@
+PassengerEnabled On
+PassengerAppRoot /home/auwcnmer/yutu-python-app
+PassengerBaseURI /
+PassengerStartupFile passenger_wsgi.py
+PassengerPython /home/auwcnmer/virtualenv/yutu-python-app/3.11/bin/python
