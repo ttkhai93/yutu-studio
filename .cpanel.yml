@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/auwcnmer/yutu-studio
+    - export DEPLOYPATH=/home/auwcnmer/yutu-python-app
     # Deploy Django project files (src layout)
     - /bin/cp -R src $DEPLOYPATH
     - /bin/cp -R templates $DEPLOYPATH
@@ -9,7 +9,6 @@ deployment:
     - /bin/cp passenger_wsgi.py $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp requirements.txt $DEPLOYPATH
-    - /bin/cp send-email.php $DEPLOYPATH
     # Create media directory if it doesn't exist
     - /bin/mkdir -p $DEPLOYPATH/media
     # Run migrations and collect static files (requires SSH access)
