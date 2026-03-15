@@ -1,103 +1,178 @@
-# YUTU Studio Website - Django Edition
+# YUTU Studio - Django Website
 
-A Django-powered website for YUTU Studio with an integrated comic/webtoon reader.
+Django-powered website for YUTU Studio with integrated comic/webtoon reader.
 
-## 🎉 Project Status
+**Tech Stack:** Django 6.0+ | SQLite/MySQL | Pillow | Passenger WSGI
 
-✅ **Successfully migrated from static HTML to Django!**
-
-All original functionality is preserved, with added benefits of Django's framework for future enhancements.
+---
 
 ## 🚀 Quick Start
 
 ### Local Development
-
 ```bash
-# Activate virtual environment
 source .venv/bin/activate
-
-# Run development server
 python manage.py runserver
 ```
+Visit: http://localhost:8000 | Admin: http://localhost:8000/admin/
 
-Visit: http://localhost:8000
+### Create Admin User
+```bash
+python manage.py createsuperuser
+```
 
-**See [LOCAL_DEVELOPMENT.md](LOCAL_DEVELOPMENT.md) for detailed development guide.**
-
-### cPanel Deployment
-
-**See [DJANGO_DEPLOYMENT_GUIDE.md](DJANGO_DEPLOYMENT_GUIDE.md) for complete deployment instructions.**
-
-Quick checklist:
-1. Setup Python App in cPanel
-2. Upload files
-3. Install requirements: `pip install -r requirements.txt`
-4. Run migrations: `python manage.py migrate`
-5. Create superuser: `python manage.py createsuperuser`
-6. Restart app
+---
 
 ## 📁 Project Structure
 
 ```
 yutu-studio/
-├── yutu_config/          # Django project configuration
-├── pages/                # Static pages (Home, We, Business, Join, etc.)
-├── comics/               # Comic reader app with admin
-├── templates/            # HTML templates
-├── static/               # CSS, JS, images
-├── media/                # User uploads (comic pages)
-├── manage.py             # Django management
-├── passenger_wsgi.py     # cPanel WSGI entry point
-└── requirements.txt      # Python dependencies
+├── src/                     # Django Python code
+│   ├── yutu_config/        # Settings, URLs, WSGI
+│   ├── pages/              # Static pages app
+│   ├── comics/             # Comic reader app (models, views, admin)
+│   └── manage.py           # Django management
+├── templates/              # HTML templates
+├── static/                 # CSS, JS, images
+├── media/                  # User uploads
+├── passenger_wsgi.py       # cPanel entry point
+├── .htaccess              # Apache config
+└── requirements.txt        # Dependencies
 ```
+
+---
 
 ## 🎨 Features
 
-### Current Features (Working Now)
-- ✅ All original pages (Home, We, Business, Join, Projects, Contact)
-- ✅ Comic/Webtoon reader with chapter navigation
-- ✅ Responsive design (mobile & desktop)
-- ✅ Multi-language support (EN, KR, VI)
-- ✅ Contact form
+**Pages:** Home, We, Business, Join, Projects, Contact  
+**Comic Reader:** Chapter/page navigation, keyboard shortcuts (←→[])  
+**Admin Panel:** `/admin/` - Manage comics, chapters, pages via web interface  
+**API:** `/api/comic-data/` - JSON endpoint for comic data  
+**Responsive:** Mobile & desktop optimized
 
-### New Django Features
-- ✅ **Admin Panel** at `/admin/` - Manage comics, chapters, pages
-- ✅ **Database Backend** - SQLite (easily switch to MySQL)
-- ✅ **Comic Management** - Upload and organize comics via admin
-- ✅ **API Endpoints** - JSON API for comic data
-- ✅ **User System** - Django auth ready for future features
-- ✅ **Media Management** - Handle image uploads properly
+---
 
-## 📚 Documentation
+## 🛠 Development Commands
 
-- **[DJANGO_DEPLOYMENT_GUIDE.md](DJANGO_DEPLOYMENT_GUIDE.md)** - Complete cPanel deployment guide
-- **[LOCAL_DEVELOPMENT.md](LOCAL_DEVELOPMENT.md)** - Local development setup and workflow
-- **[COMIC-READER-README.md](COMIC-READER-README.md)** - Comic reader feature documentation
+```bash
+# Database
+python manage.py migrate                    # Apply migrations
+python manage.py makemigrations             # Create migrations
 
-## 🛠 Technology Stack
+# Static files
+python manage.py collectstatic              # Collect for production
 
-- **Backend**: Django 6.0+
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Database**: SQLite (development), MySQL (production ready)
-- **Image Processing**: Pillow
-- **Server**: Passenger WSGI (cPanel)
-- **Font**: Montserrat
+# Django shell
+python manage.py shell                      # ORM access
+```
 
-## 🔐 Admin Panel
+### Development Workflow
+1. Edit files in `src/` (models, views) or `templates/`
+2. Template changes show immediately; Python changes need restart
+3. After model changes: `makemigrations` → `migrate`
+4. For production: `collectstatic`
 
-Access at: `/admin/`
+---
 
-### Creating Comics
-1. Login to admin panel
-2. Navigate to Comics
-3. Add Comic → Add Chapters → Upload Pages
-4. Pages appear in the comic reader automatically
+## 🚀 cPanel Deployment
 
-## 🎯 Next Steps / Future Enhancements
+### 1. Setup Python App
+- cPanel → "Setup Python App"
+- Python 3.9+, Application root: `/home/auwcnmer/public_html`
+- Startup file: `passenger_wsgi.py`, Entry: `application`
 
-- [ ] Migrate static comic data to database
-- [ ] Update comic reader to fetch from database API
-- [ ] Add user authentication for readers
+### 2. Upload Files
+Upload all project files (src/, templates/, static/, etc.) to `/home/auwcnmer/public_html/`
+
+### 3. Configure & Install
+```bash
+# Activate virtual environment
+source /home/auwcnmer/virtualenv/public_html/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Update settings.py
+DEBUG = False
+ALLOWED_HOSTS = ['yutuvn.com', 'www.yutuvn.com']
+SECRET_KEY = 'new-secret-key'  # Generate new!
+
+# Run migrations
+python manage.py migrate
+python manage.py collectstatic --noinput
+python manage.py createsuperuser
+```
+
+### 4. Update .htaccess
+```apache
+PassengerAppRoot /home/auwcnmer/public_html
+PassengerPython /home/auwcnmer/virtualenv/public_html/bin/python
+```
+
+### 5. Restart
+cPanel Python App → Click "Restart" or `touch tmp/restart.txt`
+
+---
+
+## 📖 Comic Reader
+
+### Current: Static Demo
+- Data in `static/js/comic-reader.js`
+- Images in `static/images/COMICS/chapter[1-3]/`
+- Keyboard: ←→ pages, [] chapters
+
+### Admin: Database Management
+1. Login to `/admin/`
+2. Comics → Add comic → Add chapters → Upload pages
+3. API endpoint ready at `/api/comic-data/`
+
+### Add New Comics
+**Static method:**
+1. Add images to `static/images/COMICS/[comic-name]/chapter[N]/`
+2. Update `comicData` object in `comic-reader.js`
+
+**Database method:**
+Use admin panel to upload comics
+
+---
+
+## 🐛 Troubleshooting
+
+### Local Issues
+```bash
+# Server won't start
+source .venv/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
+
+# Database errors
+rm db.sqlite3
+python manage.py migrate
+
+# Static files not loading
+python manage.py collectstatic
+```
+
+### Production Issues
+- **500 Error:** Check cPanel error logs; verify `.htaccess` paths; temporarily set `DEBUG = True` to see errors
+- **Static files broken:** Run `collectstatic`; check `STATIC_ROOT` in settings
+- **Images not showing:** Verify `MEDIA_ROOT` and `MEDIA_URL` in settings
+- **App not updating:** Restart via cPanel or `touch tmp/restart.txt`
+
+---
+
+## 📋 URLs Reference
+
+| Page | URL |
+|------|-----|
+| Home | `/` |
+| About | `/we.html` |
+| Business | `/business.html` |
+| Join | `/join.html` |
+| Projects | `/projects.html` |
+| Contact | `/contact.html` |
+| Comic Reader | `/comic.html` |
+| Admin | `/admin/` |
+| API | `/api/comic-data/` |
 - [ ] Implement reading progress tracking
 - [ ] Add comments system for chapters
 - [ ] Create categories/tags for comics
