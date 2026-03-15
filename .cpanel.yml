@@ -2,13 +2,16 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/auwcnmer/public_html
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp we.html $DEPLOYPATH
-    - /bin/cp business.html $DEPLOYPATH
-    - /bin/cp join.html $DEPLOYPATH
-    - /bin/cp projects.html $DEPLOYPATH
-    - /bin/cp contact.html $DEPLOYPATH
-    - /bin/cp styles.css $DEPLOYPATH
-    - /bin/cp script.js $DEPLOYPATH
-    - /bin/cp send-email.php $DEPLOYPATH
+    # Deploy Django project files (src layout)
+    - /bin/cp -R src $DEPLOYPATH
+    - /bin/cp -R templates $DEPLOYPATH
     - /bin/cp -R static $DEPLOYPATH
+    - /bin/cp passenger_wsgi.py $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp requirements.txt $DEPLOYPATH
+    - /bin/cp send-email.php $DEPLOYPATH
+    # Create media directory if it doesn't exist
+    - /bin/mkdir -p $DEPLOYPATH/media
+    # Run migrations and collect static files (requires SSH access)
+    # - cd $DEPLOYPATH/src && python manage.py migrate
+    # - cd $DEPLOYPATH/src && python manage.py collectstatic --noinput

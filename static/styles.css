@@ -523,7 +523,7 @@ section:last-child {
 
 /* Section 5 */
 .section-5 {
-    background: url('static/images/HOME/1-29.png') center center / cover no-repeat;
+    background: url('images/HOME/1-29.png') center center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -617,7 +617,7 @@ section:last-child {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    background-image: url('static/images/HOME/1-13.png');
+    background-image: url('images/HOME/1-13.png');
 }
 
 .update-card.active::before {
@@ -1020,7 +1020,7 @@ section:last-child {
 }
 
 .process-block-with-bg {
-    background-image: url('static/images/BUSINESS/1-28.png');
+    background-image: url('images/BUSINESS/1-28.png');
     background-size: cover;
     background-position: center;
     position: relative;
