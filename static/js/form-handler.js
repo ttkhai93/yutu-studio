@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
         formMessage.classList.remove('show', 'success', 'error');
 
         try {
-            // Send form data to PHP handler
-            const response = await fetch('send-email.php', {
+            // Send form data to Django backend
+            const response = await fetch('/send-contact-email/', {
                 method: 'POST',
                 body: formData
             });

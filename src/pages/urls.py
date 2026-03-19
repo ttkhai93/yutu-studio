@@ -11,4 +11,5 @@ urlpatterns = [
     path("join.html", views.join, name="join"),
     path("projects.html", views.projects, name="projects"),
     path("contact.html", views.contact, name="contact"),
+    path("send-contact-email/", views.send_contact_email, name="send_contact_email"),
 ]

@@ -10,12 +10,16 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
+import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 # With src layout: settings.py is in src/yutu_config/, so parent.parent.parent gets project root
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
+# Load environment variables from .env file
+load_dotenv(BASE_DIR / ".env")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
@@ -24,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 SECRET_KEY = "django-insecure-7zjxjglgvvo+j*c^bgsneer%g=gh4i*2)_el84(d=#%sv_3m&w"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv("DEBUG", "").lower() == "true"
 
 ALLOWED_HOSTS = ["*"]  # Update this with your actual domain in production
 
@@ -44,6 +48,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",  # Add this for static files
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -128,3 +133,20 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# Email Configuration
+# Email settings (used in both development and production)
+DEFAULT_FROM_EMAIL = "noreply@yutu.vn"  # From email address
+
+if DEBUG:
+    # Development: Print emails to console
+    EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+else:
+    # Production: Send emails via SMTP (cPanel)
+    EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+    EMAIL_HOST = "yutu.vn"  # Your cPanel mail server
+    EMAIL_PORT = 465  # Use 465 for SSL or 587 for TLS
+    EMAIL_USE_SSL = True  # Set to True if using port 465
+    EMAIL_USE_TLS = False  # Set to True if using port 587 (and SSL to False)
+    EMAIL_HOST_USER = "noreply@yutu.vn"  # Email account from cPanel
+    EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD", "")
