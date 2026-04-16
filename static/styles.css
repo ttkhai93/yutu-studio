@@ -1251,6 +1251,22 @@ section:last-child {
     .container {
         max-width: 1320px;
     }
+
+    .project-image {
+        max-width: 500px;
+    }
+
+    .projects-page.section-1 {
+        transform: translateX(-300px);
+    }
+
+    .projects-page.section-2 {
+        transform: translateX(300px);
+    }
+
+    .project-background-text {
+        font-size: 150px;
+    }
 }
 
 /* Laptop (1280px and below) */
@@ -1262,6 +1278,22 @@ section:last-child {
     .container {
         max-width: 1140px;
     }
+
+    .project-image {
+        max-width: 400px;
+    }
+
+    .projects-page.section-1 {
+        transform: translateX(-200px);
+    }
+
+    .projects-page.section-2 {
+        transform: translateX(200px);
+    }
+
+    .project-background-text {
+        font-size: 100px;
+    }
 }
 
 /* Tablet (1024px and below) */
@@ -1272,5 +1304,21 @@ section:last-child {
 
     .container {
         max-width: 960px;
+    }
+
+    .project-image {
+        max-width: 400px;
+    }
+
+    .projects-page.section-1 {
+        transform: translateX(-200px);
+    }
+
+    .projects-page.section-2 {
+        transform: translateX(200px);
+    }
+
+    .project-background-text {
+        font-size: 100px;
     }
 }
