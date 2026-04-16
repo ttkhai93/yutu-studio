@@ -19,7 +19,7 @@ body {
 }
 
 main {
-    padding: 0 80px;
+    padding: 0 240px;
 }
 
 button {
@@ -50,7 +50,7 @@ ul {
 
 /* Container */
 .container {
-    /* max-width: 1200px; */
+    max-width: 1440px;
     margin: 0 auto;
     width: 100%;
 }
@@ -1225,4 +1225,53 @@ section:last-child {
     background-color: #f8d7da;
     color: #721c24;
     border: 1px solid #f5c6cb;
+}
+
+/* ============================================
+   RESPONSIVE BREAKPOINTS
+   Desktop XL (1920px+) uses base styles above
+   ============================================ */
+
+/* Desktop L (1600px and below) */
+@media (max-width: 1600px) {
+    main {
+        padding: 0 80px;
+    }
+
+    .container {
+        max-width: 1440px;
+    }
+}
+
+/* Desktop M (1440px and below) */
+@media (max-width: 1440px) {
+    main {
+        padding: 0 60px;
+    }
+
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/* Laptop (1280px and below) */
+@media (max-width: 1280px) {
+    main {
+        padding: 0 70px;
+    }
+
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Tablet (1024px and below) */
+@media (max-width: 1024px) {
+    main {
+        padding: 0 32px;
+    }
+
+    .container {
+        max-width: 960px;
+    }
 }
