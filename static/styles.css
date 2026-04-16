@@ -357,15 +357,14 @@ section:last-child {
 }
 
 .index-page .section-3-block .block-title {
-    height: 50%;
-    font-size: 60px;
+    font-size: 24px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: white;
 }
 
 .index-page .section-3-block .block-description {
-    height: 50%;
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.9);
 }
 
