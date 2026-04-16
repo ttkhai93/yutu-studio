@@ -95,10 +95,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.translations = {
     en: {
         // Navigation
-        nav_we: "We",
-        nav_business: "Business",
-        nav_project: "Project",
-        nav_join: "Join",
+        nav_we: "YUTU STUDIO",
+        nav_business: "BUSINESS",
+        nav_project: "PRODUCT",
+        nav_contact: "CONTACT",
+        nav_join: "RECRUIT",
 
         btn_read_more: "READ MORE",
 
@@ -240,6 +241,7 @@ window.translations = {
         nav_we: "Về YUTU",
         nav_business: "Hợp tác",
         nav_project: "Dự án",
+        nav_contact: "Liên hệ",
         nav_join: "Gia nhập",
 
         btn_read_more: "ĐỌC THÊM",
@@ -382,6 +384,7 @@ window.translations = {
         nav_we: "우리는",
         nav_business: "비즈니스",
         nav_project: "대표 작업",
+        nav_contact: "연락처",
         nav_join: "합류",
 
         btn_read_more: "더 보기",

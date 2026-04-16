@@ -15,7 +15,7 @@
 
 .header-top {
     width: 100%;
-    padding: 40px 80px;
+    padding: 30px 0;
 }
 
 .header-top .container {
@@ -29,8 +29,9 @@
 .nav-controls-group {
     display: flex;
     align-items: flex-start;
-    gap: 60px;
-    font-weight: bold;
+    /* gap: 60px; */
+    font-weight: 600;
+    flex: 1;
 }
 
 .header-bottom {
@@ -229,6 +230,15 @@
     color: #000;
 }
 
+/* Contact page specific text colors */
+.contact-page .nav-list li a {
+    color: #000;
+}
+
+.contact-page .lang-btn {
+    color: #000;
+}
+
 .header-bottom-image {
     width: 100%;
     background: url('../images/HOME/1-29.png') center center / cover no-repeat;
@@ -256,24 +266,24 @@
 
 .navbar {
     margin-left: 0;
+    flex: 1;
+    padding: 0px 60px;
 }
 
 .nav-list {
     display: flex;
-    gap: 10px;
+    gap: 0;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .nav-list li {
-    padding-right: 10px;
-    border-right: 1px solid #fff;
-}
-
-.nav-list li:last-child {
-    border-right: none;
+    flex: 1;
+    text-align: center;
 }
 
 .nav-list li a {
-    font-size: 36px;
+    /* font-size: 36px; */
     color: #fff;
     transition: color 0.3s ease;
 }
